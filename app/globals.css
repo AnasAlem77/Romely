@@ -1,0 +1,202 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+    /* Warm ivory / cream base for Light Mode */
+    --bg-main: #FAF8F5;
+    --bg-surface: #FFFFFF;
+    --bg-card: #FAF8F5;
+    --border-soft: rgba(0, 0, 0, 0.08);
+    --text-primary: #1C1917;
+    --text-secondary: #605A54;
+    --accent-gold: #C5A880;
+    --accent-gold-light: #DFCDAE;
+  }
+
+  .dark {
+    /* Soft charcoal / dark slate base for Dark Mode (eye-comfort, never harsh pitch black) */
+    --bg-main: #0A0A0C;
+    --bg-surface: #121215;
+    --bg-card: #151519;
+    --border-soft: rgba(255, 255, 255, 0.08);
+    --text-primary: #EDEBE8;
+    --text-secondary: #9C9893;
+    --accent-gold: #C5A880;
+    --accent-gold-light: #E6CBA3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar for minimalist editorial feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 168, 128, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 168, 128, 0.6);
+}
+
+/* ------------------------------------------------------------------
+   ROMELY motion primitives
+   Slow, restrained entrance choreography used by the editorial and
+   member-entrance surfaces. Nothing overshoots or bounces.
+   ------------------------------------------------------------------ */
+
+@keyframes romely-rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes romely-veil {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes romely-hairline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes romely-aura {
+  0%,
+  100% {
+    opacity: 0.32;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.58;
+    transform: scale(1.07);
+  }
+}
+
+.romely-rise {
+  animation: romely-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.romely-veil {
+  animation: romely-veil 1.2s ease-out both;
+}
+
+.romely-hairline {
+  transform-origin: left center;
+  animation: romely-hairline 1.1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.romely-aura {
+  animation: romely-aura 11s ease-in-out infinite;
+}
+
+.romely-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.romely-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.romely-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.romely-delay-4 {
+  animation-delay: 0.4s;
+}
+
+.romely-delay-5 {
+  animation-delay: 0.5s;
+}
+
+.romely-delay-6 {
+  animation-delay: 0.62s;
+}
+
+/* ------------------------------------------------------------------
+   Member entrance field treatment
+   An understated rule that warms to gold on focus — no boxes, no glow.
+   Supports both Light and Dark modes dynamically via CSS variables.
+   ------------------------------------------------------------------ */
+
+.romely-field {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--text-secondary);
+  opacity: 0.6;
+  background-color: transparent;
+  padding: 0.85rem 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: var(--text-primary);
+  transition: border-color 0.35s ease, background-color 0.35s ease, opacity 0.35s ease;
+}
+
+.romely-field::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.5;
+}
+
+.romely-field:focus {
+  outline: none;
+  opacity: 1;
+  border-bottom-color: var(--accent-gold);
+  background-color: rgba(197, 168, 128, 0.08);
+}
+
+.romely-field[aria-invalid='true'] {
+  border-bottom-color: rgba(214, 132, 116, 0.8);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .romely-rise,
+  .romely-veil,
+  .romely-hairline,
+  .romely-aura {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ROMELY — Minimalist Luxury Travel Guide",
+  "description": "Curated luxury travel guides to the world's most evocative cities. Featuring insider tips, live local time and weather, and editorial place spotlights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
