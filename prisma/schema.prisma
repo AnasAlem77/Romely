@@ -1,0 +1,88 @@
+// prisma/schema.prisma
+datasource db {
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+  // uncomment next line if you use Prisma <5.10
+  // directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String?
+  username     String   @unique
+  email        String   @unique
+  passwordHash String
+  image        String?
+  bio          String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  sessions   Session[]
+  savedItems SavedItem[]
+
+  @@map("users")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model SavedItem {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String
+  category  String   // such as: destination, sanctuary, hotel
+  slug      String
+  imageUrl  String?
+  createdAt DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, slug])
+  @@map("saved_items")
+}
+
+model City {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  country     String
+  description String?
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  places      Place[]
+
+  @@map("cities")
+}
+
+model Place {
+  id             String   @id @default(cuid())
+  name           String
+  slug           String   @unique
+  category       String   // such as: Hotels, Dining, Culture, Luxury Brands, Parks
+  description    String?
+  imageUrl       String?
+  address        String?
+  phone          String?  // will conditionally hide in frontend if null
+  hours          String?  // will conditionally hide in frontend if null
+  dressCode      String?  // will conditionally hide in frontend if null
+  optimalCadence String?  // will conditionally hide in frontend if null
+  latitude       Float    // for OSM and interactive map pins
+  longitude      Float    // for OSM and interactive map pins
+  
+  cityId         String
+  city           City     @relation(fields: [cityId], references: [id], onDelete: Cascade)
+  
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("places")
+}
