@@ -1,0 +1,606 @@
+[
+  {
+    "name": "Ritz Paris",
+    "imageUrl": "https://avatars.mds.yandex.net/get-altay/13192844/2a00000191887506e0cdd9d4a039c718b489/orig"
+  },
+  {
+    "name": "Four Seasons Hotel George V",
+    "imageUrl": "https://static.europe1.fr/var/europe1/storage/media/image/2024/11/22/06/braquage-au-palace-george-v-a-paris-100.000-euros-de-bijoux-voles.jpg"
+  },
+  {
+    "name": "Hôtel Plaza Athénée",
+    "imageUrl": "https://files.structurae.net/files/photos/963/plazaathenee05b.jpg"
+  },
+  {
+    "name": "Hôtel de Crillon, A Rosewood Hotel",
+    "imageUrl": "https://images.rosewoodhotels.com/is/image/rwhg/hotel-de-crillon-faade-extrieur-adrian-houston-2019%3ATALL-LARGE-9-16"
+  },
+  {
+    "name": "Shangri-La Hotel Paris",
+    "imageUrl": "https://images.kactus.com/zjv407qwyk75qurobzrwevzx4phv?compress=true&fm=auto&q=80&s=d2673106794dc40b4dfde275b7e9a0d7&w=580"
+  },
+  {
+    "name": "Le Bristol Paris",
+    "imageUrl": "https://cdn.prod.website-files.com/66baf807e54cdc6571b1f342/68bbe73015a0e81bacfd2ca5_Percier%20_%20114%20Faubourg.png"
+  },
+  {
+    "name": "Park Hyatt Paris-Vendôme",
+    "imageUrl": "https://cdn2.indagare.com/i/45320/w3840"
+  },
+  {
+    "name": "Mandarin Oriental, Paris",
+    "imageUrl": "https://www.piscine-et-spa.net/_astro/spa-mandarin-oriental-paris.-DYFMNKd_Zhdn2v.webp"
+  },
+  {
+    "name": "Hôtel Lutetia",
+    "imageUrl": "https://static-cdn.toi-media.com/fr/uploads/2025/04/1152px-Hotel_Lutetia_Avril_2021.jpg"
+  },
+  {
+    "name": "Le Meurice",
+    "imageUrl": "https://epsteinexposed.com/images/locations/hotel-le-meurice-paris.jpg"
+  },
+  {
+    "name": "Hôtel Costes",
+    "imageUrl": "https://i.pinimg.com/736x/cc/1c/38/cc1c38eb82a6003a09202f1fed30d659--hotel-costes-hotel-paris.jpg"
+  },
+  {
+    "name": "Le Royal Monceau, Raffles Paris",
+    "imageUrl": "https://okdiario.com/img/2021/08/10/photos_0091_le-royal-monceau-raffles-paris-facade-6-500x500-1.jpg"
+  },
+  {
+    "name": "The Peninsula Paris",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg"
+  },
+  {
+    "name": "Hôtel Raphael",
+    "imageUrl": "https://relais-historiques.fr/photos/58987/8066-raphael--0.jpg"
+  },
+  {
+    "name": "Hôtel Fouquet's Barrière",
+    "imageUrl": "https://karavan.ua/wp-content/uploads/2018/02/Fouquets-18.jpg"
+  },
+  {
+    "name": "Hôtel de la Trémoille",
+    "imageUrl": "https://www.affine-design.com/wp-content/uploads/2014/11/hotel-de-la-tremoille-facade.jpg"
+  },
+  {
+    "name": "Hôtel Vernet",
+    "imageUrl": "https://media.cntraveler.com/photos/5bb24b490fe9cc17fd8a4939/16%3A9/w_2560%2Cc_limit/Ho%25CC%2582tel-Vernet__2018_131-DS-Vernet.jpg"
+  },
+  {
+    "name": "Hôtel Montalembert",
+    "imageUrl": "https://www.culturedivine.com/MON%209.jpg"
+  },
+  {
+    "name": "La Réserve Paris Hotel and Spa",
+    "imageUrl": "https://s2-casavogue.glbimg.com/FQ_msRQp-oXyummNaRuMO32aSHE%3D/0x0%3A1241x2000/1000x0/smart/filters%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_d72fd4bf0af74c0c89d27a5a226dbbf8/internal_photos/bs/2023/r/C/qOU7PXQBAteEA4Kcl95Q/02-cv455-hotel-la-reserve-fachada-credito-gregoire-gardett-divulgacao.jpg"
+  },
+  {
+    "name": "Hôtel Saint James Paris",
+    "imageUrl": "https://france.arab-hotels.com/wp-content/uploads/2019/03/Saint-James_Paris_FR_016711-1024x683.jpeg"
+  },
+  {
+    "name": "Hôtel Particulier Montmartre",
+    "imageUrl": "https://www.yonder.fr/sites/default/files/styles/mobile_360x484/public/cityguides/rubriques/hotels/CGH-PAR-HP-1_0.jpg?itok=gZPlPCAq"
+  },
+  {
+    "name": "Le Pavillon des Lettres",
+    "imageUrl": "https://assets.hotelaparis.com/uploads/pictures/000/016/091/2657-so-2013-galerie-photos-photo-lhotel-05-fr.jpg"
+  },
+  {
+    "name": "Hôtel des Grands Boulevards",
+    "imageUrl": "https://i.pinimg.com/originals/3e/b3/00/3eb300417b66b6c26fbfa27089a1de43.jpg"
+  },
+  {
+    "name": "Hôtel Bel Ami",
+    "imageUrl": "https://assets.aleou.fr/cdn-cgi/image/width%3D2048%2Cquality%3D75%2Cformat%3Dauto/suppliers/1363/images/d3ab06ad5d234be99d11d5de8a1413ef.webp"
+  },
+  {
+    "name": "Relais Christine",
+    "imageUrl": "https://www.luxurytravelmagazine.com/images/article/2023Sept/Relais_Christine.jpg"
+  },
+  {
+    "name": "Hôtel d'Aubusson",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/686ec1ffff951e587a007c40/1752089110748-Q5V5GVRUK37H95V751J1/paris-historic-hotels-hotel-daubusson-paris-exterior.jpg"
+  },
+  {
+    "name": "Hôtel Récamier",
+    "imageUrl": "https://www.myboutiquehotel.com/photos/6188/hotel-recamier-paris-143-1714574311-2220x1400.jpg"
+  },
+  {
+    "name": "Pavillon de la Reine",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5232197ee4b00c95cda779fd/1510535095136-FRUD7DNZK43U9VW5DJ5T/ke17ZwdGBToddI8pDm48kBqZKGEd5IotpaYmRYDAsV97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYXHvO3AlG5qAFDx5BBWbEnTecsx1VxL9XkiyXErq2cftN_KfIuurh-w-x7bjNuMJA/ckanani-LePavillonDeLaReine-4-2.jpg"
+  },
+  {
+    "name": "Hôtel Regina Louvre",
+    "imageUrl": "https://3.bp.blogspot.com/-Wp5tSpAwZEI/WDLPtNDjOqI/AAAAAAAAZLE/MTAYbncHEpUIyNFV9J2JL3TodqOKtCFpACEw/s1600/Priscilla%2B%2526%2BJoakim-22.jpg"
+  },
+  {
+    "name": "Château Voltaire",
+    "imageUrl": "https://www.lofficielchile.com/_next/image?q=75&url=https%3A%2F%2Fwww.datocms-assets.com%2F44802%2F1716238464-0561-09r.jpg%3Fauto%3Dformat%252Ccompress%26cs%3Dsrgb&w=3840"
+  },
+  {
+    "name": "Hôtel Monsieur",
+    "imageUrl": "https://www.dayuse.fr/_next/image?q=75&url=https%3A%2F%2Fstatic.dayuse.com%2Fhotels%2F9534%2Ff14b69980710722452298fd96615d636-hotel-monsieur.webp&w=3840"
+  },
+  {
+    "name": "Le Jules Verne",
+    "imageUrl": "https://stat.ameba.jp/user_images/20240131/17/chapel-hill/22/67/j/o1080144015395886278.jpg"
+  },
+  {
+    "name": "Alain Ducasse au Plaza Athénée",
+    "imageUrl": "https://i.f1g.fr/media/cms/1200x_cropupscale/2021/05/17/e305490ccc0d1b97846bb5fa33db98c54d48cd6c91e4f52c6db9db29e60cb6a5.png"
+  },
+  {
+    "name": "Guy Savoy",
+    "imageUrl": "https://3.bp.blogspot.com/-sKFCGFTtZZU/UbWIuiAc-YI/AAAAAAAAE24/q4d_fTz_SU4/s1600/DSCF9266a.jpg"
+  },
+  {
+    "name": "Le Bristol — Épicure",
+    "imageUrl": "https://cumbriafoodie.com/wp-content/uploads/2016/06/20160320_121537.jpg"
+  },
+  {
+    "name": "L'Ambroisie",
+    "imageUrl": "https://4.bp.blogspot.com/-NBks2vY0uzs/VcTIWWWUjJI/AAAAAAAABRU/5TASS7Bs0wo/s1600/IMG_5999.JPG"
+  },
+  {
+    "name": "Arpège",
+    "imageUrl": "https://stat.ameba.jp/user_images/20240226/06/megu0826megu/b0/bd/j/o0864108015406104879.jpg"
+  },
+  {
+    "name": "Le Cinq",
+    "imageUrl": "https://i.pinimg.com/474x/c6/29/21/c62921ef1ca83daf5c87b54ad8612ea5.jpg"
+  },
+  {
+    "name": "Pierre Gagnaire",
+    "imageUrl": "https://www.yonder.fr/sites/default/files/styles/lg-insert/public/contenu/destinations/restaurant-pierre-gagnaire-paris-exterieur-01.jpg?itok=fFiUZkJ5"
+  },
+  {
+    "name": "Le Grand Véfour",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/P1050208_Paris_Ier_rue_de_Beaujolais_grand_Vefour_rwk.JPG"
+  },
+  {
+    "name": "Café de Flore",
+    "imageUrl": "https://www.guiadasemana.com.br/contentFiles/image/2020/10/FEA/66356_shutterstock-1673395216.jpg"
+  },
+  {
+    "name": "Les Deux Magots",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/d6a3a4b6-ab19-4021-a55b-8b6f6a56957b/most-famous-cafe-in-paris-min.jpeg?format=2500w"
+  },
+  {
+    "name": "La Closerie des Lilas",
+    "imageUrl": "https://images.thewest.com.au/publication/C-4775463/5fe32bf6657766c374d0bfe82c51573da633ed19.jpg?impolicy=wan_v3&imwidth=810"
+  },
+  {
+    "name": "Café de la Paix",
+    "imageUrl": "https://img1.advisor.travel/1314x680px-Cafe_de_la_Paix_1.jpg"
+  },
+  {
+    "name": "Angelina",
+    "imageUrl": "https://cdn-imgix.headout.com/media/images/e08210d3-8447-4824-b9c1-3edc76423f7d-1750920016600-287796.jpg?ar=14%3A11&auto=format&crop=faces&fit=crop&h=401.4&q=90&w=510.8727272727273"
+  },
+  {
+    "name": "Ladurée — Champs-Élysées",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ladur%C3%A9e%2C_Champs-%C3%89lys%C3%A9es%2C_Paris_8e_002.JPG"
+  },
+  {
+    "name": "Le Train Bleu",
+    "imageUrl": "https://www.gpsmycity.com/img/gd_sight/59103.jpg"
+  },
+  {
+    "name": "Maxim's Paris",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Maxim%E2%80%99s_de_Paris_Restaurant_3_rue_Royale%2C_Paris_3_rue_Royale%2C_75008_Paris_-_panoramio.jpg"
+  },
+  {
+    "name": "La Tour d'Argent",
+    "imageUrl": "https://cdn.sortiraparis.com/images/80/62403/555713-deconfinement-a-paris-le-restaurant-etoile-la-tour-d-argent-en-livraison-et-click-collect.jpg"
+  },
+  {
+    "name": "Le Meurice Alain Ducasse",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E22AQFo7QTDiNg-qQ/feedshare-shrink_800/B4EZxsU7j7GYAg-/0/1771343955802?e=2147483647&t=kDlZeaNibLqr_MW8zjcQ3XWETPJMcsKZ2_S20VwYUqY&v=beta"
+  },
+  {
+    "name": "Septime",
+    "imageUrl": "https://wideworldofwine.co/wp-content/uploads/2019/07/img_6781.jpg"
+  },
+  {
+    "name": "L'Astrance",
+    "imageUrl": "https://farm6.staticflickr.com/5610/15815717331_852a71146b_z.jpg"
+  },
+  {
+    "name": "Le Chateaubriand",
+    "imageUrl": "https://i0.wp.com/diningwithfrankie.com/wp-content/uploads/2015/09/img_8198.jpg?ssl=1"
+  },
+  {
+    "name": "Frenchie",
+    "imageUrl": "https://alphacityguides.com/sites/default/files/6908863126_89d57111c3_k.jpg"
+  },
+  {
+    "name": "Pierre Hermé — Bonaparte",
+    "imageUrl": "https://www.lefoodist.com/images/A-Charlotte/Pierre_Herm.jpg"
+  },
+  {
+    "name": "Café Marly",
+    "imageUrl": "https://stat.ameba.jp/user_images/20241125/05/pinksyakuyaku/61/1c/j/o1080108015513976162.jpg"
+  },
+  {
+    "name": "Brasserie Lipp",
+    "imageUrl": "https://www.ediscover.ru/upload/medialibrary/b2d/brasserie_lipp.jpg"
+  },
+  {
+    "name": "Kei",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/57f593bfd1758ed0deab2153/1541290712832-9OUUG9ZTYZ3RA4Q3DUPE/Kei%2BParis"
+  },
+  {
+    "name": "David Toutain",
+    "imageUrl": "https://www.airial.travel/_next/image?q=75&url=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-w%2F2d%2F59%2F0c%2F90%2Frestaurant-david-toutain.jpg&w=3840"
+  },
+  {
+    "name": "Girafe",
+    "imageUrl": "https://girafe-restaurant.com/paris-fr/app/app-uploads/sites/4/2025/07/Tables-Girafe-250610-003.jpg"
+  },
+  {
+    "name": "Le Procope",
+    "imageUrl": "https://static.techno-science.net/illustrations/definitions/1200px/l/le-procope_d69c15325838b711de0dadfe1dcfbb7c.jpg"
+  },
+  {
+    "name": "Eiffel Tower",
+    "imageUrl": "https://images.freeimages.com/images/large-previews/9b4/tour-eiffel-4-1231447.jpg"
+  },
+  {
+    "name": "Musée du Louvre",
+    "imageUrl": "https://cdn-imgix.headout.com/media/images/87b969d3d7a9ce0a411213ad804c3b72-25058-BestofParis-EiffelTower-Cruise-Louvre-006.jpg?ar=14%3A11&auto=compress%2Cformat&crop=faces&fit=crop&h=401.4&q=90&w=510.8727272727273"
+  },
+  {
+    "name": "Musée d'Orsay",
+    "imageUrl": "https://de-academic.com/pictures/dewiki/77/MuseeDOrsay.jpg"
+  },
+  {
+    "name": "Notre-Dame de Paris",
+    "imageUrl": "https://cms.alloprof.qc.ca/sites/default/files/styles/720w/public/2020-07/7041i13.jpg?itok=GyE51W0S"
+  },
+  {
+    "name": "Arc de Triomphe",
+    "imageUrl": "https://foundtheworld.com/wp-content/uploads/2014/07/arc-de-triomphe-Paris-France.jpg"
+  },
+  {
+    "name": "Sacré-Cœur Basilica",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/The_Basilic_of_Sacr%C3%A9_Coeur%2C_Paris_4_December_2009.jpg/1280px-The_Basilic_of_Sacr%C3%A9_Coeur%2C_Paris_4_December_2009.jpg"
+  },
+  {
+    "name": "Panthéon",
+    "imageUrl": "https://www.look2innovate.com/projects/pantheon-paris.jpg"
+  },
+  {
+    "name": "Musée de l'Orangerie",
+    "imageUrl": "https://aws-tiqets-cdn.imgix.net/images/content/57145fb80911460da52e3a16571818f8.jpg?auto=format%2Ccompress&fit=crop&q=70"
+  },
+  {
+    "name": "Centre Pompidou",
+    "imageUrl": "https://static.independent.co.uk/2023/05/18/09/iStock-623979952.jpg?fit=crop&height=900&width=1200"
+  },
+  {
+    "name": "Palais Garnier",
+    "imageUrl": "https://madeniportal.kz/assets/upload/images/bestteatre11_1589831374803.jpg"
+  },
+  {
+    "name": "Sainte-Chapelle",
+    "imageUrl": "https://d1k4bi32qf3nf2.cloudfront.net/product/2020/12/saintechapelle_1607358640.JPG"
+  },
+  {
+    "name": "Château de Versailles",
+    "imageUrl": "https://media.lex.dk/media/159743/article_topimage_Panoramique_Ch%C3%A2teau_de_Versailles_depuis_le_parc.jpg"
+  },
+  {
+    "name": "Musée Rodin",
+    "imageUrl": "https://media.assettype.com/outlooktraveller/2025-05-05/ajowjyfr/MuseeRodingarden.jpg?auto=format%2Ccompress&dpr=1.0&fit=max&format=webp&w=801"
+  },
+  {
+    "name": "Conciergerie",
+    "imageUrl": "https://cdn-imgix.headout.com/media/images/443b00b48a63809ed080f2961f9eb889-26974-paris-sainte-chapelle-and-the-conciergerie-guided-tour-06.jpg?ar=14%3A9&auto=format&crop=faces&fit=crop&h=687.6&q=90&w=1069.6000000000001"
+  },
+  {
+    "name": "Musée Picasso",
+    "imageUrl": "https://static.wixstatic.com/media/e6f5c6_d3a7c2a719c94e5fa46ea941599a2813~mv2.jpg/v1/fill/w_980%2Ch_1173%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_auto/e6f5c6_d3a7c2a719c94e5fa46ea941599a2813~mv2.jpg"
+  },
+  {
+    "name": "Grand Palais",
+    "imageUrl": "https://www.lejournaldesarts.fr/sites/lejournaldesarts/files/2020-10/grand-palais-paris-copyright-photo-mirco-magliocca-rmn-grand-palais.jpg"
+  },
+  {
+    "name": "Petit Palais",
+    "imageUrl": "https://www.faguoshenghuo.com/uploads/Paris_Petit_Palais.png"
+  },
+  {
+    "name": "Palais Royal & Gardens",
+    "imageUrl": "https://1.bp.blogspot.com/--Md-iqP5jwE/V-8UFfmr_NI/AAAAAAAAKp4/Klzx7TB2_-MkEAb6toEvO4Ao3FBuPiYrQCLcB/s1600/01_Palais-Royal.jpg"
+  },
+  {
+    "name": "Institut de France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Institut_de_France%2C_Paris_13_June_2017.jpg"
+  },
+  {
+    "name": "Hôtel des Invalides",
+    "imageUrl": "https://www.servereworldsystem.com/include/blog/3063/30630403294s.jpeg.webp"
+  },
+  {
+    "name": "Fondation Louis Vuitton",
+    "imageUrl": "https://www.francophilesanonymes.com/wp-content/uploads/2024/01/291921553_569392867854785_7091112638832027194_n-1024x683.jpg"
+  },
+  {
+    "name": "Musée Marmottan Monet",
+    "imageUrl": "https://d3gw4aml0lneeh.cloudfront.net/assets/locations/10956/SzbNZ86zDcbP.jpg"
+  },
+  {
+    "name": "Musée Jacquemart-André",
+    "imageUrl": "https://i0.wp.com/www.roadtripsaroundtheworld.com/wp-content/uploads/2020/03/The-Jacquemart-Andr%C3%A9-Museum-in-Paris-France-scaled.jpg?fit=2560%2C1707&ssl=1"
+  },
+  {
+    "name": "Musée du Quai Branly – Jacques Chirac",
+    "imageUrl": "https://media2.thrillophilia.com/images/photos/000/385/379/original/1660984023_Mus%C3%A9e_du_Quai_Branly_%E2%80%93_Jacques_Chirac.jpg?crop=fill&fetch_format=auto&flags=strip_profile&format=jpg&gravity=center&height=450&quality=auto&sign_url=true&width=752"
+  },
+  {
+    "name": "Tour Montparnasse",
+    "imageUrl": "https://www.hautesavoiephotos.com/voyages/paris_tour_montparnasse_img1290.jpg"
+  },
+  {
+    "name": "Place Vendôme",
+    "imageUrl": "https://findloveandtravel.com/wp-content/uploads/2024/01/Colonne-Vendome-Paris-AndreaA.jpg"
+  },
+  {
+    "name": "Pont Alexandre III",
+    "imageUrl": "https://gezibilen.com/_next/image?q=75&url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fgezbi-e89bc.appspot.com%2Fo%2FtravelPoints%252FIecYPUgbCBMYtMluzR1K%252FParis_Travel_Point_Pont_Alexandre_1oLXZrUfhUh.jpeg%3Falt%3Dmedia%26token%3D51dea9ab-8bac-4d38-a5f8-dc6d54f4f198&w=3840"
+  },
+  {
+    "name": "Musée Carnavalet",
+    "imageUrl": "https://media.cntraveler.com/photos/6657536eaaac6601a9e51c83/2%3A3/w_2098%2Ch_3147%2Cc_limit/Muse%CC%81e%20Carnavalet_Cour%20des%20Drapiers%2C%20muse%CC%81e%20Carnavalet%20-%20Histoire%20de%20Paris%20%C2%A9%20Cyrille%20Weiner.jpg"
+  },
+  {
+    "name": "La Madeleine",
+    "imageUrl": "https://files.structurae.net/files/photos/1/20111023/DSC01454.jpg"
+  },
+  {
+    "name": "Opéra Bastille",
+    "imageUrl": "https://att.722622.com/attachment/forum/202107/01/001220ihjxviqzteozdze1.jpeg"
+  },
+  {
+    "name": "Louis Vuitton — Champs-Élysées",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Louis_Vuitton_flagship_store_at_Avenue_des_Champs-%C3%89lys%C3%A9es_%2822288053650%29.jpg/1280px-Louis_Vuitton_flagship_store_at_Avenue_des_Champs-%C3%89lys%C3%A9es_%2822288053650%29.jpg"
+  },
+  {
+    "name": "Chanel — Rue Cambon",
+    "imageUrl": "https://p.monumentum.fr/main/75/pa75010015-paris-1er-arrondissement-ancien-appartement-de-gabrielle-chanel-dite-coco-chanel-sis-dans-limmeuble-31-rue-cambon.jpg"
+  },
+  {
+    "name": "Dior — Avenue Montaigne",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d2346cbe7875300014eeb79/1647507755223-H9S37CILRY69W1RDKKJF/1563524709811764-DIOR_BOUTIQUE-CHAMPS-ELYSEES_OPENING_2.jpg"
+  },
+  {
+    "name": "Hermès — Faubourg Saint-Honoré",
+    "imageUrl": "https://substackcdn.com/image/fetch/w_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A/substack-post-media.s3.amazonaws.com/public/images/cdf0b721-9f63-47ba-addb-4415d537cd10_1280x960.jpeg"
+  },
+  {
+    "name": "Cartier — Rue de la Paix",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Paris_75002_rue_de_la_Paix_num%C3%A9ro_11_-_Cartier_01.jpg"
+  },
+  {
+    "name": "Van Cleef & Arpels — Place Vendôme",
+    "imageUrl": "https://www.france-voyage.com/visuals/photos/place-vendome-35970_w600.webp"
+  },
+  {
+    "name": "Chaumet — Place Vendôme",
+    "imageUrl": "https://i.pinimg.com/originals/33/07/e8/3307e89cca51a2acb30d9944fb451ade.jpg"
+  },
+  {
+    "name": "Bulgari — Place Vendôme",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/61e1272a5d8b5113685eceb3/4b06bfb3-1231-4806-974d-d419d1722607/Tensoforma_Bulgari_Vendome_5.jpg"
+  },
+  {
+    "name": "Saint Laurent — Rive Gauche",
+    "imageUrl": "https://i.pinimg.com/originals/d7/b3/08/d7b308444fe0a80074b128025ebc86f8.jpg"
+  },
+  {
+    "name": "Givenchy — Avenue Montaigne",
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/m7mQmwMABrE8eNbW6gFcQX-1280-80.jpg"
+  },
+  {
+    "name": "Balenciaga — Avenue George V",
+    "imageUrl": "https://a.mktgcdn.com/p/JOsgM_RvFxK0-z0wHkR4SH4g3qQN2PNCW0D0_fJQX4A/2048x1536.jpg"
+  },
+  {
+    "name": "Celine — Avenue Montaigne",
+    "imageUrl": "https://media.vogue.fr/photos/5c2f777c14f2f3696e8e805e/master/w_1024%2Cc_limit/1010_cel_14_04_28_paris_montaigne_365507707.jpg"
+  },
+  {
+    "name": "Chloé — Avenue Montaigne",
+    "imageUrl": "https://cdn.myportfolio.com/47cc83b0-14df-4d5e-9609-13ed801d2cd8/5425e19a-b302-410d-8dd5-10c102438877_rw_1920.jpg?h=91eeb4c5b8aec871f009a0dbd3d86580"
+  },
+  {
+    "name": "Goyard — Rue Saint-Honoré",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/E._GOYARD%2C_352_Rue_Saint_Honor%C3%A9%2C_Paris_-_Mar_22%2C_2013.jpg"
+  },
+  {
+    "name": "Le Bon Marché",
+    "imageUrl": "https://cdn.prod.website-files.com/65095effaf0180af4c951d4c/68512594e3694cb3712e2ac6_BON%20MARCHE%CC%81%202.jpg"
+  },
+  {
+    "name": "Galeries Lafayette Haussmann",
+    "imageUrl": "https://www.exp1.com/wp-content/uploads/sites/7/2020/07/Galeries-Lafayette-flagship-store-in-Paris-from-the-outside.jpg"
+  },
+  {
+    "name": "Printemps Haussmann",
+    "imageUrl": "https://static.tourlive.co.kr/static/place/2024/07/31/e0495c224efe11ef91d73ad1dfea7b95/1722404206/image/Printemps_Haussmann.jpg"
+  },
+  {
+    "name": "Repetto",
+    "imageUrl": "https://cdn.tag-walk.com/news_thumbnail/r81a0833modifier-87bcad52.jpg"
+  },
+  {
+    "name": "Christian Louboutin — Rue Saint-Honoré",
+    "imageUrl": "https://a.mktgcdn.com/p/Ov5etp4ig5gRyRrCfRkPj9kpADDrwX61vMNqk0wbauI/2000x2000.jpg"
+  },
+  {
+    "name": "Berluti",
+    "imageUrl": "https://ac-static.api.everforth.com/img/post/321eef39-905b-41ef-9a5b-1910bb540841/181ef301207558cfc86380b4b8913529.jpg"
+  },
+  {
+    "name": "Moynat",
+    "imageUrl": "https://i.pinimg.com/736x/b6/cf/6c/b6cf6cd06c1466c3e9630cd4e4b19c6f.jpg"
+  },
+  {
+    "name": "Lanvin",
+    "imageUrl": "https://3.bp.blogspot.com/_EcXm_qkFWZ8/TNxfreVkYbI/AAAAAAAAAeA/ssTt_lAQKMQ/s1600/IMG_0252.JPG"
+  },
+  {
+    "name": "Guerlain — Champs-Élysées",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Boutique_Guerlain_au_68_avenue_des_Champs-Elys%C3%A9es_%C3%A0_Paris.jpg"
+  },
+  {
+    "name": "Boucheron — Place Vendôme",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/55314850e4b0fc1dd672a3cc/1551810364901-HYNYZJS7EHGLEJDQ7JGR/BoucheronParisforCNT-FullRes%28140of140%29.jpg"
+  },
+  {
+    "name": "Mauboussin",
+    "imageUrl": "https://storage.gra.cloud.ovh.net/v1/AUTH_e0b83750570d4ff1986fe199b41300e4/kimono/279e68af5cc510c8b522cd61929e725f5883e529/640x480?height=480&width=640"
+  },
+  {
+    "name": "Fauchon",
+    "imageUrl": "https://www.book-a-flat.com/photo/paris/19905/fauchon-madeleine.jpg"
+  },
+  {
+    "name": "Hédiard",
+    "imageUrl": "https://img.lemde.fr/2014/05/30/47/0/2964/1482/1440/720/60/0/ill_4429092_5dd0_7000_par7691155.jpg"
+  },
+  {
+    "name": "Ladurée — Boutique Royale",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Boutique_Ladur%C3%A9e_au_16_rue_Royale_%C3%A0_Paris.JPG"
+  },
+  {
+    "name": "Loro Piana",
+    "imageUrl": "https://image-worker.mindtrip.ai/image-resize/format%3Dwebp%2Cw%3D1200/https%3A/images.mindtrip.ai/attractions/76f5/f95b/82fd/b8d6/ad20/c16f/17ff/eafc"
+  },
+  {
+    "name": "Maison Cartier — Trinity",
+    "imageUrl": "https://arquitecturaviva.com/assets/uploads/obras/58215/av_302163.jpeg"
+  },
+  {
+    "name": "Jardin du Luxembourg",
+    "imageUrl": "https://www.eiebs.academy/scripts/files/67e168541a94e4.51362715/slider.jpg"
+  },
+  {
+    "name": "Jardin des Tuileries",
+    "imageUrl": "https://www.euroreizen.be/userfiles/item/parken-152_152_0_xl.jpg"
+  },
+  {
+    "name": "Champ de Mars",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Champ_de_Mars_from_the_Eiffel_Tower_-_July_2006_edit.jpg/1200px-Champ_de_Mars_from_the_Eiffel_Tower_-_July_2006_edit.jpg"
+  },
+  {
+    "name": "Parc Monceau",
+    "imageUrl": "https://www.goodmorningparis.fr/wp-content/uploads/2016/05/Parc-Monceau-Paris-Grilles-03-1024x683.jpg"
+  },
+  {
+    "name": "Bois de Boulogne",
+    "imageUrl": "https://media.decathlon-outdoor.com/1cxUaSkTizWALPqMgjdja4/sortie-a-velo-au-bois-de-boulogne.webp?w=600"
+  },
+  {
+    "name": "Promenade Plantée (Coulée Verte)",
+    "imageUrl": "https://1.bp.blogspot.com/-LvB-kq_Kihc/XZ26LtCnmlI/AAAAAAAAv9w/0paSqcOJCNEzGyYzLD7fDm3uQuJGx8PwQCEwYBhgL/s1600/IMG_8172.JPG"
+  },
+  {
+    "name": "Île Saint-Louis",
+    "imageUrl": "https://www.travelfranceonline.com/wp-content/uploads/2013/05/Ile-Saint-Louis-Paris-1900px.jpg"
+  },
+  {
+    "name": "Quais de Seine",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Quai_Saint-Michel%2C_Paris_riverside%2C_8_October_2011.jpg"
+  },
+  {
+    "name": "Jardin des Plantes",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/58968d24ebbd1a423088c522/1673212409002-XKAYQQENQO20MPA3E0CX/Paris_75005_Grande_Galerie_de_l%27Evolution_20070804-3.jpg?format=2500w"
+  },
+  {
+    "name": "Parc des Buttes-Chaumont",
+    "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/miwa3k/20251029/20251029142652.jpg"
+  },
+  {
+    "name": "Place des Vosges",
+    "imageUrl": "https://www.cestee.es/images/31/40/163140-2560.jpeg"
+  },
+  {
+    "name": "Avenue Montaigne",
+    "imageUrl": "https://3.bp.blogspot.com/-aKePqmwHjQQ/WgmXvDq8gxI/AAAAAAAADzo/i9pSv3i-1P8L_rnoFfuE9O9eONsV-wy0QCLcBGAs/s1600/IMG_8599.jpg"
+  },
+  {
+    "name": "Rue de Rivoli Arcades",
+    "imageUrl": "https://media.admagazine.fr/photos/60c7615a54ae0c6b70af275f/4%3A3/w_632%2Ch_474%2Cc_limit/ikea_cover_7910.jpeg"
+  },
+  {
+    "name": "Canal Saint-Martin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Canal_Saint-Martin%2C_Paris_7_September_2005.jpg"
+  },
+  {
+    "name": "Jardin du Palais Royal",
+    "imageUrl": "https://2.bp.blogspot.com/-DFXsj5_isGA/Wrpzu4yVYHI/AAAAAAAAUGQ/6qRyVIIS5J0HuLfSY6FY2c_42qxLnJysACLcBGAs/s1600/Par%25C3%25ADs_Jardin-du-Palais-Royal.jpg"
+  },
+  {
+    "name": "Square du Vert-Galant",
+    "imageUrl": "https://ekladata.com/V6Sg-48PAZexZJYqmJQ2cp_KrTk.jpg"
+  },
+  {
+    "name": "Parc de Bagatelle",
+    "imageUrl": "https://homes.psd.uchicago.edu/~ejmartin/pix/personal/France_2002/bagatelle/picture-016.jpg"
+  },
+  {
+    "name": "Bois de Vincennes",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paris_le_bois_de_Vincennes_sous_la_neige_janvier_2009_019.JPG"
+  },
+  {
+    "name": "Montmartre Streets & Place du Tertre",
+    "imageUrl": "https://1.bp.blogspot.com/-JM2xdUmZLig/XbLQ1LNz3BI/AAAAAAABAQY/fdrkAVrkT9oe6s66w4ZP8LXbahxQU-IKACLcBGAsYHQ/s1600/place-du-tertre-montmartre-paris-18-7.jpg"
+  },
+  {
+    "name": "Passage des Panoramas",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Passage_des_Panoramas.JPG"
+  },
+  {
+    "name": "Galerie Vivienne",
+    "imageUrl": "https://i.pinimg.com/originals/9f/3a/3d/9f3a3d8e33a9acd8d1337a3ebfd93b77.jpg"
+  },
+  {
+    "name": "Pont des Arts",
+    "imageUrl": "https://www.parisinsidersguide.com/image-files/pont-des-arts-institut-de-france-2007-wiki-benh-lieu-song-1000-2x1.jpg"
+  },
+  {
+    "name": "Trocadéro Gardens",
+    "imageUrl": "https://cdn.getyourguide.com/img/tour/889033c66bacbbbb2c88e3dfecec611e6fc04310b23818a4962cf39b00f263b5.jpeg/145.jpg"
+  },
+  {
+    "name": "Parc de la Villette",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Grande_halle_de_La_Villette%2C_Paris_9_May_2013.jpg"
+  },
+  {
+    "name": "Rue Cler Market Street",
+    "imageUrl": "https://4.bp.blogspot.com/-kwx0lj8hBF0/TnI5zsl7nqI/AAAAAAAAAX0/M-rlKfiWTU4/s1600/Rue%2BCler.jpg"
+  },
+  {
+    "name": "Avenue des Champs-Élysées",
+    "imageUrl": "https://www.servereworldsystem.com/include/blog/1098/10980339594ld.jpg"
+  },
+  {
+    "name": "Jardins des Champs-Élysées",
+    "imageUrl": "https://cloudfront-eu-central-1.images.arcpublishing.com/leparisien/HSE7IYJXJ5H2FFDSFHRGHXOTUQ.jpg"
+  },
+  {
+    "name": "Père Lachaise Cemetery",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Entr%C3%A9e_principale_Cimeti%C3%A8re_P%C3%A8re_Lachaise_Paris_9.jpg"
+  },
+  {
+    "name": "Parc Montsouris",
+    "imageUrl": "https://www.parigi.it/images/large/3330_1-parc-montsouris3-c7853.jpg?v=95bf"
+  },
+  {
+    "name": "Jardin des Champs-Élysées Promenade",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jardins_des_Champs-%C3%89lys%C3%A9es_Paris.jpg/3840px-Jardins_des_Champs-%C3%89lys%C3%A9es_Paris.jpg"
+  }
+]

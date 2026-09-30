@@ -1,11 +1,21 @@
 import { notFound } from 'next/navigation';
 import { PrismaClient } from '@prisma/client';
 import { PlaceDetail } from '@/components/PlaceDetail';
+import { getPlaceImage } from '@/lib/placeImages';
 
 const prisma = new PrismaClient();
 
 interface PageProps {
   params: Promise<{ placeId: string }>;
+}
+
+function getConsistentRating(id: string) {
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) {
+    hash = id.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const rating = 8.7 + (Math.abs(hash) % 12) / 10;
+  return Number(rating.toFixed(1));
 }
 
 export async function generateStaticParams() {
@@ -57,13 +67,12 @@ export default async function PlacePage({ params }: PageProps) {
     neighborhood: placeFromDb.address ? placeFromDb.address.split(',')[0] : 'Central District',
     tagline: placeFromDb.description || 'A carefully vetted architectural landmark.',
     description: placeFromDb.description,
-    images: [placeFromDb.imageUrl || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80'],
+    images: [getPlaceImage(placeFromDb.id, placeFromDb.category, placeFromDb.imageUrl)],
     atmosphere: ['Quiet', 'Historic', 'Curated'],
     priceLevel: '€€€',
-    rating: 9.4,
+    rating: getConsistentRating(placeFromDb.id),
     address: placeFromDb.address,
     phone: placeFromDb.phone,
-    // تأمين آمن لمصفوفة الساعات لمنع خطأ الـ null.map نهائياً
     hours: [
       { days: 'Daily Schedule', time: placeFromDb.hours || '10:00 AM – 8:00 PM' }
     ],
@@ -89,7 +98,7 @@ export default async function PlacePage({ params }: PageProps) {
     badge: 'Curated Edition',
     tagline: placeFromDb.city.description || 'The global capital of style and elegance.',
     editorialDescription: placeFromDb.city.description || 'A timeless destination.',
-    heroImage: placeFromDb.city.imageUrl || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80',
+    heroImage: placeFromDb.city.imageUrl || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80',
     timezone: 'Europe/Paris',
     weather: {
       tempC: 22,
