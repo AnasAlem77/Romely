@@ -407,14 +407,14 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
               {nearbyPlaces.map((np) => (
                 <Link
                   key={np.id}
                   href={`/place/${np.id}`}
-                  className="group rounded-2xl overflow-hidden border p-5 transition-all duration-300 bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer block"
+                  className="group rounded-xl sm:rounded-2xl overflow-hidden border p-3 sm:p-5 transition-all duration-300 bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer block"
                 >
-                  <div className="relative h-44 w-full rounded-xl overflow-hidden mb-3 bg-stone-800">
+                  <div className="relative h-32 sm:h-44 w-full rounded-lg sm:rounded-xl overflow-hidden mb-2 sm:mb-3 bg-stone-800">
                     <Image
                       src={np.images[0] || city.heroImage}
                       alt={np.name}
@@ -422,14 +422,14 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       referrerPolicy="no-referrer"
                     />
-                    <div className="absolute top-2.5 left-2.5 bg-black/50 backdrop-blur-md px-2 py-0.5 rounded text-[10px] text-white font-mono">
+                    <div className="absolute top-2 left-2 sm:top-2.5 sm:left-2.5 bg-black/50 backdrop-blur-md px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded text-[9px] sm:text-[10px] text-white font-mono">
                       {np.category}
                     </div>
                   </div>
-                  <h4 className="font-serif text-lg font-medium group-hover:text-[#C5A880] transition-colors text-stone-900 dark:text-white">
+                  <h4 className="font-serif text-sm sm:text-lg font-medium group-hover:text-[#E6CBA3] transition-colors text-stone-900 dark:text-white truncate">
                     {np.name}
                   </h4>
-                  <p className="text-xs line-clamp-2 mt-1 leading-relaxed text-stone-600 dark:text-stone-400">
+                  <p className="text-xs line-clamp-2 mt-1 leading-relaxed text-stone-600 dark:text-stone-400 hidden sm:block">
                     {np.tagline}
                   </p>
                 </Link>

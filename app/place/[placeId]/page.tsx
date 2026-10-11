@@ -19,13 +19,17 @@ function getConsistentRating(id: string) {
 }
 
 export async function generateStaticParams() {
-  const places = await prisma.place.findMany({
-    select: { id: true },
-  });
-  
-  return places.map((place) => ({
-    placeId: place.id,
-  }));
+  try {
+    const places = await prisma.place.findMany({
+      select: { id: true },
+    });
+    return places.map((place) => ({
+      placeId: place.id,
+    }));
+  } catch (err) {
+    console.warn('Prisma connection failed during place static generation, returning empty params', err);
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -61,29 +65,36 @@ export default async function PlacePage({ params }: PageProps) {
 
   const place = {
     id: placeFromDb.id,
+    cityId: placeFromDb.city.slug,
     name: placeFromDb.name,
-    slug: placeFromDb.slug,
-    category: placeFromDb.category || 'Architecture',
-    neighborhood: placeFromDb.address ? placeFromDb.address.split(',')[0] : 'Central District',
+    nativeName: placeFromDb.name,
+    category: ((['Landmarks', 'Cafes', 'Museums', 'Restaurants', 'Boutiques'].includes(placeFromDb.category as any)
+      ? placeFromDb.category
+      : 'Landmarks') as any),
     tagline: placeFromDb.description || 'A carefully vetted architectural landmark.',
-    description: placeFromDb.description,
+    description: placeFromDb.description || 'An architectural sanctuary of quiet contemplation and timeless design.',
+    editorialVerdict: 'An essential visit for discerning travelers valuing atmosphere over spectacle.',
     images: [getPlaceImage(placeFromDb.id, placeFromDb.category, placeFromDb.imageUrl)],
     atmosphere: ['Quiet', 'Historic', 'Curated'],
-    priceLevel: '€€€',
+    priceLevel: '€€€' as const,
     rating: getConsistentRating(placeFromDb.id),
-    address: placeFromDb.address,
-    phone: placeFromDb.phone,
+    curatorScore: `${getConsistentRating(placeFromDb.id)} / 10`,
+    neighborhood: placeFromDb.address ? placeFromDb.address.split(',')[0] : 'Central District',
+    address: placeFromDb.address || 'Address provided upon reservation',
+    phone: placeFromDb.phone || '+33 1 42 68 00 00',
+    website: 'https://romely.com',
     hours: [
       { days: 'Daily Schedule', time: placeFromDb.hours || '10:00 AM – 8:00 PM' }
     ],
+    bestTimeToVisit: placeFromDb.optimalCadence || 'Early morning or late afternoon for optimal natural light.',
     dressCode: placeFromDb.dressCode || 'Smart Casual',
-    optimalCadence: placeFromDb.optimalCadence || 'Morning or late afternoon',
     coordinates: {
       lat: placeFromDb.latitude || 48.8566,
       lng: placeFromDb.longitude || 2.3522,
     },
+    insiderTip: 'Arrive early before opening to appreciate the façade in quiet tranquility.',
     curatorQuote: {
-      quote: "An exceptional space maintaining rare acoustic and visual harmony.",
+      text: "An exceptional space maintaining rare acoustic and visual harmony.",
       curator: "Anas Alem",
       role: "Lead Architectural Contributor"
     }
@@ -94,11 +105,14 @@ export default async function PlacePage({ params }: PageProps) {
     name: placeFromDb.city.name,
     slug: placeFromDb.city.slug,
     country: placeFromDb.city.country,
-    region: 'Europe',
+    region: 'Europe' as const,
     badge: 'Curated Edition',
     tagline: placeFromDb.city.description || 'The global capital of style and elegance.',
     editorialDescription: placeFromDb.city.description || 'A timeless destination.',
     heroImage: placeFromDb.city.imageUrl || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      placeFromDb.city.imageUrl || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80'
+    ],
     timezone: 'Europe/Paris',
     weather: {
       tempC: 22,
@@ -109,6 +123,7 @@ export default async function PlacePage({ params }: PageProps) {
       wind: '12 km/h NW',
       humidity: '48%',
       uvIndex: 'Moderate (4)',
+      highLow: '24° / 15°',
     },
     coordinates: {
       lat: 48.8566,

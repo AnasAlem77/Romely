@@ -118,7 +118,7 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-6 space-y-8">
               <div className="space-y-4">
-                <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium">
+                <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
                   <span>Global Edition</span>
                   <span aria-hidden="true">·</span>
                   <span>Autumn 2026</span>
@@ -143,9 +143,10 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
                 <form
                   onSubmit={handleFormSubmit}
                   role="search"
-                  className="relative flex items-center p-2 rounded-xl transition-all duration-200 border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 focus-within:border-[#C5A880] focus-within:shadow-[0_8px_30px_rgba(197,168,128,0.15)] shadow-xs"
+                  className="relative flex items-center p-1.5 sm:p-2 rounded-xl transition-all duration-200 border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 focus-within:border-[#C5A880] focus-within:shadow-[0_8px_30px_rgba(197,168,128,0.15)] shadow-xs"
                 >
-                  <Search className="w-5 h-5 text-stone-400 ml-3 mr-2 shrink-0" />
+                  <Search className="w-4 h-4 sm:w-5 sm:h-5 text-stone-400 ml-2 sm:ml-3 mr-1.5 sm:mr-2 shrink-0" />
+                  {/* Desktop input */}
                   <input
                     type="text"
                     value={searchQuery}
@@ -157,7 +158,21 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
                     }}
                     placeholder="Search by city, cafe, museum, or architecture..."
                     aria-label="Search by city, cafe, museum, or architecture"
-                    className="w-full bg-transparent px-2 py-2 text-sm focus:outline-none placeholder:text-stone-400 text-stone-900 dark:text-white"
+                    className="hidden sm:block w-full bg-transparent px-2 py-2 text-sm focus:outline-none placeholder:text-stone-400 text-stone-900 dark:text-white"
+                  />
+                  {/* Mobile input with streamlined concise placeholder to prevent truncation */}
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onFocus={() => setSearchFocused(true)}
+                    onKeyDown={handleKeyDown}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                      setSearchFocused(true);
+                    }}
+                    placeholder="Search destinations or places..."
+                    aria-label="Search destinations or places"
+                    className="block sm:hidden w-full bg-transparent px-1.5 py-1.5 text-xs focus:outline-none placeholder:text-stone-400 text-stone-900 dark:text-white"
                   />
                   {searchQuery && (
                     <button
@@ -370,12 +385,13 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
             </h2>
           </div>
 
-          <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10">
+          {/* Region Tabs */}
+          <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10 overflow-x-auto no-scrollbar max-w-full">
             {(['All', 'Europe', 'Asia', 'Mediterranean'] as const).map((region) => (
               <button
                 key={region}
                 onClick={() => setSelectedRegion(region)}
-                className={`px-3.5 py-1.5 text-xs font-medium rounded-lg transition-all duration-150 whitespace-nowrap cursor-pointer ${
+                className={`px-3 sm:px-3.5 py-1.5 text-xs font-medium rounded-lg transition-all duration-150 whitespace-nowrap cursor-pointer ${
                   selectedRegion === region
                     ? 'bg-white dark:bg-[#202026] text-stone-900 dark:text-white shadow-xs'
                     : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
@@ -393,14 +409,14 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 pt-8">
           {filteredCities.map((city) => (
             <Link
               key={city.id}
               href={`/city/${city.id}`}
-              className="group rounded-2xl overflow-hidden border transition-all duration-300 flex flex-col justify-between bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer"
+              className="group rounded-xl sm:rounded-2xl overflow-hidden border transition-all duration-300 flex flex-col justify-between bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer"
             >
-              <div className="relative h-64 w-full overflow-hidden bg-stone-800">
+              <div className="relative h-36 sm:h-52 md:h-64 w-full overflow-hidden bg-stone-800">
                 <Image
                   src={city.heroImage}
                   alt={`${city.name}, ${city.country}`}
@@ -408,50 +424,50 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
 
-                <div className="absolute top-4 left-4 right-4 flex items-center justify-between text-xs text-white">
-                  <span className="backdrop-blur-md bg-black/40 px-2.5 py-1 rounded-md border border-white/10 font-mono">
+                <div className="absolute top-2 left-2 right-2 sm:top-4 sm:left-4 sm:right-4 flex items-center justify-between text-[10px] sm:text-xs text-white">
+                  <span className="backdrop-blur-md bg-black/40 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md border border-white/10 font-mono text-[9px] sm:text-xs">
                     <CityClock timezone={city.timezone} />
                   </span>
 
-                  <span className="backdrop-blur-md bg-black/40 px-2.5 py-1 rounded-md border border-white/10 flex items-center gap-1.5 font-sans">
-                    <CloudSun className="w-3.5 h-3.5 text-[#C5A880]" />
+                  <span className="backdrop-blur-md bg-black/40 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md border border-white/10 flex items-center gap-1 sm:gap-1.5 font-sans text-[9px] sm:text-xs">
+                    <CloudSun className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C5A880]" />
                     <span>{city.weather.tempC}°C</span>
                   </span>
                 </div>
 
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <div className="text-xs uppercase tracking-widest text-[#E6CBA3] font-medium mb-1">
+                <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 text-white">
+                  <div className="text-[9px] sm:text-xs uppercase tracking-wider sm:tracking-widest text-[#E6CBA3] font-medium mb-0.5 sm:mb-1 truncate">
                     {city.country}
                   </div>
-                  <h3 className="text-2xl font-serif font-normal tracking-tight group-hover:text-[#E6CBA3] transition-colors">
+                  <h3 className="text-base sm:text-xl md:text-2xl font-serif font-normal tracking-tight group-hover:text-[#E6CBA3] transition-colors truncate">
                     {city.name}
                   </h3>
                 </div>
               </div>
 
-              <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-xs text-[#C5A880] font-sans font-medium">
+              <div className="p-3 sm:p-5 md:p-6 flex-1 flex flex-col justify-between space-y-2.5 sm:space-y-4">
+                <div className="space-y-1.5 sm:space-y-2">
+                  <div className="flex items-center gap-1.5 text-[10px] sm:text-xs text-[#C5A880] font-sans font-medium truncate">
                     <span>{city.badge}</span>
                     <span aria-hidden="true">·</span>
-                    <span>{city.places.length} Curated Places</span>
+                    <span>{city.places.length} Places</span>
                   </div>
 
-                  <p className="text-sm leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-300">
+                  <p className="text-xs sm:text-sm leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-300 hidden sm:block">
                     {city.tagline}
                   </p>
                 </div>
 
-                <div className="pt-3 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-xs">
-                  <div className="font-sans text-stone-500 dark:text-stone-400">
+                <div className="pt-2 sm:pt-3 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-[10px] sm:text-xs">
+                  <div className="font-sans text-stone-500 dark:text-stone-400 truncate">
                     <span>{city.weather.condition}</span>
                   </div>
 
-                  <div className="flex items-center gap-1 text-[#C5A880] font-medium group-hover:translate-x-1.5 transition-transform duration-200">
-                    <span>View Guide</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
+                  <div className="flex items-center gap-1 text-[#C5A880] font-medium group-hover:translate-x-1 transition-transform duration-200 shrink-0">
+                    <span className="hidden sm:inline">View Guide</span>
+                    <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                   </div>
                 </div>
               </div>
@@ -507,9 +523,9 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
       </section>
 
       {/* 3. Editorial Curatorial Manifesto */}
-      <section className="my-16 py-20 border-y bg-[#F5F2EC] dark:bg-[#0E0E12] border-stone-200 dark:border-white/10 transition-colors">
+      <section className="my-8 sm:my-14 py-10 sm:py-16 border-y bg-[#F5F2EC] dark:bg-[#0E0E12] border-stone-200 dark:border-white/10 transition-colors">
         <div className="max-w-4xl mx-auto px-6 text-center space-y-6">
-          <span className="text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium">
+          <span className="text-xs uppercase tracking-widest text-[#9A743E] dark:text-[#C5A880] font-sans font-medium">
             The ROMELY Philosophy
           </span>
 
@@ -526,7 +542,7 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
       </section>
 
       {/* 4. Curators' Spotlights */}
-      <section id="sanctuaries-preview" className="max-w-7xl mx-auto px-6 py-12 mb-16">
+      <section id="sanctuaries-preview" className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 mb-8 sm:mb-12">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pb-8 border-b border-stone-200 dark:border-white/10">
           <div>
             <span className="text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium block mb-1">
@@ -545,7 +561,7 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6 pt-8">
           {cities
             .flatMap((c) => c.places.slice(0, 1).map((p) => ({ place: p, city: c })))
             .slice(0, 3)
@@ -553,9 +569,9 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
               <Link
                 key={place.id}
                 href={`/place/${place.id}`}
-                className="group rounded-2xl overflow-hidden border p-5 transition-all duration-300 bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer block"
+                className="group rounded-xl sm:rounded-2xl overflow-hidden border p-3 sm:p-5 transition-all duration-300 bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer block"
               >
-                <div className="relative h-48 w-full rounded-xl overflow-hidden mb-4 bg-stone-800">
+                <div className="relative h-32 sm:h-48 w-full rounded-lg sm:rounded-xl overflow-hidden mb-2.5 sm:mb-4 bg-stone-800">
                   <Image
                     src={place.images[0] || city.heroImage}
                     alt={place.name}
@@ -563,23 +579,23 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md px-2.5 py-0.5 rounded text-[11px] text-white font-mono flex items-center gap-1">
-                    <Star className="w-3 h-3 text-[#C5A880] fill-[#C5A880]" />
-                    <span>{place.rating} / 10</span>
+                  <div className="absolute top-2 left-2 sm:top-3 sm:left-3 bg-black/60 backdrop-blur-md px-1.5 py-0.5 sm:px-2.5 sm:py-0.5 rounded text-[10px] sm:text-[11px] text-white font-mono flex items-center gap-1">
+                    <Star className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-[#C5A880] fill-[#C5A880]" />
+                    <span>{place.rating}</span>
                   </div>
                 </div>
 
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between text-xs text-stone-400">
-                    <span>{city.name} · {place.neighborhood}</span>
+                <div className="space-y-1 sm:space-y-2">
+                  <div className="flex items-center justify-between text-[10px] sm:text-xs text-stone-400">
+                    <span className="truncate">{city.name}</span>
                     <span className="text-[#C5A880] font-mono">{place.priceLevel}</span>
                   </div>
 
-                  <h3 className="text-xl font-serif font-medium group-hover:text-[#C5A880] transition-colors text-stone-900 dark:text-white">
+                  <h3 className="text-sm sm:text-lg md:text-xl font-serif font-medium group-hover:text-[#C5A880] transition-colors text-stone-900 dark:text-white truncate">
                     {place.name}
                   </h3>
 
-                  <p className="text-xs leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-400">
+                  <p className="text-xs leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-400 hidden sm:block">
                     {place.tagline}
                   </p>
                 </div>

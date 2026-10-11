@@ -31,8 +31,31 @@ export default function SignInPage() {
       />
 
       <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 lg:grid-cols-2 lg:gap-16 lg:py-20">
+        {/* Entrance column */}
+        <section className="flex flex-col gap-6">
+          <div className="flex items-center gap-2 text-sm uppercase tracking-[0.2em] font-sans text-[#C5A880]">
+            <ArrowLeft className="h-4 w-4" />
+            <Link href="/" className="hover:underline">
+              Back to ROMELY
+            </Link>
+          </div>
+          <h2 className="font-serif text-3xl font-light text-stone-900 dark:text-white">
+            Member Sign In
+          </h2>
+          <p className="text-sm text-stone-600 dark:text-[#9C9893]">
+            Access your saved itineraries, curators’ field notes, and private dispatches.
+          </p>
+          <SignInForm />
+          <div className="flex items-center gap-2 text-sm">
+            <span className="text-[#C5A880]">Not a member yet?</span>
+            <Link href="/sign-up" className="underline text-[#C5A880] hover:text-[#D8BB91]">
+              Request an invitation
+            </Link>
+          </div>
+        </section>
+
         {/* Editorial panel */}
-        <section className="romely-rise relative min-h-[340px] overflow-hidden rounded-3xl border border-stone-200 dark:border-white/10 lg:min-h-[620px] shadow-sm">
+        <section className="romely-rise relative min-h-[240px] overflow-hidden rounded-3xl border border-stone-200 dark:border-white/10 lg:min-h-[620px] shadow-sm">
           <Image
             src={FEATURED_IMAGE}
             alt="Haussmann facades along the Seine at golden hour"
@@ -78,47 +101,9 @@ export default function SignInPage() {
           </div>
         </section>
 
-        {/* Entrance column */}
-        <section className="romely-rise romely-delay-2 flex flex-col justify-center">
-          <Link
-            href="/"
-            className="group inline-flex w-fit items-center gap-2 text-[11px] uppercase tracking-[0.2em] font-sans text-stone-600 dark:text-[#9C9893] transition-colors hover:text-[#C5A880]"
-          >
-            <ArrowLeft className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-x-1" />
-            <span>Back to ROMELY</span>
-          </Link>
 
-          <div className="mt-8 space-y-3">
-            <h1 className="font-serif text-4xl font-light leading-tight text-stone-900 dark:text-white sm:text-5xl">
-              Sign in
-            </h1>
-            <p className="max-w-md text-sm leading-relaxed font-sans text-stone-600 dark:text-[#9C9893]">
-              Members keep their itineraries, reading list, and correspondents’ notes in one
-              uninterrupted place.
-            </p>
-            <div className="romely-hairline h-px w-full bg-gradient-to-r from-[#C5A880]/45 via-stone-300 dark:via-white/10 to-transparent" />
-          </div>
 
-          <div className="mt-8">
-            <SignInForm />
-          </div>
-
-          <p className="mt-8 max-w-md text-[11px] leading-relaxed font-sans text-stone-500 dark:text-[#6F6B66]">
-            ROMELY is an editorial house, not a booking engine. Membership is invitation-led and
-            your credentials are never shared with third parties.
-          </p>
-
-          <div className="mt-6 flex flex-wrap items-center gap-2 text-[11px] font-sans text-stone-500 dark:text-[#6F6B66]">
-            <Compass className="h-3.5 w-3.5 text-[#C5A880]" />
-            <span>Not a member yet?</span>
-            <Link
-              href="/destinations"
-              className="text-[#C5A880] transition-opacity hover:opacity-75 font-medium"
-            >
-              Browse the compendium
-            </Link>
-          </div>
-        </section>
+        
       </div>
     </div>
   );

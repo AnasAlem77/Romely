@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { AppContextProvider } from '@/components/AppContext';
-import { Navbar } from '@/components/Navbar';
+import HeaderWrapper from '@/components/HeaderWrapper';
 import { SavedDrawer } from '@/components/SavedDrawer';
 import { Footer } from '@/components/Footer';
+import MobileBottomNav from '@/components/MobileBottomNav';
 
 export const metadata: Metadata = {
   title: 'ROMELY — Minimalist Luxury Travel Guide',
@@ -44,12 +45,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col justify-between" suppressHydrationWarning>
         <AppContextProvider>
-          <Navbar />
-          <main className="flex-1">
+            <HeaderWrapper />
+          <main className="flex-1 pb-24 md:pb-0">
             {children}
           </main>
           <SavedDrawer />
           <Footer />
+          <MobileBottomNav />
         </AppContextProvider>
       </body>
     </html>

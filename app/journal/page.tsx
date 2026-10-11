@@ -54,7 +54,7 @@ export default function JournalPage() {
       <div className="max-w-7xl mx-auto space-y-16">
         {/* Header */}
         <div className="space-y-4 max-w-3xl">
-          <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium">
+          <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
             <BookOpen className="w-4 h-4" />
             <span>ROMELY Editorial Journal</span>
             <span aria-hidden="true">·</span>
@@ -114,50 +114,50 @@ export default function JournalPage() {
           </div>
         </div>
 
-        {/* Editorial Articles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Editorial Articles Grid: 2 columns on mobile, 2 on md */}
+        <div className="grid grid-cols-2 gap-3 sm:gap-8">
           {articles.slice(1).map((article) => (
             <article
               key={article.id}
-              className="rounded-2xl border border-stone-200 dark:border-white/10 bg-white dark:bg-[#121215] overflow-hidden p-6 space-y-4 hover:border-[#C5A880]/50 transition-all duration-300"
+              className="rounded-xl sm:rounded-2xl border border-stone-200 dark:border-white/10 bg-white dark:bg-[#121215] overflow-hidden p-3 sm:p-6 space-y-2.5 sm:space-y-4 hover:border-[#C5A880]/50 transition-all duration-300 flex flex-col justify-between"
             >
-              <div className="relative h-56 w-full rounded-xl overflow-hidden bg-stone-900">
+              <div className="relative h-32 sm:h-56 w-full rounded-lg sm:rounded-xl overflow-hidden bg-stone-900">
                 <Image
                   src={article.image}
                   alt={article.title}
                   fill
                   className="object-cover"
                 />
-                <div className="absolute bottom-3 left-3 backdrop-blur-md bg-black/40 px-2.5 py-0.5 rounded text-[11px] text-white font-mono">
+                <div className="absolute bottom-2 left-2 sm:bottom-3 sm:left-3 backdrop-blur-md bg-black/40 px-1.5 py-0.5 sm:px-2.5 sm:py-0.5 rounded text-[9px] sm:text-[11px] text-white font-mono">
                   {article.city}
                 </div>
               </div>
 
-              <div className="space-y-2">
-                <div className="flex items-center gap-2 text-xs text-[#C5A880] font-sans font-medium">
+              <div className="space-y-1 sm:space-y-2">
+                <div className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs text-[#C5A880] font-sans font-medium">
                   <span>{article.date}</span>
                   <span aria-hidden="true">·</span>
                   <span>{article.readTime}</span>
                 </div>
-                <h3 className="text-xl font-serif font-medium text-stone-900 dark:text-white">
+                <h3 className="text-sm sm:text-xl font-serif font-medium text-stone-900 dark:text-white line-clamp-2">
                   {article.title}
                 </h3>
-                <p className="text-xs text-stone-600 dark:text-stone-300 font-sans leading-relaxed line-clamp-3">
+                <p className="text-xs text-stone-600 dark:text-stone-300 font-sans leading-relaxed line-clamp-2 sm:line-clamp-3 hidden sm:block">
                   {article.excerpt}
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-xs">
-                <div>
-                  <span className="font-medium text-stone-800 dark:text-stone-200">{article.author}</span>
-                  <span className="block text-[11px] text-stone-400">{article.role}</span>
+              <div className="pt-2 sm:pt-4 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-[10px] sm:text-xs">
+                <div className="truncate pr-2">
+                  <span className="font-medium text-stone-800 dark:text-stone-200 truncate block">{article.author}</span>
+                  <span className="block text-[9px] sm:text-[11px] text-stone-400 truncate">{article.role}</span>
                 </div>
                 <Link
                   href={article.link}
-                  className="text-[#C5A880] hover:underline flex items-center gap-1 font-medium"
+                  className="text-[#C5A880] hover:underline flex items-center gap-1 font-medium shrink-0"
                 >
-                  <span>Explore {article.city}</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Explore {article.city}</span>
+                  <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                 </Link>
               </div>
             </article>
@@ -175,7 +175,7 @@ export default function JournalPage() {
             </h3>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 pt-4">
             {[
               {
                 num: '01',
@@ -203,10 +203,10 @@ export default function JournalPage() {
                 desc: 'Architecture that honors its neighborhood and historical lineage rather than chasing transient algorithmic trends.',
               },
             ].map((tenet) => (
-              <div key={tenet.num} className="space-y-2">
-                <span className="font-mono text-sm text-[#C5A880] font-semibold">{tenet.num}</span>
-                <h4 className="font-serif text-lg font-medium text-stone-900 dark:text-white">{tenet.title}</h4>
-                <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed font-sans">{tenet.desc}</p>
+              <div key={tenet.num} className="space-y-1.5 sm:space-y-2 p-2 sm:p-0">
+                <span className="font-mono text-xs sm:text-sm text-[#C5A880] font-semibold">{tenet.num}</span>
+                <h4 className="font-serif text-sm sm:text-lg font-medium text-stone-900 dark:text-white">{tenet.title}</h4>
+                <p className="text-[11px] sm:text-xs text-stone-600 dark:text-stone-300 leading-relaxed font-sans">{tenet.desc}</p>
               </div>
             ))}
           </div>

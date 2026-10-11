@@ -61,7 +61,7 @@ export default function DestinationsPage() {
       <div className="max-w-7xl mx-auto space-y-12">
         {/* Header Lockup */}
         <div className="space-y-4 max-w-3xl">
-          <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium">
+          <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
             <span>Global Compendium</span>
             <span aria-hidden="true">·</span>
             <span>{CITIES_DATA.length} Curated Cities</span>
@@ -79,12 +79,12 @@ export default function DestinationsPage() {
         {/* Filter & Search Bar */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-8 border-b border-stone-200 dark:border-white/10">
           {/* Region Tabs */}
-          <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10 overflow-x-auto">
+          <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10 overflow-x-auto no-scrollbar max-w-full">
             {(['All', 'Europe', 'Asia', 'Mediterranean'] as const).map((region) => (
               <button
                 key={region}
                 onClick={() => setSelectedRegion(region)}
-                className={`px-4 py-2 text-xs font-medium rounded-lg transition-all duration-150 whitespace-nowrap cursor-pointer ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 text-xs font-medium rounded-lg transition-all duration-150 whitespace-nowrap cursor-pointer ${
                   selectedRegion === region
                     ? 'bg-white dark:bg-[#202026] text-stone-900 dark:text-white shadow-xs'
                     : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
@@ -117,15 +117,15 @@ export default function DestinationsPage() {
           </div>
         </div>
 
-        {/* Cities Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Cities Grid: 2 columns on mobile, 2 on md, 3 on lg */}
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {filteredCities.map((city) => (
             <Link
               key={city.id}
               href={`/city/${city.id}`}
-              className="group rounded-2xl overflow-hidden border transition-all duration-300 flex flex-col justify-between bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer"
+              className="group rounded-xl sm:rounded-2xl overflow-hidden border transition-all duration-300 flex flex-col justify-between bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 hover:border-[#C5A880]/60 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_rgba(197,168,128,0.12)] cursor-pointer"
             >
-              <div className="relative h-64 w-full overflow-hidden bg-stone-800">
+              <div className="relative h-36 sm:h-52 md:h-64 w-full overflow-hidden bg-stone-800">
                 <Image
                   src={city.heroImage}
                   alt={`${city.name}, ${city.country}`}
@@ -133,50 +133,50 @@ export default function DestinationsPage() {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
 
-                <div className="absolute top-4 left-4 right-4 flex items-center justify-between text-xs text-white">
-                  <span className="backdrop-blur-md bg-black/40 px-2.5 py-1 rounded-md border border-white/10 font-mono">
+                <div className="absolute top-2 left-2 right-2 sm:top-4 sm:left-4 sm:right-4 flex items-center justify-between text-[10px] sm:text-xs text-white">
+                  <span className="backdrop-blur-md bg-black/40 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md border border-white/10 font-mono text-[9px] sm:text-xs">
                     <CityClock timezone={city.timezone} />
                   </span>
 
-                  <span className="backdrop-blur-md bg-black/40 px-2.5 py-1 rounded-md border border-white/10 flex items-center gap-1.5 font-sans">
-                    <CloudSun className="w-3.5 h-3.5 text-[#C5A880]" />
+                  <span className="backdrop-blur-md bg-black/40 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md border border-white/10 flex items-center gap-1 sm:gap-1.5 font-sans text-[9px] sm:text-xs">
+                    <CloudSun className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C5A880]" />
                     <span>{city.weather.tempC}°C</span>
                   </span>
                 </div>
 
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <div className="text-xs uppercase tracking-widest text-[#E6CBA3] font-medium mb-1">
+                <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 text-white">
+                  <div className="text-[9px] sm:text-xs uppercase tracking-wider sm:tracking-widest text-[#E6CBA3] font-medium mb-0.5 sm:mb-1 truncate">
                     {city.country}
                   </div>
-                  <h3 className="text-2xl font-serif font-normal tracking-tight group-hover:text-[#E6CBA3] transition-colors">
+                  <h3 className="text-base sm:text-xl md:text-2xl font-serif font-normal tracking-tight group-hover:text-[#E6CBA3] transition-colors truncate">
                     {city.name}
                   </h3>
                 </div>
               </div>
 
-              <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-xs text-[#C5A880] font-sans font-medium">
+              <div className="p-3 sm:p-5 md:p-6 flex-1 flex flex-col justify-between space-y-2.5 sm:space-y-4">
+                <div className="space-y-1.5 sm:space-y-2">
+                  <div className="flex items-center gap-1.5 text-[10px] sm:text-xs text-[#C5A880] font-sans font-medium truncate">
                     <span>{city.badge}</span>
                     <span aria-hidden="true">·</span>
-                    <span>{city.places.length} Curated Places</span>
+                    <span>{city.places.length} Places</span>
                   </div>
 
-                  <p className="text-sm leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-300">
+                  <p className="text-xs sm:text-sm leading-relaxed line-clamp-2 text-stone-600 dark:text-stone-300 hidden sm:block">
                     {city.tagline}
                   </p>
                 </div>
 
-                <div className="pt-3 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-xs">
-                  <div className="font-sans text-stone-500 dark:text-stone-400">
+                <div className="pt-2 sm:pt-3 border-t border-stone-100 dark:border-white/5 flex items-center justify-between text-[10px] sm:text-xs">
+                  <div className="font-sans text-stone-500 dark:text-stone-400 truncate">
                     <span>{city.weather.condition}</span>
                   </div>
 
-                  <div className="flex items-center gap-1 text-[#C5A880] font-medium group-hover:translate-x-1.5 transition-transform duration-200">
-                    <span>Explore City Monograph</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
+                  <div className="flex items-center gap-1 text-[#C5A880] font-medium group-hover:translate-x-1 transition-transform duration-200 shrink-0">
+                    <span className="hidden sm:inline">Explore City</span>
+                    <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                   </div>
                 </div>
               </div>
