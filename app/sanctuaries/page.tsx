@@ -3,7 +3,8 @@
 import React, { useState, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Search, Bookmark, BookmarkCheck, ArrowRight, Star, X } from 'lucide-react';
+import { Bookmark, BookmarkCheck, ArrowRight, Star } from 'lucide-react';
+import SearchDropdown from '@/components/SearchDropdown';
 import { CITIES_DATA } from '@/lib/travelData';
 import { Place, City } from '@/lib/types';
 import { useApp } from '@/components/AppContext';
@@ -12,7 +13,7 @@ export default function SanctuariesPage() {
   const { toggleSavePlace, isPlaceSaved } = useApp();
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedCity, setSelectedCity] = useState<string>('All');
-  const [searchQuery, setSearchQuery] = useState('');
+  
 
   // Flatten all places with their parent city
   const allPlaces = useMemo(() => {
@@ -32,24 +33,14 @@ export default function SanctuariesPage() {
     return ['All', ...Array.from(set)];
   }, [allPlaces]);
 
-  // Filtered places
+  // Filtered places (by category and city)
   const filteredPlaces = useMemo(() => {
     return allPlaces.filter(({ place, city }) => {
       const matchesCat = selectedCategory === 'All' || place.category === selectedCategory;
       const matchesCity = selectedCity === 'All' || city.id === selectedCity;
-      const q = searchQuery.toLowerCase().trim();
-
-      if (!q) return matchesCat && matchesCity;
-
-      const matchesText =
-        place.name.toLowerCase().includes(q) ||
-        place.tagline.toLowerCase().includes(q) ||
-        place.neighborhood.toLowerCase().includes(q) ||
-        city.name.toLowerCase().includes(q);
-
-      return matchesCat && matchesCity && matchesText;
+      return matchesCat && matchesCity;
     });
-  }, [allPlaces, selectedCategory, selectedCity, searchQuery]);
+  }, [allPlaces, selectedCategory, selectedCity]);
 
   return (
     <div className="min-h-screen py-12 md:py-20 px-6">
@@ -108,23 +99,8 @@ export default function SanctuariesPage() {
               </select>
 
               {/* Search */}
-              <div className="relative flex items-center p-2 rounded-xl border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 focus-within:border-[#C5A880] w-full sm:w-64">
-                <Search className="w-3.5 h-3.5 text-stone-400 ml-1.5 mr-2 shrink-0" />
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search sanctuaries..."
-                  className="w-full bg-transparent text-xs focus:outline-none placeholder:text-stone-400 text-stone-900 dark:text-white"
-                />
-                {searchQuery && (
-                  <button
-                    onClick={() => setSearchQuery('')}
-                    className="p-1 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 cursor-pointer"
-                  >
-                    <X className="w-3 h-3" />
-                  </button>
-                )}
+                              <SearchDropdown cities={CITIES_DATA} />
+
               </div>
             </div>
           </div>
@@ -225,23 +201,9 @@ export default function SanctuariesPage() {
           })}
         </div>
 
-        {filteredPlaces.length === 0 && (
-          <div className="py-20 text-center space-y-3">
-            <p className="font-serif text-2xl text-stone-500">No sanctuaries found matching your criteria.</p>
-            <button
-              onClick={() => {
-                setSelectedCategory('All');
-                setSelectedCity('All');
-                setSearchQuery('');
-              }}
-              className="text-xs uppercase tracking-wider text-[#C5A880] hover:underline cursor-pointer"
-            >
-              Reset All Filters
-            </button>
-          </div>
-        )}
+        
       </div>
-    </div>
+
   );
 }
 

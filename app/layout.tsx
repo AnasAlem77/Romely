@@ -43,10 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col justify-between" suppressHydrationWarning>
+      <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col pb-12 md:pb-0" suppressHydrationWarning>
         <AppContextProvider>
             <HeaderWrapper />
-          <main className="flex-1 pb-24 md:pb-0">
+          <main className="flex-1 pb-12 md:pb-0">
             {children}
           </main>
           <SavedDrawer />

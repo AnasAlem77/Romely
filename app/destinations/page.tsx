@@ -13,6 +13,7 @@ import {
   resolveSearchTarget,
 } from '@/lib/search';
 import { CityClock } from '@/components/CityClock';
+import SearchDropdown from '@/components/SearchDropdown';
 
 export default function DestinationsPage() {
   const router = useRouter();
@@ -95,26 +96,7 @@ export default function DestinationsPage() {
             ))}
           </div>
 
-          {/* Search Input with Enter key support */}
-          <div className="relative flex items-center w-full md:w-80 p-2 rounded-xl border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 focus-within:border-[#C5A880] transition-colors shadow-xs">
-            <Search className="w-4 h-4 text-stone-400 ml-2 mr-2 shrink-0" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Search destinations (press Enter)..."
-              className="w-full bg-transparent text-xs focus:outline-none placeholder:text-stone-400 text-stone-900 dark:text-white"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="p-1 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 cursor-pointer"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
+            <SearchDropdown cities={CITIES_DATA} />
         </div>
 
         {/* Cities Grid: 2 columns on mobile, 2 on md, 3 on lg */}

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="border-t transition-colors bg-[#FAF8F5] dark:bg-[#0A0A0C] border-stone-200 dark:border-white/10 text-stone-600 dark:text-stone-400">
+    <footer className="border-t transition-colors bg-[#FAF8F5] dark:bg-[#0A0A0C] border-stone-200 dark:border-white/10 text-stone-600 dark:text-stone-400 pb-12 md:pb-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-12 pb-6 sm:pb-12 border-b border-stone-200 dark:border-white/10">
           {/* Brand Column */}

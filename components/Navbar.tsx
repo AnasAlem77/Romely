@@ -88,20 +88,21 @@ export function Navbar() {
         {/* Zone 3: Primary actions & Controls */}
         <div className="flex items-center gap-1.5 sm:gap-3">
           {/* Saved places drawer trigger */}
-          <button
-            onClick={openSavedDrawer}
-            className="relative flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3 sm:py-2 text-[11px] sm:text-xs uppercase tracking-wider font-medium rounded-lg transition-all duration-200 border border-stone-200 dark:border-white/10 hover:border-[#C5A880]/50 hover:bg-stone-100 dark:hover:bg-white/5 text-stone-800 dark:text-stone-200 active:scale-95 cursor-pointer"
-            title="View saved itinerary"
-            aria-label="View saved itinerary"
-          >
-            <Bookmark className="w-3.5 h-3.5 text-[#C5A880]" />
-            <span className="hidden sm:inline">Saved</span>
-            {mounted && savedPlaceIds.length > 0 && (
-              <span className="tabular-nums font-mono text-[10px] sm:text-[11px] px-1 sm:px-1.5 py-0.5 rounded bg-[#C5A880] text-black font-semibold">
-                {savedPlaceIds.length}
-              </span>
-            )}
-          </button>
+            <Link
+              href="/saved"
+              prefetch={false}
+              className="relative flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3 sm:py-2 text-[11px] sm:text-xs uppercase tracking-wider font-medium rounded-lg transition-all duration-200 border border-stone-200 dark:border-white/10 hover:border-[#C5A880]/50 hover:bg-stone-100 dark:hover:bg-white/5 text-stone-800 dark:text-stone-200 active:scale-95 cursor-pointer hidden md:flex"
+              title="View saved itinerary"
+              aria-label="View saved itinerary"
+            >
+              <Bookmark className="w-3.5 h-3.5 text-[#C5A880]" />
+              <span className="hidden sm:inline">Saved</span>
+              {mounted && savedPlaceIds.length > 0 && (
+                <span className="tabular-nums font-mono text-[10px] sm:text-[11px] px-1 sm:px-1.5 py-0.5 rounded bg-[#C5A880] text-black font-semibold">
+                  {savedPlaceIds.length}
+                </span>
+              )}
+            </Link>
 
           {/* Theme Mode Toggle (Light / Dark / System) with SSR Hydration Guard */}
           <button

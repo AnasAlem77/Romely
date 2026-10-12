@@ -64,11 +64,10 @@ export default function MobileBottomNav() {
         );
       })}
 
-      <button
-        type="button"
-        onClick={openSavedDrawer}
-        className="flex flex-col items-center justify-center min-w-[56px] py-1 text-stone-700 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-200 transition-colors relative"
-        aria-label="View Saved Sanctuaries"
+<Link
+        href="/saved"
+        prefetch={false}
+        className={`flex flex-col items-center justify-center min-w-[56px] py-1 transition-colors ${pathname === '/saved' ? 'text-[#9A743E] dark:text-[#C5A880] font-semibold' : 'text-stone-700 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-200 font-normal'} relative`}
       >
         <div className="relative">
           <Bookmark className="w-5 h-5 mb-1 stroke-[1.6]" />
@@ -79,7 +78,7 @@ export default function MobileBottomNav() {
           )}
         </div>
         <span className="text-[10px] tracking-tight">Saved</span>
-      </button>
+      </Link>
     </nav>
   );
 }
