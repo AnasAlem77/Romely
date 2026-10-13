@@ -1,7 +1,6 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, useMemo, useSyncExternalStore, ReactNode } from 'react';
-import { CITIES_DATA } from '@/lib/travelData';
 import { City, Place } from '@/lib/types';
 
 export type ThemeMode = 'system' | 'dark' | 'light';
@@ -19,6 +18,7 @@ interface AppContextType {
   setIsSavedDrawerOpen: (open: boolean) => void;
   openSavedDrawer: () => void;
   closeSavedDrawer: () => void;
+  cities: City[];
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -40,7 +40,7 @@ function getSystemThemeServerSnapshot(): boolean {
   return false;
 }
 
-export function AppContextProvider({ children }: { children: ReactNode }) {
+export function AppContextProvider({ children, cities }: { children: ReactNode; cities: City[] }) {
   // Read system dark preference via useSyncExternalStore (React 19 standard)
   const isSystemDark = useSyncExternalStore(
     subscribeToSystemTheme,
@@ -60,9 +60,9 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
     return 'system';
   });
 
-  // Saved place IDs: initialized from localStorage or defaults to initial favorites
+  // Saved place IDs remain local preferences; their details are resolved from the database catalogue.
   const [savedPlaceIds, setSavedPlaceIds] = useState<string[]>(() => {
-    if (typeof window === 'undefined') return ['paris-cafe-de-flore', 'tokyo-nezu-museum'];
+    if (typeof window === 'undefined') return [];
     try {
       const stored = localStorage.getItem('romely_saved') || localStorage.getItem('edition_voyage_saved');
       if (stored) {
@@ -70,7 +70,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
         if (Array.isArray(parsed)) return parsed;
       }
     } catch {}
-    return ['paris-cafe-de-flore', 'tokyo-nezu-museum'];
+    return [];
   });
 
   const [isSavedDrawerOpen, setIsSavedDrawerOpen] = useState<boolean>(false);
@@ -128,7 +128,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
   const savedPlacesWithCity = useMemo(() => {
     const list: { place: Place; city: City }[] = [];
     savedPlaceIds.forEach((id) => {
-      for (const city of CITIES_DATA) {
+      for (const city of cities) {
         const p = city.places.find((item) => item.id === id);
         if (p) {
           list.push({ place: p, city });
@@ -137,7 +137,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
       }
     });
     return list;
-  }, [savedPlaceIds]);
+  }, [cities, savedPlaceIds]);
 
   return (
     <AppContext.Provider
@@ -154,6 +154,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
         setIsSavedDrawerOpen,
         openSavedDrawer: () => setIsSavedDrawerOpen(true),
         closeSavedDrawer: () => setIsSavedDrawerOpen(false),
+        cities,
       }}
     >
       {children}

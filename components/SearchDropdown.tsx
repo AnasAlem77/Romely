@@ -68,7 +68,7 @@ export default function SearchDropdown({ cities }: { cities: City[] }) {
   const hasMatches = searchResults.hasMatches;
 
   return (
-    <div ref={searchContainerRef} className="relative z-40">
+    <div ref={searchContainerRef} className="relative w-full min-w-0">
       <form onSubmit={(e) => { e.preventDefault(); handleExecuteSearch(); }} role="search" className="relative flex items-center p-1.5 sm:p-2 rounded-xl transition-all duration-200 border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 focus-within:border-[#C5A880] focus-within:shadow-[0_8px_30px_rgba(197,168,128,0.15)] shadow-xs">
         <Search className="w-4 h-4 sm:w-5 sm:h-5 text-stone-400 ml-2 sm:ml-3 mr-1.5 sm:mr-2 shrink-0" />
         {/* Desktop input */}
@@ -118,8 +118,7 @@ export default function SearchDropdown({ cities }: { cities: City[] }) {
 
       {/* Suggestions dropdown */}
       {showSuggestions && (
-        <div className="relative mt-2 w-full max-h-[min(45vh,320px)] sm:max-h-[min(50vh,380px)] lg:max-h-[min(65vh,480px)] overflow-y-auto overscroll-contain bg-[#FAF8F5] dark:bg-[#121215] border border-stone-200 dark:border-white/10 rounded-2xl shadow-2xl p-3 space-y-3 ring-1 ring-black/5 dark:ring-white/10">
-          {hasMatches ? (
+        <div className="relative mt-2 w-full min-w-0 max-h-[min(45vh,320px)] sm:max-h-[min(50vh,380px)] lg:max-h-[min(65vh,480px)] overflow-y-auto overscroll-contain bg-[#FAF8F5] dark:bg-[#121215] border border-stone-200 dark:border-white/10 rounded-2xl shadow-2xl p-3 space-y-3">          {hasMatches ? (
             <>
               {searchResults.cities.length > 0 && (
                 <div className="space-y-1">
@@ -206,4 +205,3 @@ export default function SearchDropdown({ cities }: { cities: City[] }) {
     </div>
   );
 }
-

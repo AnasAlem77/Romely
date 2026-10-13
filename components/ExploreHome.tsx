@@ -13,7 +13,6 @@ import {
   X,
   Star,
 } from 'lucide-react';
-import { City } from '@/lib/types';
 import {
   cityHasMatchingPlaces,
   cityMatchesQuery,
@@ -22,12 +21,10 @@ import {
   searchCatalog,
 } from '@/lib/search';
 import { CityClock } from './CityClock';
+import { useApp } from './AppContext';
 
-interface ExploreHomeProps {
-  cities: City[];
-}
-
-export function ExploreHome({ cities }: ExploreHomeProps) {
+export function ExploreHome() {
+  const { cities } = useApp();
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<
@@ -179,7 +176,7 @@ export function ExploreHome({ cities }: ExploreHomeProps) {
               {/* Search Bar and Suggestions */}
               <div
                 ref={searchContainerRef}
-                className="relative z-40"
+                className="relative"
               >
                 <form
                   onSubmit={handleFormSubmit}

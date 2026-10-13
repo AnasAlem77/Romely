@@ -4,23 +4,23 @@ import React, { useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Star, ShieldCheck, ArrowRight, Bookmark, BookmarkCheck } from 'lucide-react';
-import { CITIES_DATA } from '@/lib/travelData';
 import { Place, City } from '@/lib/types';
 import { useApp } from '@/components/AppContext';
 
 export default function TopRatedPage() {
   const { toggleSavePlace, isPlaceSaved } = useApp();
+  const { cities } = useApp();
 
   // Extract and rank places by rating
   const topPlaces = useMemo(() => {
     const list: { place: Place; city: City }[] = [];
-    CITIES_DATA.forEach((city) => {
+    cities.forEach((city) => {
       city.places.forEach((place) => {
         list.push({ place, city });
       });
     });
     return list.sort((a, b) => b.place.rating - a.place.rating);
-  }, []);
+  }, [cities]);
 
   return (
     <div className="min-h-screen py-12 md:py-20 px-6">

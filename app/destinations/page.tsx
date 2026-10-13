@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { Search, ArrowRight, CloudSun, Sparkles, X } from 'lucide-react';
-import { CITIES_DATA } from '@/lib/travelData';
 import {
   cityHasMatchingPlaces,
   cityMatchesQuery,
@@ -14,23 +13,25 @@ import {
 } from '@/lib/search';
 import { CityClock } from '@/components/CityClock';
 import SearchDropdown from '@/components/SearchDropdown';
+import { useApp } from '@/components/AppContext';
 
 export default function DestinationsPage() {
+  const { cities } = useApp();
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<'All' | 'Europe' | 'Asia' | 'Mediterranean'>('All');
 
   const trimmedQuery = searchQuery.trim();
-  const destinationSummaries = useMemo(() => getDestinationSummaries(CITIES_DATA), []);
+  const destinationSummaries = useMemo(() => getDestinationSummaries(cities), [cities]);
 
   // Cities that match the query on their own copy or on a curated place, before
   // the region tab is applied.
   const matchingCities = useMemo(() => {
-    if (!trimmedQuery) return CITIES_DATA;
-    return CITIES_DATA.filter(
+    if (!trimmedQuery) return cities;
+    return cities.filter(
       (city) => cityMatchesQuery(city, trimmedQuery) || cityHasMatchingPlaces(city, trimmedQuery)
     );
-  }, [trimmedQuery]);
+  }, [cities, trimmedQuery]);
 
   const filteredCities = useMemo(
     () => matchingCities.filter((city) => selectedRegion === 'All' || city.region === selectedRegion),
@@ -46,7 +47,7 @@ export default function DestinationsPage() {
     if (e.key !== 'Enter') return;
     e.preventDefault();
 
-    const target = resolveSearchTarget(CITIES_DATA, searchQuery);
+    const target = resolveSearchTarget(cities, searchQuery);
     if (target) {
       router.push(target.kind === 'city' ? `/city/${target.cityId}` : `/place/${target.placeId}`);
     }
@@ -65,7 +66,7 @@ export default function DestinationsPage() {
           <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
             <span>Global Compendium</span>
             <span aria-hidden="true">·</span>
-            <span>{CITIES_DATA.length} Curated Cities</span>
+            <span>{cities.length} Curated Cities</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
@@ -96,7 +97,7 @@ export default function DestinationsPage() {
             ))}
           </div>
 
-            <SearchDropdown cities={CITIES_DATA} />
+            <SearchDropdown cities={cities} />
         </div>
 
         {/* Cities Grid: 2 columns on mobile, 2 on md, 3 on lg */}

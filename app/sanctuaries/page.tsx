@@ -5,12 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Bookmark, BookmarkCheck, ArrowRight, Star } from 'lucide-react';
 import SearchDropdown from '@/components/SearchDropdown';
-import { CITIES_DATA } from '@/lib/travelData';
 import { Place, City } from '@/lib/types';
 import { useApp } from '@/components/AppContext';
 
 export default function SanctuariesPage() {
-  const { toggleSavePlace, isPlaceSaved } = useApp();
+  const { toggleSavePlace, isPlaceSaved, cities } = useApp();
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedCity, setSelectedCity] = useState<string>('All');
   
@@ -18,13 +17,13 @@ export default function SanctuariesPage() {
   // Flatten all places with their parent city
   const allPlaces = useMemo(() => {
     const list: { place: Place; city: City }[] = [];
-    CITIES_DATA.forEach((city) => {
+    cities.forEach((city) => {
       city.places.forEach((place) => {
         list.push({ place, city });
       });
     });
     return list;
-  }, []);
+  }, [cities]);
 
   // Extract unique categories
   const categories = useMemo(() => {
@@ -91,7 +90,7 @@ export default function SanctuariesPage() {
                 className="px-3 py-2 rounded-xl text-xs border bg-white dark:bg-[#141417] border-stone-200 dark:border-white/10 text-stone-800 dark:text-stone-200 focus:outline-none focus:border-[#C5A880]"
               >
                 <option value="All">All Cities</option>
-                {CITIES_DATA.map((c) => (
+                {cities.map((c) => (
                   <option key={c.id} value={c.id}>
                     {c.name}
                   </option>
@@ -99,7 +98,7 @@ export default function SanctuariesPage() {
               </select>
 
               {/* Search */}
-                              <SearchDropdown cities={CITIES_DATA} />
+                              <SearchDropdown cities={cities} />
 
               </div>
             </div>

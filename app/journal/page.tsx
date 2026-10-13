@@ -4,7 +4,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, Quote, Clock, Sparkles } from 'lucide-react';
-import { CITIES_DATA } from '@/lib/travelData';
 
 export default function JournalPage() {
   const articles = [

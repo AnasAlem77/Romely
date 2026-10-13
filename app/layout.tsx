@@ -5,6 +5,7 @@ import HeaderWrapper from '@/components/HeaderWrapper';
 import { SavedDrawer } from '@/components/SavedDrawer';
 import { Footer } from '@/components/Footer';
 import MobileBottomNav from '@/components/MobileBottomNav';
+import { getCatalog } from '@/lib/catalog';
 
 export const metadata: Metadata = {
   title: 'ROMELY — Minimalist Luxury Travel Guide',
@@ -21,7 +22,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+// Catalogue content is owned by Prisma and must not be captured in a build-time render.
+export const dynamic = 'force-dynamic';
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const cities = await getCatalog();
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -44,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col pb-12 md:pb-0" suppressHydrationWarning>
-        <AppContextProvider>
+        <AppContextProvider cities={cities}>
             <HeaderWrapper />
           <main className="flex-1 pb-12 md:pb-0">
             {children}

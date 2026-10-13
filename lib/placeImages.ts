@@ -61,6 +61,10 @@ const PERSON_PLACES = ['guy savoy', 'pierre gagnaire', 'david toutain', 'kei', '
 export function getPlaceImage(placeName: string, category: string | null, dbImageUrl: string | null): string {
   const cleanPlaceName = normalizeString(placeName);
 
+  // The database is the source of truth. Its URLs are checked before saving,
+  // whereas the legacy JSON file can contain stale third-party links.
+  if (dbImageUrl) return dbImageUrl;
+
   // إذا كان المكان يحمل اسم شخص (مثل الطهاة المشهورين)، نمنع صورة الشخص ونعطيه صورة مطعم فاخر فخمة
   if (PERSON_PLACES.some(p => cleanPlaceName.includes(p))) {
     return CATEGORY_FALLBACKS.restaurant[0];
