@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useSyncExternalStore } from 'react';
+import React, { useEffect, useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Sun, Moon, Laptop, Bookmark, Menu, X, User } from 'lucide-react';
@@ -25,11 +25,27 @@ export function Navbar() {
   );
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    const previousHtmlOverflow = document.documentElement.style.overflow;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setMobileMenuOpen(false);
+    };
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.documentElement.style.overflow = previousHtmlOverflow;
+      document.removeEventListener('keydown', onKeyDown);
+    };
+  }, [mobileMenuOpen]);
+
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Destinations', href: '/destinations' },
     { label: 'Sanctuaries', href: '/sanctuaries' },
-    { label: 'Top Rated', href: '/top-rated' },
     { label: 'Journal', href: '/journal' },
   ];
 
@@ -147,43 +163,43 @@ export function Navbar() {
           {/* Mobile hamburger menu toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-1.5 sm:p-2 rounded-lg md:hidden border border-stone-200 dark:border-white/10 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-white/5 active:scale-95 cursor-pointer"
-            aria-label="Toggle navigation menu"
+            className="p-2 rounded-lg md:hidden border border-stone-200 dark:border-white/10 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-white/5 active:scale-95 cursor-pointer min-h-9 min-w-9"
+            aria-label={mobileMenuOpen ? 'Close utility menu' : 'Open utility menu'}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Navigation Dropdown */}
+      {/* Mobile utility menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-stone-200 dark:border-white/10 bg-[#FAF8F5] dark:bg-[#0A0A0C] px-6 py-4 space-y-3 transition-colors">
-          {navLinks.map((link) => {
-            const active = isLinkActive(link.href);
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block py-2 text-sm uppercase tracking-wider font-medium transition-colors ${
-                  active
-                    ? 'text-[#C5A880]'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white'
-                }`}
-              >
-                {link.label}
+        <div className="fixed inset-x-0 bottom-0 top-16 z-50 md:hidden sm:top-20" role="dialog" aria-modal="true" aria-label="Romely utility menu">
+          <button type="button" aria-label="Close utility menu" className="absolute inset-0 bg-stone-950/20 backdrop-blur-[1px] dark:bg-black/45 motion-safe:animate-[romely-veil_180ms_ease-out]" onClick={() => setMobileMenuOpen(false)} />
+          <div className="absolute right-3 top-3 max-h-[calc(100dvh-5.5rem)] w-[min(22rem,calc(100%-1.5rem))] overflow-y-auto rounded-2xl border border-stone-200/90 bg-[#FAF8F5] p-2.5 shadow-[0_18px_50px_rgba(28,25,23,0.2)] motion-safe:animate-[romely-rise_180ms_ease-out] dark:border-white/10 dark:bg-[#121215] dark:shadow-[0_18px_50px_rgba(0,0,0,0.45)]">
+            <div className="border-b border-stone-200 px-3 pb-3 pt-2 dark:border-white/10">
+              <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#9A743E] dark:text-[#C5A880]">Romely</p>
+              <p className="mt-1 font-serif text-lg text-stone-900 dark:text-white">Edition &amp; assistance</p>
+            </div>
+            <nav className="py-2" aria-label="Utility navigation">
+              {[
+                { label: 'About Us', href: '/about' },
+                { label: 'Contact Us', href: '/contact' },
+                { label: 'Privacy Policy', href: '/privacy' },
+                { label: 'Terms of Use', href: '/terms' },
+                { label: 'FAQ', href: '/faq' },
+              ].map((link) => (
+                <Link key={link.href} href={link.href} onClick={() => setMobileMenuOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium tracking-wide text-stone-700 transition-colors hover:bg-stone-200/70 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-white/5 dark:hover:text-white">
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+            <div className="border-t border-stone-200 px-3 pb-1 pt-3 dark:border-white/10">
+              <Link href="/sign-in" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 rounded-xl py-2 text-sm font-medium tracking-wide text-[#9A743E] dark:text-[#C5A880]">
+                <User className="h-4 w-4" />
+                <span>Member Sign In</span>
               </Link>
-            );
-          })}
-          <div className="pt-2 border-t border-stone-200 dark:border-white/10">
-            <Link
-              href="/sign-in"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-2 py-2 text-sm uppercase tracking-wider font-medium text-[#C5A880]"
-            >
-              <User className="w-4 h-4" />
-              <span>Member Sign In</span>
-            </Link>
+            </div>
           </div>
         </div>
       )}

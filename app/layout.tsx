@@ -48,10 +48,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           }}
         />
       </head>
-      <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col pb-12 md:pb-0" suppressHydrationWarning>
+      <body className="antialiased selection:bg-[#C5A880]/20 selection:text-[#B39266] min-h-screen flex flex-col" suppressHydrationWarning>
         <AppContextProvider cities={cities}>
             <HeaderWrapper />
-          <main className="flex-1 pb-12 md:pb-0">
+          <main className="flex-1 pb-20 md:pb-0">
             {children}
           </main>
           <SavedDrawer />

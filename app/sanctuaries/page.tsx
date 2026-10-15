@@ -42,8 +42,8 @@ export default function SanctuariesPage() {
   }, [allPlaces, selectedCategory, selectedCity]);
 
   return (
-    <div className="min-h-screen py-12 md:py-20 px-6">
-      <div className="max-w-7xl mx-auto space-y-12">
+    <div className="min-h-screen px-4 py-8 sm:px-6 md:py-14">
+      <div className="max-w-7xl mx-auto space-y-8 md:space-y-10">
         {/* Header */}
         <div className="space-y-4 max-w-3xl">
           <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
@@ -52,7 +52,7 @@ export default function SanctuariesPage() {
             <span>{allPlaces.length} Vetted Sanctuaries Worldwide</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
             Architectural Sanctuaries
           </h1>
 
@@ -62,7 +62,7 @@ export default function SanctuariesPage() {
         </div>
 
         {/* Filter Bar */}
-        <div className="flex flex-col gap-4 pb-8 border-b border-stone-200 dark:border-white/10">
+        <div className="flex flex-col gap-4 pb-6 border-b border-stone-200 dark:border-white/10">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
             {/* Category Segmented Control */}
             <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10 overflow-x-auto no-scrollbar max-w-full">

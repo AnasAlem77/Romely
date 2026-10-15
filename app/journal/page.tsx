@@ -49,8 +49,8 @@ export default function JournalPage() {
   ];
 
   return (
-    <div className="min-h-screen py-12 md:py-20 px-6">
-      <div className="max-w-7xl mx-auto space-y-16">
+    <div className="min-h-screen px-4 py-8 sm:px-6 md:py-14">
+      <div className="max-w-7xl mx-auto space-y-10 md:space-y-12">
         {/* Header */}
         <div className="space-y-4 max-w-3xl">
           <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
@@ -60,7 +60,7 @@ export default function JournalPage() {
             <span>Essays & Dispatches</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
             Writings on Slow Observation
           </h1>
 
@@ -71,7 +71,7 @@ export default function JournalPage() {
 
         {/* Featured Essay */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center rounded-3xl overflow-hidden border border-stone-200 dark:border-white/10 bg-white dark:bg-[#121215] shadow-xs p-6 md:p-8">
-          <div className="lg:col-span-7 relative h-72 sm:h-96 w-full rounded-2xl overflow-hidden bg-stone-900">
+          <div className="lg:col-span-7 relative h-56 sm:h-96 w-full rounded-2xl overflow-hidden bg-stone-900">
             <Image
               src={articles[0].image}
               alt={articles[0].title}

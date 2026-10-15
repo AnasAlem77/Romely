@@ -40,9 +40,9 @@ export function CityDetail({ city }: CityDetailProps) {
   const currentTemp = isFahrenheit ? `${city.weather.tempF}°F` : `${city.weather.tempC}°C`;
 
   return (
-    <div className="min-h-screen pb-24">
+    <div className="min-h-screen pb-20 md:pb-12">
       {/* 1. Cinematic Header */}
-      <section className="relative h-[480px] sm:h-[540px] w-full overflow-hidden bg-stone-900">
+      <section className="relative h-[360px] sm:h-[540px] w-full overflow-hidden bg-stone-900">
         <Image
           src={city.heroImage}
           alt={city.name}
@@ -53,14 +53,15 @@ export function CityDetail({ city }: CityDetailProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-black/30" />
 
-        <div className="relative max-w-7xl mx-auto h-full px-6 flex flex-col justify-between py-10 z-10 text-white">
+        <div className="relative max-w-7xl mx-auto h-full px-4 sm:px-6 flex flex-col justify-between py-6 sm:py-10 z-10 text-white">
           <div className="flex items-center justify-between">
             <Link
               href="/destinations"
               className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-stone-300 hover:text-white transition-colors group"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1.5 transition-transform text-[#C5A880]" />
-              <span>Back to All Destinations</span>
+              <span className="hidden sm:inline">Back to All Destinations</span>
+              <span className="sm:hidden">Destinations</span>
             </Link>
 
             <div className="backdrop-blur-md bg-black/40 px-3.5 py-1.5 rounded-full border border-white/15 text-xs font-mono">
@@ -77,7 +78,7 @@ export function CityDetail({ city }: CityDetailProps) {
               <span>{city.badge}</span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-light tracking-tight text-white">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-light tracking-tight text-white">
               {city.name}
             </h1>
 
@@ -90,7 +91,7 @@ export function CityDetail({ city }: CityDetailProps) {
 
       {/* 2. Operational Utility Ribbon */}
       <section className="border-b bg-[#FAF8F5] dark:bg-[#0E0E12] border-stone-200 dark:border-white/10 transition-colors">
-        <div className="max-w-7xl mx-auto px-6 py-5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-5">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center text-xs">
             <div className="space-y-1">
               <span className="text-[11px] uppercase tracking-wider text-stone-400 block">
@@ -170,7 +171,7 @@ export function CityDetail({ city }: CityDetailProps) {
       </section>
 
       {/* Main Content Layout */}
-      <div className="max-w-7xl mx-auto px-6 pt-12 space-y-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 sm:pt-12 space-y-10 sm:space-y-16">
         <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <div className="lg:col-span-8 space-y-4">
             <span className="text-xs uppercase tracking-widest text-[#C5A880] font-sans font-medium">

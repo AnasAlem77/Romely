@@ -59,8 +59,8 @@ export default function DestinationsPage() {
   };
 
   return (
-    <div className="min-h-screen py-12 md:py-20 px-6">
-      <div className="max-w-7xl mx-auto space-y-12">
+    <div className="min-h-screen px-4 py-8 sm:px-6 md:py-14">
+      <div className="max-w-7xl mx-auto space-y-8 md:space-y-10">
         {/* Header Lockup */}
         <div className="space-y-4 max-w-3xl">
           <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
@@ -69,7 +69,7 @@ export default function DestinationsPage() {
             <span>{cities.length} Curated Cities</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-stone-900 dark:text-white">
             Destinations of Quiet Reverie
           </h1>
 
@@ -79,7 +79,7 @@ export default function DestinationsPage() {
         </div>
 
         {/* Filter & Search Bar */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-8 border-b border-stone-200 dark:border-white/10">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-stone-200 dark:border-white/10">
           {/* Region Tabs */}
           <div className="flex items-center gap-1 p-1 rounded-xl border bg-stone-100 dark:bg-[#141417] border-stone-200 dark:border-white/10 overflow-x-auto no-scrollbar max-w-full">
             {(['All', 'Europe', 'Asia', 'Mediterranean'] as const).map((region) => (

@@ -66,7 +66,7 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
   const nearbyPlaces = city.places.filter((p) => p.id !== place.id).slice(0, 3);
 
   return (
-    <div className="min-h-screen pb-24">
+    <div className="min-h-screen pb-20 md:pb-12">
       {/* Top Breadcrumb Bar */}
       <div className="border-b px-6 py-4 transition-colors bg-[#FAF8F5] dark:bg-[#0E0E12] border-stone-200 dark:border-white/10">
         <div className="max-w-7xl mx-auto flex items-center justify-between text-xs">
@@ -120,10 +120,10 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 pt-8 space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-5 sm:pt-8 space-y-8 sm:space-y-12">
         {/* 1. Photo Gallery Header */}
         <section className="space-y-4">
-          <div className="relative h-[380px] sm:h-[480px] lg:h-[540px] w-full rounded-2xl overflow-hidden shadow-[0_12px_40px_rgba(0,0,0,0.1)] border border-stone-200/50 dark:border-white/10 bg-stone-900 group">
+          <div className="relative h-[300px] sm:h-[480px] lg:h-[540px] w-full rounded-2xl overflow-hidden shadow-[0_12px_40px_rgba(0,0,0,0.1)] border border-stone-200/50 dark:border-white/10 bg-stone-900 group">
             <Image
               src={activeImage}
               alt={place.name}
@@ -142,7 +142,7 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
               <Maximize2 className="w-4 h-4" />
             </button>
 
-            <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
+            <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-2">
               <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-widest text-[#E6CBA3] font-medium font-sans">
                 <Link href={`/city/${city.id}`} className="hover:underline">
                   {city.name}
@@ -153,7 +153,7 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
                 <span>{place.category}</span>
               </div>
 
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight">
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight leading-none">
                 {place.name}
               </h1>
 
@@ -195,7 +195,7 @@ export function PlaceDetail({ place, city }: PlaceDetailProps) {
         </section>
 
         {/* 2. Main Two-Column Layout */}
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-7 space-y-10">
             {/* Curator Score Banner */}
             <div className="p-6 rounded-2xl border flex items-center justify-between bg-white dark:bg-[#121215] border-stone-200 dark:border-white/10 shadow-xs">

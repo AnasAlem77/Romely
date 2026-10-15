@@ -143,14 +143,14 @@ export function ExploreHome() {
   return (
     <div className="min-h-screen">
       {/* 1. Hero Section */}
-      <section className="relative overflow-hidden pt-8 pb-10 md:pt-14 md:pb-14 px-6">
+      <section className="relative overflow-hidden px-4 pb-8 pt-6 sm:px-6 md:pb-14 md:pt-14">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[550px] -z-10 opacity-25 blur-3xl pointer-events-none bg-[#C5A880]/15 dark:bg-[#C5A880]/10" />
 
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
-            <div className="lg:col-span-6 space-y-7">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-16 items-center">
+            <div className="lg:col-span-6 space-y-6 sm:space-y-7">
               <div className="space-y-4">
-                <div className="flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
+                <div className="hidden sm:flex items-center gap-2 text-xs uppercase tracking-wider sm:tracking-widest text-[#C5A880] font-sans font-medium">
                   <span>Global Edition</span>
                   <span aria-hidden="true">·</span>
                   <span>Autumn 2026</span>
@@ -159,7 +159,7 @@ export function ExploreHome() {
                 </div>
 
                 <h1
-                  className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight leading-[1.1] text-stone-900 dark:text-white"
+                  className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal tracking-tight leading-[1.1] text-stone-900 dark:text-white"
                   style={{ textWrap: 'balance' }}
                 >
                   The Art of Slow, Evocative Travel
@@ -460,7 +460,7 @@ export function ExploreHome() {
       {/* 2. Curated Cities Directory */}
       <section
         id="destinations"
-        className="max-w-7xl mx-auto px-6 py-8 md:py-10"
+        className="max-w-7xl mx-auto px-4 py-8 sm:px-6 md:py-10"
       >
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 pb-6 md:pb-8 border-b border-stone-200 dark:border-white/10">
           <div>
@@ -623,7 +623,7 @@ export function ExploreHome() {
 
       {/* 3. Editorial Curatorial Manifesto */}
       <section className="my-6 sm:my-8 py-8 sm:py-10 border-y bg-[#F5F2EC] dark:bg-[#0E0E12] border-stone-200 dark:border-white/10 transition-colors">
-        <div className="max-w-4xl mx-auto px-6 text-center space-y-5 sm:space-y-6">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-5 sm:space-y-6">
           <span className="text-xs uppercase tracking-widest text-[#9A743E] dark:text-[#C5A880] font-sans font-medium">
             The ROMELY Philosophy
           </span>

@@ -137,7 +137,7 @@ export function SignInForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-7">
+    <form onSubmit={handleSubmit} noValidate className="space-y-7 pb-16 lg:pb-0">
       <div className="space-y-6">
         <SignInField
           id={IDENTIFIER_FIELD_ID}
@@ -207,6 +207,17 @@ export function SignInForm() {
         >
           Request an invitation
         </button>
+      </div>
+
+      {/* قسم البطاقة والصورة الترويجية: مخفي تماماً على الجوال (hidden) ويظهر فقط على اللابتوب (lg:block أو حسب تصميمك للأب) */}
+      <div className="hidden lg:block mt-10 rounded-2xl overflow-hidden border border-white/10 p-8 bg-stone-900">
+        <h2 className="font-serif text-2xl font-light text-[#EDEBE8] mb-3">
+          A quieter way to keep the places that stay with you.
+        </h2>
+        <ul className="space-y-2 text-xs text-[#9C9893]">
+          <li>• Saved itineraries that travel with you across devices</li>
+          <li>• Curators’ field notes released ahead of publication</li>
+        </ul>
       </div>
     </form>
   );
