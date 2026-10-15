@@ -15,6 +15,10 @@ export default function MobileBottomNav() {
     setIsHydrated(true);
   }, []);
 
+  // The member entrance is a self-contained, distraction-free mobile surface.
+  // All other routes retain the shared fixed navigation unchanged.
+  if (pathname === "/sign-in") return null;
+
   const navItems = [
     {
       name: "Home",

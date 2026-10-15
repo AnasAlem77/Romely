@@ -87,12 +87,6 @@ export function SignInForm() {
     );
   };
 
-  const handleRequestInvitation = () => {
-    showNotice(
-      'ROMELY is invitation-led. Send a note to members@romely.travel describing the cities you keep returning to, and the desk will reply.'
-    );
-  };
-
   const resetForm = () => {
     setNotice('');
     setStatus('idle');
@@ -107,7 +101,7 @@ export function SignInForm() {
             <Check className="h-4 w-4 text-[#C5A880]" />
           </span>
           <div className="space-y-2">
-            <h2 className="font-serif text-2xl font-normal text-[#EDEBE8]">
+            <h2 className="font-serif text-2xl font-normal text-stone-900 dark:text-[#EDEBE8]">
               Noted — the desk has your details.
             </h2>
             <p className="max-w-md text-sm leading-relaxed font-sans text-[#9C9893]">{notice}</p>
@@ -137,14 +131,17 @@ export function SignInForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-7 pb-16 lg:pb-0">
-      <div className="space-y-6">
+    <form onSubmit={handleSubmit} noValidate className="romely-signin-form space-y-4 pb-0 lg:space-y-7 lg:pb-0">
+      <div className="space-y-4 lg:space-y-6">
         <SignInField
           id={IDENTIFIER_FIELD_ID}
           label="Email or Username"
           type="text"
           value={identifier}
-          onChange={setIdentifier}
+          onChange={(value) => {
+            setIdentifier(value);
+            setErrors((current) => ({ ...current, identifier: undefined }));
+          }}
           autoComplete="username"
           placeholder="you@example.com"
           error={errors.identifier}
@@ -155,7 +152,10 @@ export function SignInForm() {
           label="Password"
           type={isPasswordVisible ? 'text' : 'password'}
           value={password}
-          onChange={setPassword}
+          onChange={(value) => {
+            setPassword(value);
+            setErrors((current) => ({ ...current, password: undefined }));
+          }}
           autoComplete="current-password"
           placeholder="••••••••"
           error={errors.password}
@@ -163,7 +163,7 @@ export function SignInForm() {
             <button
               type="button"
               onClick={() => setIsPasswordVisible((visible) => !visible)}
-              className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-[0.18em] font-sans text-[#9C9893] transition-colors hover:text-[#C5A880] cursor-pointer"
+              className="inline-flex min-h-8 items-center gap-1.5 text-[10px] font-sans uppercase tracking-[0.18em] text-[#9C9893] transition-colors hover:text-[#C5A880] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] cursor-pointer lg:min-h-0"
               aria-label={isPasswordVisible ? 'Hide password' : 'Show password'}
             >
               {isPasswordVisible ? <EyeOff className="h-3 w-3" /> : <Eye className="h-3 w-3" />}
@@ -176,12 +176,12 @@ export function SignInForm() {
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="group inline-flex w-full items-center justify-center gap-2.5 rounded-xl bg-[#C5A880] px-6 py-3.5 text-[11px] font-semibold uppercase tracking-[0.2em] font-sans text-stone-950 transition-all duration-300 hover:bg-[#D8BB91] hover:shadow-[0_14px_34px_rgba(197,168,128,0.28)] active:scale-[0.985] disabled:cursor-not-allowed disabled:opacity-60 cursor-pointer"
+        className="romely-signin-cta group inline-flex min-h-12 w-full items-center justify-center gap-2.5 rounded-xl bg-[#C5A880] px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.2em] font-sans text-stone-950 transition-all duration-300 hover:bg-[#D8BB91] hover:shadow-[0_14px_34px_rgba(197,168,128,0.28)] active:scale-[0.985] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] disabled:cursor-not-allowed disabled:opacity-60 cursor-pointer lg:min-h-0 lg:py-3.5"
       >
         {status === 'submitting' ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" />
-            <span>Verifying</span>
+            <span>Verifying...</span>
           </>
         ) : (
           <>
@@ -192,29 +192,28 @@ export function SignInForm() {
         )}
       </button>
 
-      <div className="flex flex-col gap-3 border-t border-white/10 pt-5 text-[11px] font-sans text-[#9C9893] sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-x-5 gap-y-1.5 border-t border-stone-200 pt-2.5 text-[10px] font-sans text-stone-700 dark:border-white/10 dark:text-[#C9C4BE] lg:border-white/10 lg:pt-5 lg:text-[11px] lg:text-[#9C9893]">
         <button
           type="button"
           onClick={handleForgoPassword}
-          className="text-left uppercase tracking-[0.16em] transition-colors hover:text-[#C5A880] cursor-pointer"
+          className="min-h-8 text-left uppercase tracking-[0.16em] transition-colors hover:text-[#C5A880] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] cursor-pointer lg:min-h-0"
         >
           Forgot password?
         </button>
-        <button
-          type="button"
-          onClick={handleRequestInvitation}
-          className="text-left uppercase tracking-[0.16em] transition-colors hover:text-[#C5A880] cursor-pointer"
+        <Link
+          href="/sign-up"
+          className="flex min-h-8 basis-full items-center gap-1.5 text-left transition-colors hover:text-[#C5A880] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] cursor-pointer lg:hidden"
         >
-          Request an invitation
-        </button>
+          <span>Not a member yet?</span>
+          <span className="underline underline-offset-2">Request an invitation</span>
+        </Link>
       </div>
 
-      {/* قسم البطاقة والصورة الترويجية: مخفي تماماً على الجوال (hidden) ويظهر فقط على اللابتوب (lg:block أو حسب تصميمك للأب) */}
-      <div className="hidden lg:block mt-10 rounded-2xl overflow-hidden border border-white/10 p-8 bg-stone-900">
-        <h2 className="font-serif text-2xl font-light text-[#EDEBE8] mb-3">
+      <div className="mt-10 hidden overflow-hidden rounded-2xl border border-stone-200 bg-[#F4EFE7] p-8 shadow-[0_12px_30px_rgba(73,58,42,0.06)] dark:border-white/10 dark:bg-[#151519] dark:shadow-none lg:block">
+        <h2 className="mb-3 font-serif text-2xl font-light text-stone-900 dark:text-[#EDEBE8]">
           A quieter way to keep the places that stay with you.
         </h2>
-        <ul className="space-y-2 text-xs text-[#9C9893]">
+        <ul className="space-y-2 text-xs text-stone-600 dark:text-[#9C9893]">
           <li>• Saved itineraries that travel with you across devices</li>
           <li>• Curators’ field notes released ahead of publication</li>
         </ul>
