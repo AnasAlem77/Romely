@@ -32,7 +32,7 @@ export function SignInField({
   const errorId = `${id}-error`;
 
   return (
-    <div className="romely-signin-field space-y-1 lg:space-y-1.5">
+    <div className="romely-signin-field space-y-0.5 lg:space-y-1">
       <div className="flex items-baseline justify-between gap-3">
         <label
           htmlFor={id}

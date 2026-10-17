@@ -21,9 +21,6 @@ const PASSWORD_FIELD_ID = 'member-password';
 
 /**
  * Member entrance form.
- *
- * Membership records are not yet wired to a backend, so a valid submission settles
- * into an honest activation notice rather than a dead end or a fabricated session.
  */
 export function SignInForm() {
   const [identifier, setIdentifier] = useState('');
@@ -131,8 +128,9 @@ export function SignInForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="romely-signin-form space-y-4 pb-0 lg:space-y-7 lg:pb-0">
-      <div className="space-y-4 lg:space-y-6">
+    <form onSubmit={handleSubmit} noValidate className="romely-signin-form w-full max-w-md space-y-5 pb-10 lg:space-y-7 lg:pb-0">
+      {/* Reduced top spacing so fields sit closer right beneath the image */}
+      <div className="space-y-2 lg:space-y-10 pt-3">
         <SignInField
           id={IDENTIFIER_FIELD_ID}
           label="Email or Username"
@@ -192,7 +190,7 @@ export function SignInForm() {
         )}
       </button>
 
-      <div className="flex flex-wrap items-center justify-between gap-x-5 gap-y-1.5 border-t border-stone-200 pt-2.5 text-[10px] font-sans text-stone-700 dark:border-white/10 dark:text-[#C9C4BE] lg:border-white/10 lg:pt-5 lg:text-[11px] lg:text-[#9C9893]">
+      <div className="flex flex-wrap items-center justify-between gap-x-5 gap-y-1.5 border-t border-stone-200 pt-2 text-[10px] font-sans text-stone-700 dark:border-white/10 dark:text-[#C9C4BE] lg:border-white/10 lg:pt-5 lg:text-[11px] lg:text-[#9C9893]">
         <button
           type="button"
           onClick={handleForgoPassword}
@@ -202,14 +200,13 @@ export function SignInForm() {
         </button>
         <Link
           href="/sign-up"
-          className="flex min-h-8 basis-full items-center gap-1.5 text-left transition-colors hover:text-[#C5A880] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] cursor-pointer lg:hidden"
+          className="inline-flex min-h-8 items-center text-right uppercase tracking-[0.16em] transition-colors hover:text-[#C5A880] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C5A880] cursor-pointer lg:hidden"
         >
-          <span>Not a member yet?</span>
-          <span className="underline underline-offset-2">Request an invitation</span>
+          Request an invitation
         </Link>
       </div>
 
-      <div className="mt-10 hidden overflow-hidden rounded-2xl border border-stone-200 bg-[#F4EFE7] p-8 shadow-[0_12px_30px_rgba(73,58,42,0.06)] dark:border-white/10 dark:bg-[#151519] dark:shadow-none lg:block">
+      <div className="mt-4 hidden overflow-hidden rounded-2xl border border-stone-200 bg-[#F4EFE7] p-6 shadow-[0_12px_30px_rgba(73,58,42,0.06)] dark:border-white/10 dark:bg-[#151519] dark:shadow-none lg:block">
         <h2 className="mb-3 font-serif text-2xl font-light text-stone-900 dark:text-[#EDEBE8]">
           A quieter way to keep the places that stay with you.
         </h2>
