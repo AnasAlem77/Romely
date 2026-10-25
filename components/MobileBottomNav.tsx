@@ -1,22 +1,35 @@
+
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
-import { Compass, Sparkles, BookOpen, Bookmark, Home } from "lucide-react";
+import {
+  Compass,
+  Sparkles,
+  BookOpen,
+  Bookmark,
+  Home,
+} from "lucide-react";
 import { useApp } from "@/components/AppContext";
+
+const subscribe = () => () => {};
+const getSnapshot = () => true;
+const getServerSnapshot = () => false;
+
+function useHydrated() {
+  return useSyncExternalStore(
+    subscribe,
+    getSnapshot,
+    getServerSnapshot
+  );
+}
 
 export default function MobileBottomNav() {
   const pathname = usePathname();
-  const { openSavedDrawer, savedPlaceIds } = useApp();
-  const [isHydrated, setIsHydrated] = useState(false);
+  const isHydrated = useHydrated();
+  const { savedPlaceIds } = useApp();
 
-  useEffect(() => {
-    setIsHydrated(true);
-  }, []);
-
-  // The member entrance is a self-contained, distraction-free mobile surface.
-  // All other routes retain the shared fixed navigation unchanged.
   if (pathname === "/sign-in") return null;
 
   const navItems = [
@@ -102,7 +115,9 @@ export default function MobileBottomNav() {
           )}
         </div>
 
-        <span className="text-[10px] tracking-tight">Saved</span>
+        <span className="text-[10px] tracking-tight">
+          Saved
+        </span>
       </Link>
     </nav>
   );

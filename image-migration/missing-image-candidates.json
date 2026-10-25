@@ -1,0 +1,318 @@
+{
+  "auditScope": "Coverage only. Candidate URL presence is not image verification and does not establish that a URL works or depicts the correct place.",
+  "count": 39,
+  "places": [
+    {
+      "name": "The Peninsula Paris",
+      "slug": "the-peninsula-paris",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Peninsula%20Paris%20rooftop%20Eiffel",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Le Cinq",
+      "slug": "le-cinq",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Cinq%20Paris",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Frenchie",
+      "slug": "frenchie",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Frenchie%20restaurant%20Rue%20du%20Nil",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Eiffel Tower",
+      "slug": "eiffel-tower",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Eiffel%20Tower%20sunset",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Musée du Louvre",
+      "slug": "musee-du-louvre",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Louvre%20Museum%20Pyramid%20Paris",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Musée d'Orsay",
+      "slug": "musee-dorsay",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20d'Orsay%20clock%20interior",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Notre-Dame de Paris",
+      "slug": "notre-dame-de-paris",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Notre-Dame%20Cathedral%20Paris%20restored",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Sacré-Cœur Basilica",
+      "slug": "sacre-c-ur-basilica",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Sacre-Coeur%20Montmartre%20panorama",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Panthéon",
+      "slug": "pantheon",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pantheon%20Paris%20dome%20interior",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Musée de l'Orangerie",
+      "slug": "musee-de-lorangerie",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20de%20l'Orangerie%20Monet%20Nympheas",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Palais Garnier",
+      "slug": "palais-garnier",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Palais%20Garnier%20grand%20staircase%20Chagall%20ceiling",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Sainte-Chapelle",
+      "slug": "sainte-chapelle",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Sainte-Chapelle%20stained%20glass%20interior",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Château de Versailles",
+      "slug": "ch-teau-de-versailles",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chateau%20de%20Versailles%20Hall%20of%20Mirrors",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Petit Palais",
+      "slug": "petit-palais",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Petit%20Palais%20interior%20garden%20colonnade",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Lanvin",
+      "slug": "lanvin",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Lanvin%20Faubourg%20Saint-Honore%20flagship",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Mauboussin",
+      "slug": "mauboussin",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Mauboussin%20Place%20Vendome%20jeweller",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Fauchon",
+      "slug": "fauchon",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Fauchon%20Madeleine%20gourmet%20epicerie",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Ladurée — Boutique Royale",
+      "slug": "laduree-boutique-royale",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Laduree%20Rue%20Royale%20boutique%20macarons",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Loro Piana",
+      "slug": "loro-piana",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Loro%20Piana%20Avenue%20Montaigne%20boutique",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Maison Cartier — Trinity",
+      "slug": "maison-cartier-trinity",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Cartier%20Place%20Vendome%20private%20salon",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Jardin du Luxembourg",
+      "slug": "jardin-du-luxembourg",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20du%20Luxembourg%20pond%20chairs",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Parc Monceau",
+      "slug": "parc-monceau",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Monceau%20colonnade%20ruins",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Promenade Plantée (Coulée Verte)",
+      "slug": "promenade-plantee-coulee-verte",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Coulee%20Verte%20elevated%20park%20Paris",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Île Saint-Louis",
+      "slug": "ile-saint-louis",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Ile%20Saint-Louis%20Seine%20townhouses",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Quais de Seine",
+      "slug": "quais-de-seine",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Seine%20quais%20bouquinistes%20stalls",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Jardin des Plantes",
+      "slug": "jardin-des-plantes",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20des%20Plantes%20botanical%20garden",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Parc des Buttes-Chaumont",
+      "slug": "parc-des-buttes-chaumont",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Buttes-Chaumont%20park%20cliffs%20temple",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Place des Vosges",
+      "slug": "place-des-vosges",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20des%20Vosges%20garden%20arcades",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Rue de Rivoli Arcades",
+      "slug": "rue-de-rivoli-arcades",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20de%20Rivoli%20arcades%20colonnade",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Jardin du Palais Royal",
+      "slug": "jardin-du-palais-royal",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20Palais%20Royal%20arcade%20linden%20trees",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Parc de Bagatelle",
+      "slug": "parc-de-bagatelle",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20Bagatelle%20rose%20garden%20chateau",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Montmartre Streets & Place du Tertre",
+      "slug": "montmartre-streets-place-du-tertre",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20du%20Tertre%20Montmartre%20artists",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Pont des Arts",
+      "slug": "pont-des-arts",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pont%20des%20Arts%20Seine%20bridge%20sunset",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Trocadéro Gardens",
+      "slug": "trocadero-gardens",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Trocadero%20Gardens%20fountains%20Eiffel%20Tower%20view",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Parc de la Villette",
+      "slug": "parc-de-la-villette",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20la%20Villette%20red%20follies%20lawn",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Rue Cler Market Street",
+      "slug": "rue-cler-market-street",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20Cler%20market%20street%20Paris",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Jardins des Champs-Élysées",
+      "slug": "jardins-des-champs-elysees",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardins%20Champs-Elysees%20Grand%20Palais",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Père Lachaise Cemetery",
+      "slug": "pere-lachaise-cemetery",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pere%20Lachaise%20cemetery%20autumn%20tombs",
+      "status": "MISSING_CANDIDATE"
+    },
+    {
+      "name": "Parc Montsouris",
+      "slug": "parc-montsouris",
+      "hasCurrentImage": true,
+      "originalDatasetContainsImageUrl": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Montsouris%20lake%20waterfall",
+      "status": "MISSING_CANDIDATE"
+    }
+  ]
+}

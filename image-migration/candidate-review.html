@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romely — Image Candidate Review</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:22px;font:15px/1.5 system-ui,sans-serif;background:#f4f3f0;color:#222}
+header{max-width:1400px;margin:0 auto 22px}
+h1{font-size:26px;margin:0 0 6px}
+header p{color:#555;margin:4px 0}
+.grid{max-width:1400px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:white;border:1px solid #ddd;border-radius:12px;overflow:hidden;min-width:0}
+.image-wrap{height:230px;background:#e5e3df;position:relative;display:flex;align-items:center;justify-content:center}
+img{width:100%;height:100%;object-fit:contain}
+.image-state{position:absolute;bottom:8px;left:8px;padding:3px 7px;border-radius:5px;background:#fff;color:#333;font-size:12px}
+.loaded .image-state{background:#e1f5e6;color:#175d2c}
+.broken .image-state{background:#ffe1df;color:#8b1c13}
+.broken img{display:none}
+.details{padding:13px;overflow-wrap:anywhere}
+h2{font-size:17px;line-height:1.35;margin:0 0 10px}
+.details p{font-size:12px;color:#555;margin:5px 0}
+.details a{display:inline-block;margin-top:8px;color:#1757a6}
+.note{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<header>
+<h1>Romely — Image Candidate Review</h1>
+<p>68 candidates · HTTP checks are indicative, not proof that the photo matches the place.</p>
+<p>Review the actual image, not just its HTTP status. Some servers block automated checks while still allowing browser display.</p>
+</header>
+<main class="grid">
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jardin_des_Tuileries_in_Paris.jpg" alt="Jardin des Tuileries" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Jardin des Tuileries</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Jardin_des_Tuileries_in_Paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Square_du_Vert_Galant.jpg" alt="Square du Vert-Galant" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Square du Vert-Galant</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Square_du_Vert_Galant.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Passage_des_Panoramas%2C_Paris.jpg" alt="Passage des Panoramas" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Passage des Panoramas</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Passage_des_Panoramas%2C_Paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://cdn.audleytravel.com/1280/914/79/1328938-the-ritz-paris-paris.jpg" alt="Ritz Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Ritz Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://cdn.audleytravel.com/1280/914/79/1328938-the-ritz-paris-paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/106012483/750/422/image.jpg" alt="Shangri-La Hotel Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Shangri-La Hotel Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/106012483/750/422/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103786950/image.jpg" alt="Le Bristol Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Bristol Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/png</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103786950/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/45500_Park-Hyatt-Paris-Vend%C3%B4me-Terrasse-Suite-Vend%C3%B4me-%C2%A9ParkHyattParisVend%C3%B4me%20-%20%2001.03.2029_landscape_3-2_xs.jpg?ver=1747647620" alt="Park Hyatt Paris-Vendôme" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Park Hyatt Paris-Vendôme</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/45500_Park-Hyatt-Paris-Vend%C3%B4me-Terrasse-Suite-Vend%C3%B4me-%C2%A9ParkHyattParisVend%C3%B4me%20-%20%2001.03.2029_landscape_3-2_xs.jpg?ver=1747647620" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103735782/image.jpg" alt="Mandarin Oriental, Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Mandarin Oriental, Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/png</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103735782/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/106184102/image.jpg" alt="Le Meurice" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Meurice</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/106184102/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103698370/image.jpg" alt="Le Royal Monceau, Raffles Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Royal Monceau, Raffles Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103698370/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103727825/750/422/image.jpg" alt="La Réserve Paris Hotel and Spa" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>La Réserve Paris Hotel and Spa</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103727825/750/422/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1079348.jpg" alt="Le Pavillon des Lettres" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Pavillon des Lettres</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1079348.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1311587.jpg" alt="Relais Christine" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Relais Christine</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1311587.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1290658.jpg" alt="Pavillon de la Reine" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Pavillon de la Reine</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1290658.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/01/11/3309429b8e614260a48923a766bdd6c0_5988_pro_5.ok.jpg" alt="Le Jules Verne" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Jules Verne</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/01/11/3309429b8e614260a48923a766bdd6c0_5988_pro_5.ok.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-l-ambroisie.jpg" alt="L&#x27;Ambroisie" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>L&#x27;Ambroisie</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-l-ambroisie.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/16fe82b0048f4883b060e3e970e467ae.jpeg?format=webp&amp;w=500&amp;h=500" alt="Pierre Gagnaire" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Pierre Gagnaire</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/16fe82b0048f4883b060e3e970e467ae.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://i0.wp.com/legrandvefour.com/uploads/2026/05/digital-bd-tables-legrandvefour-260507-003.jpg?fit=1062%2C1600&amp;ssl=1" alt="Le Grand Véfour" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Grand Véfour</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://i0.wp.com/legrandvefour.com/uploads/2026/05/digital-bd-tables-legrandvefour-260507-003.jpg?fit=1062%2C1600&amp;ssl=1" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103717309/image.jpg" alt="Hôtel Bel Ami" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Hôtel Bel Ami</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/png</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103717309/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1269270.jpg" alt="Hôtel Récamier" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Hôtel Récamier</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1269270.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://images.trvl-media.com/lodging/71000000/70020000/70012300/70012256/f714496a.jpg?impolicy=resizecrop&amp;rw=297&amp;ra=fit" alt="Château Voltaire" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Château Voltaire</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://images.trvl-media.com/lodging/71000000/70020000/70012300/70012256/f714496a.jpg?impolicy=resizecrop&amp;rw=297&amp;ra=fit" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/103944433/image.jpg" alt="Alain Ducasse au Plaza Athénée" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Alain Ducasse au Plaza Athénée</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/103944433/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/cfc363e717b94b5cac295e3c562e5d6a.jpeg?format=webp&amp;w=500&amp;h=500" alt="Guy Savoy" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Guy Savoy</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/cfc363e717b94b5cac295e3c562e5d6a.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/45084_Le%20Bristol%20Paris%20-%20Salle%20Epicure%2020%20-%20%C2%A9Maki%20Manoukian_euLGi-min_landscape_3-2_xs.jpeg?ver=1744030521" alt="Le Bristol — Épicure" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Bristol — Épicure</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/45084_Le%20Bristol%20Paris%20-%20Salle%20Epicure%2020%20-%20%C2%A9Maki%20Manoukian_euLGi-min_landscape_3-2_xs.jpeg?ver=1744030521" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/8a8021cf334c4f91a5518b841d97e52e.jpeg?format=webp&amp;w=500&amp;h=500" alt="Arpège" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Arpège</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/8a8021cf334c4f91a5518b841d97e52e.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/30940_Les-Deux-Magots-Entr%C3%A9e--630x405--%C2%A9-S%C3%A9bastien-Dubois-Didcock_landscape_3-2_xs.jpg?ver=1700683002" alt="Les Deux Magots" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Les Deux Magots</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/30940_Les-Deux-Magots-Entr%C3%A9e--630x405--%C2%A9-S%C3%A9bastien-Dubois-Didcock_landscape_3-2_xs.jpg?ver=1700683002" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Restaurant-la-closerie-des-lilas.jpg" alt="La Closerie des Lilas" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>La Closerie des Lilas</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Restaurant-la-closerie-des-lilas.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://cdn.sortiraparis.com/images/80/105178/1015342-laduree-champs-elysees-transforme-decouvrez-son-nouveau-visages-et-ses-differents-espaces.jpg" alt="Ladurée — Champs-Élysées" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Ladurée — Champs-Élysées</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://cdn.sortiraparis.com/images/80/105178/1015342-laduree-champs-elysees-transforme-decouvrez-son-nouveau-visages-et-ses-differents-espaces.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-gastronomique-train-bleu.jpg" alt="Le Train Bleu" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Train Bleu</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-gastronomique-train-bleu.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://cdn.sortiraparis.com/images/80/108837/1136621-la-parenthese-belle-epoque-maxim-s-ouvre-un-bar-a-champagne-ephemere-dans-ses-salons-art-nouveau.jpg" alt="Maxim&#x27;s Paris" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Maxim&#x27;s Paris</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://cdn.sortiraparis.com/images/80/108837/1136621-la-parenthese-belle-epoque-maxim-s-ouvre-un-bar-a-champagne-ephemere-dans-ses-salons-art-nouveau.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/24151_La%20Tour%20d%27Argent%20-%20Salle%20du%20haut%20fresque%20-%20%40MatthieuSalvaing_landscape_3-2_xs.jpg?ver=1706787146" alt="La Tour d&#x27;Argent" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>La Tour d&#x27;Argent</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/24151_La%20Tour%20d%27Argent%20-%20Salle%20du%20haut%20fresque%20-%20%40MatthieuSalvaing_landscape_3-2_xs.jpg?ver=1706787146" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-le-meurice-alain-ducasse.jpg" alt="Le Meurice Alain Ducasse" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Meurice Alain Ducasse</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-le-meurice-alain-ducasse.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/91fa3530369e4e9ba284384acb08e9a8.jpeg?format=webp&amp;w=500&amp;h=500" alt="Septime" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Septime</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/91fa3530369e4e9ba284384acb08e9a8.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/8da9c49a1e1a4446a9a522c61ea0c74d.jpeg?format=webp&amp;w=500&amp;h=500" alt="L&#x27;Astrance" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>L&#x27;Astrance</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/8da9c49a1e1a4446a9a522c61ea0c74d.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.lesrestos.com/img/fiche/1666889671/restaurant-le-chateaubriand-paris-11eme-1.jpg" alt="Le Chateaubriand" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Chateaubriand</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.lesrestos.com/img/fiche/1666889671/restaurant-le-chateaubriand-paris-11eme-1.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/8429_Pierre-Herm%C3%A9-boutique--630x405--%C2%A9-Pierre-Herm%C3%A9_landscape_3-2_xs.jpg?ver=1700691425" alt="Pierre Hermé — Bonaparte" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Pierre Hermé — Bonaparte</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/8429_Pierre-Herm%C3%A9-boutique--630x405--%C2%A9-Pierre-Herm%C3%A9_landscape_3-2_xs.jpg?ver=1700691425" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/719_Cafe-Marly-630x405-C-OTCP-Stephane-Cardinale_landscape_3-2_xs.jpg?ver=1700682224" alt="Café Marly" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Café Marly</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/719_Cafe-Marly-630x405-C-OTCP-Stephane-Cardinale_landscape_3-2_xs.jpg?ver=1700682224" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/df0cfa946e75427ba07d7ee9a6da6626.jpeg?format=webp&amp;w=500&amp;h=500" alt="Kei" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Kei</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/df0cfa946e75427ba07d7ee9a6da6626.jpeg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://prod-pics.guide.michelin.com/api/public/content/797da62871284bc181c8f825b92f6b24.jpg?format=webp&amp;w=500&amp;h=500" alt="David Toutain" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>David Toutain</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://prod-pics.guide.michelin.com/api/public/content/797da62871284bc181c8f825b92f6b24.jpg?format=webp&amp;w=500&amp;h=500" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.journalduluxe.fr/files/resize/outside/810-810-girafe-paris-restaurant-facebook-225x300_402297fb64f4e28f5034e1a8fcb2e882.jpg" alt="Girafe" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Girafe</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.journalduluxe.fr/files/resize/outside/810-810-girafe-paris-restaurant-facebook-225x300_402297fb64f4e28f5034e1a8fcb2e882.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Le_Procope.jpg" alt="Le Procope" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Procope</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Le_Procope.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.musee-rodin.fr/sites/default/files/styles/diaporama_mav_0_5/public/2021-04/2020_06_23_jardin_jm006.jpg?itok=OwJfEGqP" alt="Musée Rodin" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée Rodin</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.musee-rodin.fr/sites/default/files/styles/diaporama_mav_0_5/public/2021-04/2020_06_23_jardin_jm006.jpg?itok=OwJfEGqP" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee-national-picasso-paris.jpg" alt="Musée Picasso" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée Picasso</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee-national-picasso-paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/jardin-du-Palais-Royal.jpg" alt="Palais Royal &amp; Gardens" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Palais Royal &amp; Gardens</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/jardin-du-Palais-Royal.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Mus%C3%A9e_Marmottan_Monet.jpg" alt="Musée Marmottan Monet" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée Marmottan Monet</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Mus%C3%A9e_Marmottan_Monet.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.timeout.com/images/105976914/750/422/image.jpg" alt="Musée Jacquemart-André" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée Jacquemart-André</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 200</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.timeout.com/images/105976914/750/422/image.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/13621_Mus%C3%A9e-du-quai-Branly-et-tour-Eiffel--630x405--%C2%A9-David-Lefranc.jpg" alt="Musée du Quai Branly – Jacques Chirac" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée du Quai Branly – Jacques Chirac</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/13621_Mus%C3%A9e-du-quai-Branly-et-tour-Eiffel--630x405--%C2%A9-David-Lefranc.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://cdn.sortiraparis.com/images/80/1467/568895-visuel-paris-terrasse-de-la-tour-montparnasse-top-of-the-city.jpg" alt="Tour Montparnasse" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Tour Montparnasse</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://cdn.sortiraparis.com/images/80/1467/568895-visuel-paris-terrasse-de-la-tour-montparnasse-top-of-the-city.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/586_Colonne-Vendome-630x405-C-OTCP-David-Lefranc-I-103-03_landscape_3-2_xs.jpg?ver=1700685216" alt="Place Vendôme" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Place Vendôme</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/586_Colonne-Vendome-630x405-C-OTCP-David-Lefranc-I-103-03_landscape_3-2_xs.jpg?ver=1700685216" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/43359_pont-alexandre-iii-copyright-paris-tourist-office-photographe-sarah-sergent_landscape_3-2_xs.jpg?ver=1730750192" alt="Pont Alexandre III" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Pont Alexandre III</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/43359_pont-alexandre-iii-copyright-paris-tourist-office-photographe-sarah-sergent_landscape_3-2_xs.jpg?ver=1730750192" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee_Carnavalet_-_Histoire_de_Paris.jpg" alt="Musée Carnavalet" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Musée Carnavalet</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee_Carnavalet_-_Histoire_de_Paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/eglise-de-la-madeleine.jpg" alt="La Madeleine" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>La Madeleine</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/eglise-de-la-madeleine.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://world-architects.com/images/Projects/69/84/09/c5daee7c7c2748c39728eadd58b5a59a/c5daee7c7c2748c39728eadd58b5a59a.6e7b65d0.jpg?1561463222" alt="Opéra Bastille" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Opéra Bastille</h2>
+        <p><strong>URL check:</strong> HTTP_ERROR · HTTP 403</p>
+        <p><strong>Content-Type:</strong> text/html; charset=UTF-8</p>
+        <p class="note">HTTP Error 403: Forbidden</p>
+        <a href="https://world-architects.com/images/Projects/69/84/09/c5daee7c7c2748c39728eadd58b5a59a/c5daee7c7c2748c39728eadd58b5a59a.6e7b65d0.jpg?1561463222" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://eu.louisvuitton.com/images/is/image/lv/1/VE_DI3_L/louis-vuitton-stores-fr-louis-vuitton-maison-champs-élysées--STFI_ChampsElysees_1_DI3.jpg?wid=1200&amp;hei=630" alt="Louis Vuitton — Champs-Élysées" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Louis Vuitton — Champs-Élysées</h2>
+        <p><strong>URL check:</strong> CONNECTION_ERROR · HTTP —</p>
+        <p><strong>Content-Type:</strong> unknown</p>
+        <p class="note">&#x27;ascii&#x27; codec can&#x27;t encode character &#x27;\xe9&#x27; in position 87: ordinal not in range(128)</p>
+        <a href="https://eu.louisvuitton.com/images/is/image/lv/1/VE_DI3_L/louis-vuitton-stores-fr-louis-vuitton-maison-champs-élysées--STFI_ChampsElysees_1_DI3.jpg?wid=1200&amp;hei=630" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/497_Boutique-Chanel-vitrine-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700690915" alt="Chanel — Rue Cambon" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Chanel — Rue Cambon</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/webp</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/497_Boutique-Chanel-vitrine-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700690915" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.vancleefarpels.com/content/dam/storeasset/vca/c280/cb26/MoXw7rImSUuEX_pZoppNMQ.jpeg" alt="Van Cleef &amp; Arpels — Place Vendôme" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Van Cleef &amp; Arpels — Place Vendôme</h2>
+        <p><strong>URL check:</strong> HTTP_ERROR · HTTP 403</p>
+        <p><strong>Content-Type:</strong> text/html</p>
+        <p class="note">HTTP Error 403: Forbidden</p>
+        <a href="https://www.vancleefarpels.com/content/dam/storeasset/vca/c280/cb26/MoXw7rImSUuEX_pZoppNMQ.jpeg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.chaumet.com/cdn/shop/files/16_CHAUMET_20_02_25_12_Vendome_16_CHAUMET_20-02-25_12-Vendome-2.jpg?v=1784284389&amp;width=2000" alt="Chaumet — Place Vendôme" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Chaumet — Place Vendôme</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.chaumet.com/cdn/shop/files/16_CHAUMET_20_02_25_12_Vendome_16_CHAUMET_20-02-25_12-Vendome-2.jpg?v=1784284389&amp;width=2000" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.journalduluxe.fr/files/bulgari-boutique-vendome_f4df5e27805d87b6dafd3678354e54e9.jpg" alt="Bulgari — Place Vendôme" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Bulgari — Place Vendôme</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.journalduluxe.fr/files/bulgari-boutique-vendome_f4df5e27805d87b6dafd3678354e54e9.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://media.hero-magazine.com/wp-content/uploads/2022/09/26140429/SAINT-LAURENT-HERO-8.jpg" alt="Saint Laurent — Rive Gauche" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Saint Laurent — Rive Gauche</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://media.hero-magazine.com/wp-content/uploads/2022/09/26140429/SAINT-LAURENT-HERO-8.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.arredanegozi.it/wp-content/uploads/2014/03/Givenchy-Paris-flagshipstore-1.jpg" alt="Givenchy — Avenue Montaigne" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Givenchy — Avenue Montaigne</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.arredanegozi.it/wp-content/uploads/2014/03/Givenchy-Paris-flagshipstore-1.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://static-2026.dezeen.com/uploads/2022/09/balenciaga-couture-store-retail-interiors-paris-sq-hero_dezeen_2364_col_1.jpg" alt="Balenciaga — Avenue George V" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Balenciaga — Avenue George V</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://static-2026.dezeen.com/uploads/2022/09/balenciaga-couture-store-retail-interiors-paris-sq-hero_dezeen_2364_col_1.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.2luxury2.com/wp-content/uploads/Celine-store-at-avenue-Montaigne-Paris.jpg" alt="Celine — Avenue Montaigne" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Celine — Avenue Montaigne</h2>
+        <p><strong>URL check:</strong> CONNECTION_ERROR · HTTP —</p>
+        <p><strong>Content-Type:</strong> unknown</p>
+        <p class="note">The read operation timed out</p>
+        <a href="https://www.2luxury2.com/wp-content/uploads/Celine-store-at-avenue-Montaigne-Paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/8872_Chlo%C3%A9--630x405--%C2%A9-DR_landscape_3-2_xs.jpg?ver=1700690921" alt="Chloé — Avenue Montaigne" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Chloé — Avenue Montaigne</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/8872_Chlo%C3%A9--630x405--%C2%A9-DR_landscape_3-2_xs.jpg?ver=1700690921" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://parisjetaime.com/data/layout_image/742_Le-Bon-Marche-facade-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700691046" alt="Le Bon Marché" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Le Bon Marché</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://parisjetaime.com/data/layout_image/742_Le-Bon-Marche-facade-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700691046" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://pro.visitparisregion.com/var/crt_idf/storage/images/_aliases/xlarge/9/2/3/2/1112329-1-fre-FR/FACADE%20PRINTEMPS%20HAUSSMANN_%20@photo_MANUELBOUGOT_0008.jpg" alt="Printemps Haussmann" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Printemps Haussmann</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://pro.visitparisregion.com/var/crt_idf/storage/images/_aliases/xlarge/9/2/3/2/1112329-1-fre-FR/FACADE%20PRINTEMPS%20HAUSSMANN_%20@photo_MANUELBOUGOT_0008.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Repetto%20Paris.jpg" alt="Repetto" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Repetto</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Repetto%20Paris.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://cms.christianlouboutin.com/media/wysiwyg/200716_BOUTIQUE_400_ST_HONORE_VITRINE.jpg" alt="Christian Louboutin — Rue Saint-Honoré" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Christian Louboutin — Rue Saint-Honoré</h2>
+        <p><strong>URL check:</strong> CONNECTION_ERROR · HTTP —</p>
+        <p><strong>Content-Type:</strong> unknown</p>
+        <p class="note">&lt;urlopen error [Errno 8] nodename nor servname provided, or not known&gt;</p>
+        <a href="https://cms.christianlouboutin.com/media/wysiwyg/200716_BOUTIQUE_400_ST_HONORE_VITRINE.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="image-wrap">
+        <img src="https://www.parisselectbook.com/wp-content/uploads/2025/07/0150879542446-web-tete.jpg" alt="Moynat" loading="lazy"
+             onload="this.closest('.card').classList.add('loaded')"
+             onerror="this.closest('.card').classList.add('broken')">
+        <span class="image-state">Loading image…</span>
+      </div>
+      <div class="details">
+        <h2>Moynat</h2>
+        <p><strong>URL check:</strong> HTTP_IMAGE_OK · HTTP 206</p>
+        <p><strong>Content-Type:</strong> image/jpeg</p>
+        <p class="note">Server returned an image content type</p>
+        <a href="https://www.parisselectbook.com/wp-content/uploads/2025/07/0150879542446-web-tete.jpg" target="_blank" rel="noopener noreferrer">Open original image</a>
+      </div>
+    </article>
+
+</main>
+<script>
+document.querySelectorAll('.card img').forEach(img => {
+  if (img.complete && img.naturalWidth > 0) img.closest('.card').classList.add('loaded');
+  else if (img.complete && img.naturalWidth === 0) img.closest('.card').classList.add('broken');
+});
+document.querySelectorAll('.card').forEach(card => {
+  const state = card.querySelector('.image-state');
+  card.querySelector('img').addEventListener('load', () => state.textContent = 'Image loaded');
+  card.querySelector('img').addEventListener('error', () => state.textContent = 'Image failed to load');
+});
+</script>
+</body>
+</html>

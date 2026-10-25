@@ -1,7 +1,11 @@
-// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
 datasource db {
   provider  = "postgresql"
-  url  	    = env("DATABASE_URL")
+  url       = env("DATABASE_URL")
   // uncomment next line if you use Prisma <5.10
   // directUrl = env("DATABASE_URL_UNPOOLED")
 }
@@ -37,11 +41,11 @@ model SavedItem {
   id        String   @id @default(cuid())
   userId    String
   title     String
-  category  String   // such as: destination, sanctuary, hotel
+  category  String
   slug      String
   imageUrl  String?
   createdAt DateTime @default(now())
-  
+
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([userId, slug])
@@ -67,20 +71,20 @@ model Place {
   id             String   @id @default(cuid())
   name           String
   slug           String   @unique
-  category       String   // such as: Hotels, Dining, Culture, Luxury Brands, Parks
+  category       String
   description    String?
   imageUrl       String?
   address        String?
-  phone          String?  // will conditionally hide in frontend if null
-  hours          String?  // will conditionally hide in frontend if null
-  dressCode      String?  // will conditionally hide in frontend if null
-  optimalCadence String?  // will conditionally hide in frontend if null
-  latitude       Float    // for OSM and interactive map pins
-  longitude      Float    // for OSM and interactive map pins
-  
+  phone          String?
+  hours          String?
+  dressCode      String?
+  optimalCadence String?
+  latitude       Float
+  longitude      Float
+
   cityId         String
   city           City     @relation(fields: [cityId], references: [id], onDelete: Cascade)
-  
+
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 

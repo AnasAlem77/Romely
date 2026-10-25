@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Four Seasons Hotel George V",
+    "slug": "four-seasons-hotel-george-v",
+    "imageUrl": "https://source.unsplash.com/800x600/?Four%20Seasons%20George%20V%20lobby"
+  },
+  {
+    "name": "Hôtel Plaza Athénée",
+    "slug": "hotel-plaza-athenee",
+    "imageUrl": "https://source.unsplash.com/800x600/?Plaza%20Athenee%20Paris%20avenue"
+  },
+  {
+    "name": "Hôtel de Crillon, A Rosewood Hotel",
+    "slug": "hotel-de-crillon-a-rosewood-hotel",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20Crillon%20Concorde"
+  },
+  {
+    "name": "Hôtel Lutetia",
+    "slug": "hotel-lutetia",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Lutetia%20Saint-Germain%20facade"
+  },
+  {
+    "name": "Hôtel Costes",
+    "slug": "hotel-costes",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Costes%20courtyard%20candlelight"
+  },
+  {
+    "name": "Hôtel Raphael",
+    "slug": "hotel-raphael",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Raphael%20Paris%20bar"
+  },
+  {
+    "name": "Hôtel Fouquet's Barrière",
+    "slug": "hotel-fouquets-barriere",
+    "imageUrl": "https://source.unsplash.com/800x600/?Fouquets%20Barriere%20Paris%20hotel"
+  },
+  {
+    "name": "Hôtel de la Trémoille",
+    "slug": "hotel-de-la-tremoille",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20la%20Tremoille%20Paris"
+  },
+  {
+    "name": "Hôtel Vernet",
+    "slug": "hotel-vernet",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Vernet%20Paris%20glass%20dome"
+  },
+  {
+    "name": "Hôtel Montalembert",
+    "slug": "hotel-montalembert",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Montalembert%20Paris"
+  },
+  {
+    "name": "Hôtel Saint James Paris",
+    "slug": "hotel-saint-james-paris",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Saint%20James%20Paris%20chateau"
+  },
+  {
+    "name": "Hôtel Particulier Montmartre",
+    "slug": "hotel-particulier-montmartre",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Particulier%20Montmartre%20garden"
+  },
+  {
+    "name": "Hôtel des Grands Boulevards",
+    "slug": "hotel-des-grands-boulevards",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Grands%20Boulevards%20Paris"
+  },
+  {
+    "name": "Hôtel d'Aubusson",
+    "slug": "hotel-daubusson",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Aubusson%20Paris%20Left%20Bank"
+  },
+  {
+    "name": "Hôtel Regina Louvre",
+    "slug": "hotel-regina-louvre",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Regina%20Louvre%20Paris"
+  },
+  {
+    "name": "Hôtel Monsieur",
+    "slug": "hotel-monsieur",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Monsieur%20Furstemberg%20Paris"
+  },
+  {
+    "name": "Café de Flore",
+    "slug": "cafe-de-flore",
+    "imageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20Flore%20Saint-Germain%20terrace"
+  },
+  {
+    "name": "Café de la Paix",
+    "slug": "cafe-de-la-paix",
+    "imageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20la%20Paix%20Opera%20Paris"
+  },
+  {
+    "name": "Angelina",
+    "slug": "angelina",
+    "imageUrl": "https://source.unsplash.com/800x600/?Angelina%20tea%20room%20Rivoli%20hot%20chocolate"
+  },
+  {
+    "name": "Brasserie Lipp",
+    "slug": "brasserie-lipp",
+    "imageUrl": "https://source.unsplash.com/800x600/?Brasserie%20Lipp%20Paris"
+  },
+  {
+    "name": "Arc de Triomphe",
+    "slug": "arc-de-triomphe",
+    "imageUrl": "https://source.unsplash.com/800x600/?Arc%20de%20Triomphe%20aerial%20avenues"
+  },
+  {
+    "name": "Centre Pompidou",
+    "slug": "centre-pompidou",
+    "imageUrl": "https://source.unsplash.com/800x600/?Centre%20Pompidou%20exterior%20pipes"
+  },
+  {
+    "name": "Conciergerie",
+    "slug": "conciergerie",
+    "imageUrl": "https://source.unsplash.com/800x600/?Conciergerie%20Paris"
+  },
+  {
+    "name": "Grand Palais",
+    "slug": "grand-palais",
+    "imageUrl": "https://source.unsplash.com/800x600/?Grand%20Palais%20Paris%20glass%20nave"
+  },
+  {
+    "name": "Institut de France",
+    "slug": "institut-de-france",
+    "imageUrl": "https://source.unsplash.com/800x600/?Institut%20de%20France%20dome%20Seine"
+  },
+  {
+    "name": "Hôtel des Invalides",
+    "slug": "hotel-des-invalides",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Invalides%20golden%20dome"
+  },
+  {
+    "name": "Fondation Louis Vuitton",
+    "slug": "fondation-louis-vuitton",
+    "imageUrl": "https://source.unsplash.com/800x600/?Fondation%20Louis%20Vuitton%20Gehry%20glass%20sails"
+  },
+  {
+    "name": "Dior — Avenue Montaigne",
+    "slug": "dior-avenue-montaigne",
+    "imageUrl": "https://source.unsplash.com/800x600/?Dior%20Avenue%20Montaigne%20flagship%20boutique"
+  },
+  {
+    "name": "Hermès — Faubourg Saint-Honoré",
+    "slug": "hermes-faubourg-saint-honore",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hermes%20Faubourg%20Saint-Honore%20flagship"
+  },
+  {
+    "name": "Cartier — Rue de la Paix",
+    "slug": "cartier-rue-de-la-paix",
+    "imageUrl": "https://source.unsplash.com/800x600/?Cartier%20Rue%20de%20la%20Paix%20flagship"
+  },
+  {
+    "name": "Goyard — Rue Saint-Honoré",
+    "slug": "goyard-rue-saint-honore",
+    "imageUrl": "https://source.unsplash.com/800x600/?Goyard%20Rue%20Saint-Honore%20flagship"
+  },
+  {
+    "name": "Galeries Lafayette Haussmann",
+    "slug": "galeries-lafayette-haussmann",
+    "imageUrl": "https://source.unsplash.com/800x600/?Galeries%20Lafayette%20dome%20interior"
+  },
+  {
+    "name": "Berluti",
+    "slug": "berluti",
+    "imageUrl": "https://source.unsplash.com/800x600/?Berluti%20leather%20shoes%20boutique%20Paris"
+  },
+  {
+    "name": "Guerlain — Champs-Élysées",
+    "slug": "guerlain-champs-elysees",
+    "imageUrl": "https://source.unsplash.com/800x600/?Guerlain%20Champs-Elysees%20Art%20Deco%20flagship"
+  },
+  {
+    "name": "Boucheron — Place Vendôme",
+    "slug": "boucheron-place-vendome",
+    "imageUrl": "https://source.unsplash.com/800x600/?Boucheron%20Place%20Vendome%20jeweller"
+  },
+  {
+    "name": "Hédiard",
+    "slug": "hediard",
+    "imageUrl": "https://source.unsplash.com/800x600/?Hediard%20Madeleine%20gourmet%20grocer"
+  },
+  {
+    "name": "Champ de Mars",
+    "slug": "champ-de-mars",
+    "imageUrl": "https://source.unsplash.com/800x600/?Champ%20de%20Mars%20lawn%20Eiffel%20Tower"
+  },
+  {
+    "name": "Bois de Boulogne",
+    "slug": "bois-de-boulogne",
+    "imageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Boulogne%20lake%20rowing"
+  },
+  {
+    "name": "Avenue Montaigne",
+    "slug": "avenue-montaigne",
+    "imageUrl": "https://source.unsplash.com/800x600/?Avenue%20Montaigne%20couture%20boutiques%20street"
+  },
+  {
+    "name": "Canal Saint-Martin",
+    "slug": "canal-saint-martin",
+    "imageUrl": "https://source.unsplash.com/800x600/?Canal%20Saint-Martin%20footbridge%20locks"
+  },
+  {
+    "name": "Bois de Vincennes",
+    "slug": "bois-de-vincennes",
+    "imageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Vincennes%20lake%20rowboats"
+  },
+  {
+    "name": "Galerie Vivienne",
+    "slug": "galerie-vivienne",
+    "imageUrl": "https://source.unsplash.com/800x600/?Galerie%20Vivienne%20mosaic%20floor%20arcade"
+  },
+  {
+    "name": "Avenue des Champs-Élysées",
+    "slug": "avenue-des-champs-elysees",
+    "imageUrl": "https://source.unsplash.com/800x600/?Champs-Elysees%20avenue%20Arc%20de%20Triomphe"
+  },
+  {
+    "name": "Jardin des Champs-Élysées Promenade",
+    "slug": "jardin-des-champs-elysees-promenade",
+    "imageUrl": "https://source.unsplash.com/800x600/?Avenue%20Gabriel%20chestnut%20promenade%20Paris"
+  }
+]

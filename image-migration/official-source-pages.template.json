@@ -1,0 +1,320 @@
+[
+  {
+    "slug": "the-peninsula-paris",
+    "name": "The Peninsula Paris",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "le-cinq",
+    "name": "Le Cinq",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "frenchie",
+    "name": "Frenchie",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "musee-du-louvre",
+    "name": "Musée du Louvre",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "musee-dorsay",
+    "name": "Musée d'Orsay",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "notre-dame-de-paris",
+    "name": "Notre-Dame de Paris",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "sacre-c-ur-basilica",
+    "name": "Sacré-Cœur Basilica",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "pantheon",
+    "name": "Panthéon",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "musee-de-lorangerie",
+    "name": "Musée de l'Orangerie",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "palais-garnier",
+    "name": "Palais Garnier",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "ch-teau-de-versailles",
+    "name": "Château de Versailles",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "petit-palais",
+    "name": "Petit Palais",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "lanvin",
+    "name": "Lanvin",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "mauboussin",
+    "name": "Mauboussin",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "fauchon",
+    "name": "Fauchon",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "laduree-boutique-royale",
+    "name": "Ladurée — Boutique Royale",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "loro-piana",
+    "name": "Loro Piana",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "maison-cartier-trinity",
+    "name": "Maison Cartier — Trinity",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "jardin-du-luxembourg",
+    "name": "Jardin du Luxembourg",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "parc-monceau",
+    "name": "Parc Monceau",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "promenade-plantee-coulee-verte",
+    "name": "Promenade Plantée (Coulée Verte)",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "ile-saint-louis",
+    "name": "Île Saint-Louis",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "quais-de-seine",
+    "name": "Quais de Seine",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "jardin-des-plantes",
+    "name": "Jardin des Plantes",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "parc-des-buttes-chaumont",
+    "name": "Parc des Buttes-Chaumont",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "place-des-vosges",
+    "name": "Place des Vosges",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "rue-de-rivoli-arcades",
+    "name": "Rue de Rivoli Arcades",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "jardin-du-palais-royal",
+    "name": "Jardin du Palais Royal",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "parc-de-bagatelle",
+    "name": "Parc de Bagatelle",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "montmartre-streets-place-du-tertre",
+    "name": "Montmartre Streets & Place du Tertre",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "pont-des-arts",
+    "name": "Pont des Arts",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "trocadero-gardens",
+    "name": "Trocadéro Gardens",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "parc-de-la-villette",
+    "name": "Parc de la Villette",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "rue-cler-market-street",
+    "name": "Rue Cler Market Street",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "jardins-des-champs-elysees",
+    "name": "Jardins des Champs-Élysées",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "pere-lachaise-cemetery",
+    "name": "Père Lachaise Cemetery",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": "parc-montsouris",
+    "name": "Parc Montsouris",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Les Deux Magots",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Park Hyatt Paris-Vendôme",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "La Tour d'Argent",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Café Marly",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Pierre Hermé — Bonaparte",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Pont Alexandre III",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Place Vendôme",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Musée Carnavalet",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Opéra Bastille",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Chanel — Rue Cambon",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Saint Laurent — Rive Gauche",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Chloé — Avenue Montaigne",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Le Bon Marché",
+    "page_url": null,
+    "source": null
+  },
+  {
+    "slug": null,
+    "name": "Christian Louboutin — Rue Saint-Honoré",
+    "page_url": null,
+    "source": null
+  }
+]

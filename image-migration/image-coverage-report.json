@@ -1,0 +1,2710 @@
+{
+  "auditScope": "Coverage only. Candidate URL presence is not image verification and does not establish that a URL works or depicts the correct place.",
+  "matchingPolicy": "Exact slug match first; exact name match only when no slug match exists. No fuzzy matching was performed.",
+  "sourceCounts": {
+    "originalDatasetPlaces": 151,
+    "targetPlaces": 107,
+    "candidateRecords": 68,
+    "protectedPlaces": 44
+  },
+  "statusDefinitions": {
+    "CANDIDATE_ADDED": "A candidate URL has been collected, regardless of whether a current image also exists.",
+    "MISSING_CANDIDATE": "No candidate URL has been collected; current-image availability is represented separately by hasCurrentImage.",
+    "MISSING_CURRENT_IMAGE": "No current image URL exists; candidate-image availability is represented separately by candidateUrlExists."
+  },
+  "summary": {
+    "targetPlacesChecked": 107,
+    "statusCounts": {
+      "CANDIDATE_ADDED": 68,
+      "MISSING_CANDIDATE": 39,
+      "MISSING_CURRENT_IMAGE": 0
+    },
+    "statusCountTotal": 107,
+    "accountsForAllTargets": true,
+    "targetsWithCurrentImageUrl": 107,
+    "targetsWithCandidateUrl": 68,
+    "targetsNeedingCandidateUrl": 39
+  },
+  "protectedPlacesAudit": {
+    "expectedCount": 44,
+    "actualCount": 44,
+    "accountedForCount": 44,
+    "unchangedCount": 44,
+    "targetOverlap": [],
+    "issues": [],
+    "records": [
+      {
+        "name": "Four Seasons Hotel George V",
+        "slug": "four-seasons-hotel-george-v",
+        "imageUrl": "https://source.unsplash.com/800x600/?Four%20Seasons%20George%20V%20lobby",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Four%20Seasons%20George%20V%20lobby",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Plaza Athénée",
+        "slug": "hotel-plaza-athenee",
+        "imageUrl": "https://source.unsplash.com/800x600/?Plaza%20Athenee%20Paris%20avenue",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Plaza%20Athenee%20Paris%20avenue",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel de Crillon, A Rosewood Hotel",
+        "slug": "hotel-de-crillon-a-rosewood-hotel",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20Crillon%20Concorde",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20Crillon%20Concorde",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Lutetia",
+        "slug": "hotel-lutetia",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Lutetia%20Saint-Germain%20facade",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Lutetia%20Saint-Germain%20facade",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Costes",
+        "slug": "hotel-costes",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Costes%20courtyard%20candlelight",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Costes%20courtyard%20candlelight",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Raphael",
+        "slug": "hotel-raphael",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Raphael%20Paris%20bar",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Raphael%20Paris%20bar",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Fouquet's Barrière",
+        "slug": "hotel-fouquets-barriere",
+        "imageUrl": "https://source.unsplash.com/800x600/?Fouquets%20Barriere%20Paris%20hotel",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Fouquets%20Barriere%20Paris%20hotel",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel de la Trémoille",
+        "slug": "hotel-de-la-tremoille",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20la%20Tremoille%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20de%20la%20Tremoille%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Vernet",
+        "slug": "hotel-vernet",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Vernet%20Paris%20glass%20dome",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Vernet%20Paris%20glass%20dome",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Montalembert",
+        "slug": "hotel-montalembert",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Montalembert%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Montalembert%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Saint James Paris",
+        "slug": "hotel-saint-james-paris",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Saint%20James%20Paris%20chateau",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Saint%20James%20Paris%20chateau",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Particulier Montmartre",
+        "slug": "hotel-particulier-montmartre",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Particulier%20Montmartre%20garden",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Particulier%20Montmartre%20garden",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel des Grands Boulevards",
+        "slug": "hotel-des-grands-boulevards",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Grands%20Boulevards%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Grands%20Boulevards%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel d'Aubusson",
+        "slug": "hotel-daubusson",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Aubusson%20Paris%20Left%20Bank",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Aubusson%20Paris%20Left%20Bank",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Regina Louvre",
+        "slug": "hotel-regina-louvre",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Regina%20Louvre%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Regina%20Louvre%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel Monsieur",
+        "slug": "hotel-monsieur",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20Monsieur%20Furstemberg%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Monsieur%20Furstemberg%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Café de Flore",
+        "slug": "cafe-de-flore",
+        "imageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20Flore%20Saint-Germain%20terrace",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20Flore%20Saint-Germain%20terrace",
+        "unchanged": true
+      },
+      {
+        "name": "Café de la Paix",
+        "slug": "cafe-de-la-paix",
+        "imageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20la%20Paix%20Opera%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Cafe%20de%20la%20Paix%20Opera%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Angelina",
+        "slug": "angelina",
+        "imageUrl": "https://source.unsplash.com/800x600/?Angelina%20tea%20room%20Rivoli%20hot%20chocolate",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Angelina%20tea%20room%20Rivoli%20hot%20chocolate",
+        "unchanged": true
+      },
+      {
+        "name": "Brasserie Lipp",
+        "slug": "brasserie-lipp",
+        "imageUrl": "https://source.unsplash.com/800x600/?Brasserie%20Lipp%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Brasserie%20Lipp%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Arc de Triomphe",
+        "slug": "arc-de-triomphe",
+        "imageUrl": "https://source.unsplash.com/800x600/?Arc%20de%20Triomphe%20aerial%20avenues",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Arc%20de%20Triomphe%20aerial%20avenues",
+        "unchanged": true
+      },
+      {
+        "name": "Centre Pompidou",
+        "slug": "centre-pompidou",
+        "imageUrl": "https://source.unsplash.com/800x600/?Centre%20Pompidou%20exterior%20pipes",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Centre%20Pompidou%20exterior%20pipes",
+        "unchanged": true
+      },
+      {
+        "name": "Conciergerie",
+        "slug": "conciergerie",
+        "imageUrl": "https://source.unsplash.com/800x600/?Conciergerie%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Conciergerie%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Grand Palais",
+        "slug": "grand-palais",
+        "imageUrl": "https://source.unsplash.com/800x600/?Grand%20Palais%20Paris%20glass%20nave",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Grand%20Palais%20Paris%20glass%20nave",
+        "unchanged": true
+      },
+      {
+        "name": "Institut de France",
+        "slug": "institut-de-france",
+        "imageUrl": "https://source.unsplash.com/800x600/?Institut%20de%20France%20dome%20Seine",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Institut%20de%20France%20dome%20Seine",
+        "unchanged": true
+      },
+      {
+        "name": "Hôtel des Invalides",
+        "slug": "hotel-des-invalides",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Invalides%20golden%20dome",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hotel%20des%20Invalides%20golden%20dome",
+        "unchanged": true
+      },
+      {
+        "name": "Fondation Louis Vuitton",
+        "slug": "fondation-louis-vuitton",
+        "imageUrl": "https://source.unsplash.com/800x600/?Fondation%20Louis%20Vuitton%20Gehry%20glass%20sails",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Fondation%20Louis%20Vuitton%20Gehry%20glass%20sails",
+        "unchanged": true
+      },
+      {
+        "name": "Dior — Avenue Montaigne",
+        "slug": "dior-avenue-montaigne",
+        "imageUrl": "https://source.unsplash.com/800x600/?Dior%20Avenue%20Montaigne%20flagship%20boutique",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Dior%20Avenue%20Montaigne%20flagship%20boutique",
+        "unchanged": true
+      },
+      {
+        "name": "Hermès — Faubourg Saint-Honoré",
+        "slug": "hermes-faubourg-saint-honore",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hermes%20Faubourg%20Saint-Honore%20flagship",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hermes%20Faubourg%20Saint-Honore%20flagship",
+        "unchanged": true
+      },
+      {
+        "name": "Cartier — Rue de la Paix",
+        "slug": "cartier-rue-de-la-paix",
+        "imageUrl": "https://source.unsplash.com/800x600/?Cartier%20Rue%20de%20la%20Paix%20flagship",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Cartier%20Rue%20de%20la%20Paix%20flagship",
+        "unchanged": true
+      },
+      {
+        "name": "Goyard — Rue Saint-Honoré",
+        "slug": "goyard-rue-saint-honore",
+        "imageUrl": "https://source.unsplash.com/800x600/?Goyard%20Rue%20Saint-Honore%20flagship",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Goyard%20Rue%20Saint-Honore%20flagship",
+        "unchanged": true
+      },
+      {
+        "name": "Galeries Lafayette Haussmann",
+        "slug": "galeries-lafayette-haussmann",
+        "imageUrl": "https://source.unsplash.com/800x600/?Galeries%20Lafayette%20dome%20interior",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Galeries%20Lafayette%20dome%20interior",
+        "unchanged": true
+      },
+      {
+        "name": "Berluti",
+        "slug": "berluti",
+        "imageUrl": "https://source.unsplash.com/800x600/?Berluti%20leather%20shoes%20boutique%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Berluti%20leather%20shoes%20boutique%20Paris",
+        "unchanged": true
+      },
+      {
+        "name": "Guerlain — Champs-Élysées",
+        "slug": "guerlain-champs-elysees",
+        "imageUrl": "https://source.unsplash.com/800x600/?Guerlain%20Champs-Elysees%20Art%20Deco%20flagship",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Guerlain%20Champs-Elysees%20Art%20Deco%20flagship",
+        "unchanged": true
+      },
+      {
+        "name": "Boucheron — Place Vendôme",
+        "slug": "boucheron-place-vendome",
+        "imageUrl": "https://source.unsplash.com/800x600/?Boucheron%20Place%20Vendome%20jeweller",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Boucheron%20Place%20Vendome%20jeweller",
+        "unchanged": true
+      },
+      {
+        "name": "Hédiard",
+        "slug": "hediard",
+        "imageUrl": "https://source.unsplash.com/800x600/?Hediard%20Madeleine%20gourmet%20grocer",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Hediard%20Madeleine%20gourmet%20grocer",
+        "unchanged": true
+      },
+      {
+        "name": "Champ de Mars",
+        "slug": "champ-de-mars",
+        "imageUrl": "https://source.unsplash.com/800x600/?Champ%20de%20Mars%20lawn%20Eiffel%20Tower",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Champ%20de%20Mars%20lawn%20Eiffel%20Tower",
+        "unchanged": true
+      },
+      {
+        "name": "Bois de Boulogne",
+        "slug": "bois-de-boulogne",
+        "imageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Boulogne%20lake%20rowing",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Boulogne%20lake%20rowing",
+        "unchanged": true
+      },
+      {
+        "name": "Avenue Montaigne",
+        "slug": "avenue-montaigne",
+        "imageUrl": "https://source.unsplash.com/800x600/?Avenue%20Montaigne%20couture%20boutiques%20street",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Avenue%20Montaigne%20couture%20boutiques%20street",
+        "unchanged": true
+      },
+      {
+        "name": "Canal Saint-Martin",
+        "slug": "canal-saint-martin",
+        "imageUrl": "https://source.unsplash.com/800x600/?Canal%20Saint-Martin%20footbridge%20locks",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Canal%20Saint-Martin%20footbridge%20locks",
+        "unchanged": true
+      },
+      {
+        "name": "Bois de Vincennes",
+        "slug": "bois-de-vincennes",
+        "imageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Vincennes%20lake%20rowboats",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Bois%20de%20Vincennes%20lake%20rowboats",
+        "unchanged": true
+      },
+      {
+        "name": "Galerie Vivienne",
+        "slug": "galerie-vivienne",
+        "imageUrl": "https://source.unsplash.com/800x600/?Galerie%20Vivienne%20mosaic%20floor%20arcade",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Galerie%20Vivienne%20mosaic%20floor%20arcade",
+        "unchanged": true
+      },
+      {
+        "name": "Avenue des Champs-Élysées",
+        "slug": "avenue-des-champs-elysees",
+        "imageUrl": "https://source.unsplash.com/800x600/?Champs-Elysees%20avenue%20Arc%20de%20Triomphe",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Champs-Elysees%20avenue%20Arc%20de%20Triomphe",
+        "unchanged": true
+      },
+      {
+        "name": "Jardin des Champs-Élysées Promenade",
+        "slug": "jardin-des-champs-elysees-promenade",
+        "imageUrl": "https://source.unsplash.com/800x600/?Avenue%20Gabriel%20chestnut%20promenade%20Paris",
+        "originalDatasetMatchMethod": "slug",
+        "originalDatasetMatchCount": 1,
+        "originalDatasetImageUrl": "https://source.unsplash.com/800x600/?Avenue%20Gabriel%20chestnut%20promenade%20Paris",
+        "unchanged": true
+      }
+    ]
+  },
+  "duplicates": {
+    "originalDataset": {
+      "names": [],
+      "slugs": []
+    },
+    "targets": {
+      "names": [],
+      "slugs": []
+    },
+    "candidates": {
+      "names": [],
+      "slugs": []
+    },
+    "protectedPlaces": {
+      "names": [],
+      "slugs": []
+    }
+  },
+  "unmatched": {
+    "targetPlacesNotInOriginalDataset": [],
+    "candidateRecordsNotMatchedToTargets": []
+  },
+  "inconsistencies": {
+    "targetCurrentImageUrlDiffersFromOriginalDataset": [],
+    "targetRecordsWithMultipleOriginalMatches": [],
+    "targetRecordsWithMultipleCandidateMatches": []
+  },
+  "places": [
+    {
+      "name": "Ritz Paris",
+      "slug": "ritz-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Ritz%20Paris%20facade%20Vendome",
+      "candidateImageUrl": "https://cdn.audleytravel.com/1280/914/79/1328938-the-ritz-paris-paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Shangri-La Hotel Paris",
+      "slug": "shangri-la-hotel-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Shangri-La%20Paris%20Trocadero",
+      "candidateImageUrl": "https://media.timeout.com/images/106012483/750/422/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Bristol Paris",
+      "slug": "le-bristol-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Bristol%20Paris%20courtyard",
+      "candidateImageUrl": "https://media.timeout.com/images/103786950/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Park Hyatt Paris-Vendôme",
+      "slug": "park-hyatt-paris-vendome",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Park%20Hyatt%20Vendome%20Paris",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/45500_Park-Hyatt-Paris-Vend%C3%B4me-Terrasse-Suite-Vend%C3%B4me-%C2%A9ParkHyattParisVend%C3%B4me%20-%20%2001.03.2029_landscape_3-2_xs.jpg?ver=1747647620",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Mandarin Oriental, Paris",
+      "slug": "mandarin-oriental-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Mandarin%20Oriental%20Paris%20garden",
+      "candidateImageUrl": "https://media.timeout.com/images/103735782/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Meurice",
+      "slug": "le-meurice",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Meurice%20Paris%20facade",
+      "candidateImageUrl": "https://media.timeout.com/images/106184102/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Royal Monceau, Raffles Paris",
+      "slug": "le-royal-monceau-raffles-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Royal%20Monceau%20Raffles%20Paris",
+      "candidateImageUrl": "https://media.timeout.com/images/103698370/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "The Peninsula Paris",
+      "slug": "the-peninsula-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Peninsula%20Paris%20rooftop%20Eiffel",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "La Réserve Paris Hotel and Spa",
+      "slug": "la-reserve-paris-hotel-and-spa",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Reserve%20Paris%20hotel%20mansion",
+      "candidateImageUrl": "https://media.timeout.com/images/103727825/750/422/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Pavillon des Lettres",
+      "slug": "le-pavillon-des-lettres",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pavillon%20des%20Lettres%20Paris%20boutique",
+      "candidateImageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1079348.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Hôtel Bel Ami",
+      "slug": "hotel-bel-ami",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Bel%20Ami%20Saint-Germain",
+      "candidateImageUrl": "https://media.timeout.com/images/103717309/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Relais Christine",
+      "slug": "relais-christine",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Relais%20Christine%20Paris%20courtyard",
+      "candidateImageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1311587.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Hôtel Récamier",
+      "slug": "hotel-recamier",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Recamier%20Saint-Sulpice",
+      "candidateImageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1269270.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Pavillon de la Reine",
+      "slug": "pavillon-de-la-reine",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pavillon%20de%20la%20Reine%20Place%20des%20Vosges",
+      "candidateImageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1290658.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Château Voltaire",
+      "slug": "ch-teau-voltaire",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chateau%20Voltaire%20hotel%20Paris",
+      "candidateImageUrl": "https://images.trvl-media.com/lodging/71000000/70020000/70012300/70012256/f714496a.jpg?impolicy=resizecrop&rw=297&ra=fit",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Jules Verne",
+      "slug": "le-jules-verne",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Jules%20Verne%20Eiffel%20Tower%20dining",
+      "candidateImageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/01/11/3309429b8e614260a48923a766bdd6c0_5988_pro_5.ok.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Alain Ducasse au Plaza Athénée",
+      "slug": "alain-ducasse-au-plaza-athenee",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Alain%20Ducasse%20au%20Plaza%20Athénée%20Paris",
+      "candidateImageUrl": "https://media.timeout.com/images/103944433/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Guy Savoy",
+      "slug": "guy-savoy",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Guy%20Savoy%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/cfc363e717b94b5cac295e3c562e5d6a.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Bristol — Épicure",
+      "slug": "le-bristol-epicure",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Epicure%20Le%20Bristol%20dining%20room",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/45084_Le%20Bristol%20Paris%20-%20Salle%20Epicure%2020%20-%20%C2%A9Maki%20Manoukian_euLGi-min_landscape_3-2_xs.jpeg?ver=1744030521",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "L'Ambroisie",
+      "slug": "lambroisie",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?L'Ambroisie%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-l-ambroisie.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Arpège",
+      "slug": "arpege",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Arpège%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/8a8021cf334c4f91a5518b841d97e52e.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Cinq",
+      "slug": "le-cinq",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Cinq%20Paris",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Pierre Gagnaire",
+      "slug": "pierre-gagnaire",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pierre%20Gagnaire%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/16fe82b0048f4883b060e3e970e467ae.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Grand Véfour",
+      "slug": "le-grand-vefour",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Grand%20Véfour%20Paris",
+      "candidateImageUrl": "https://i0.wp.com/legrandvefour.com/uploads/2026/05/digital-bd-tables-legrandvefour-260507-003.jpg?fit=1062%2C1600&ssl=1",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Les Deux Magots",
+      "slug": "les-deux-magots",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Les%20Deux%20Magots%20terrace%20Paris",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/30940_Les-Deux-Magots-Entr%C3%A9e--630x405--%C2%A9-S%C3%A9bastien-Dubois-Didcock_landscape_3-2_xs.jpg?ver=1700683002",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "La Closerie des Lilas",
+      "slug": "la-closerie-des-lilas",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Closerie%20des%20Lilas%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Restaurant-la-closerie-des-lilas.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Ladurée — Champs-Élysées",
+      "slug": "laduree-champs-elysees",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Laduree%20macarons%20Champs-Elysees",
+      "candidateImageUrl": "https://cdn.sortiraparis.com/images/80/105178/1015342-laduree-champs-elysees-transforme-decouvrez-son-nouveau-visages-et-ses-differents-espaces.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Train Bleu",
+      "slug": "le-train-bleu",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Train%20Bleu%20Gare%20de%20Lyon%20interior",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-gastronomique-train-bleu.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Maxim's Paris",
+      "slug": "maxims-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Maxim's%20Paris%20Paris",
+      "candidateImageUrl": "https://cdn.sortiraparis.com/images/80/108837/1136621-la-parenthese-belle-epoque-maxim-s-ouvre-un-bar-a-champagne-ephemere-dans-ses-salons-art-nouveau.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "La Tour d'Argent",
+      "slug": "la-tour-dargent",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Tour%20d'Argent%20Paris",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/24151_La%20Tour%20d%27Argent%20-%20Salle%20du%20haut%20fresque%20-%20%40MatthieuSalvaing_landscape_3-2_xs.jpg?ver=1706787146",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Meurice Alain Ducasse",
+      "slug": "le-meurice-alain-ducasse",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Meurice%20Alain%20Ducasse%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-le-meurice-alain-ducasse.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Septime",
+      "slug": "septime",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Septime%20restaurant%20Paris%20minimalist",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/91fa3530369e4e9ba284384acb08e9a8.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "L'Astrance",
+      "slug": "lastrance",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?L'Astrance%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/8da9c49a1e1a4446a9a522c61ea0c74d.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Chateaubriand",
+      "slug": "le-chateaubriand",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Chateaubriand%20restaurant%20Paris",
+      "candidateImageUrl": "https://www.lesrestos.com/img/fiche/1666889671/restaurant-le-chateaubriand-paris-11eme-1.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Frenchie",
+      "slug": "frenchie",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Frenchie%20restaurant%20Rue%20du%20Nil",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Pierre Hermé — Bonaparte",
+      "slug": "pierre-herme-bonaparte",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pierre%20Herme%20patisserie%20Bonaparte",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/8429_Pierre-Herm%C3%A9-boutique--630x405--%C2%A9-Pierre-Herm%C3%A9_landscape_3-2_xs.jpg?ver=1700691425",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Café Marly",
+      "slug": "cafe-marly",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Cafe%20Marly%20Louvre%20Pyramid%20terrace",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/719_Cafe-Marly-630x405-C-OTCP-Stephane-Cardinale_landscape_3-2_xs.jpg?ver=1700682224",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Kei",
+      "slug": "kei",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Kei%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/df0cfa946e75427ba07d7ee9a6da6626.jpeg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "David Toutain",
+      "slug": "david-toutain",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?David%20Toutain%20Paris",
+      "candidateImageUrl": "https://prod-pics.guide.michelin.com/api/public/content/797da62871284bc181c8f825b92f6b24.jpg?format=webp&w=500&h=500",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Girafe",
+      "slug": "girafe",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Girafe%20restaurant%20Trocadero%20Eiffel%20view",
+      "candidateImageUrl": "https://www.journalduluxe.fr/files/resize/outside/810-810-girafe-paris-restaurant-facebook-225x300_402297fb64f4e28f5034e1a8fcb2e882.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Procope",
+      "slug": "le-procope",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Procope%20oldest%20cafe%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Le_Procope.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Eiffel Tower",
+      "slug": "eiffel-tower",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Eiffel%20Tower%20sunset",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée du Louvre",
+      "slug": "musee-du-louvre",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Louvre%20Museum%20Pyramid%20Paris",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée d'Orsay",
+      "slug": "musee-dorsay",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20d'Orsay%20clock%20interior",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Notre-Dame de Paris",
+      "slug": "notre-dame-de-paris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Notre-Dame%20Cathedral%20Paris%20restored",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Sacré-Cœur Basilica",
+      "slug": "sacre-c-ur-basilica",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Sacre-Coeur%20Montmartre%20panorama",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Panthéon",
+      "slug": "pantheon",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pantheon%20Paris%20dome%20interior",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée de l'Orangerie",
+      "slug": "musee-de-lorangerie",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20de%20l'Orangerie%20Monet%20Nympheas",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Palais Garnier",
+      "slug": "palais-garnier",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Palais%20Garnier%20grand%20staircase%20Chagall%20ceiling",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Sainte-Chapelle",
+      "slug": "sainte-chapelle",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Sainte-Chapelle%20stained%20glass%20interior",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Château de Versailles",
+      "slug": "ch-teau-de-versailles",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chateau%20de%20Versailles%20Hall%20of%20Mirrors",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée Rodin",
+      "slug": "musee-rodin",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Rodin%20garden%20Thinker%20sculpture",
+      "candidateImageUrl": "https://www.musee-rodin.fr/sites/default/files/styles/diaporama_mav_0_5/public/2021-04/2020_06_23_jardin_jm006.jpg?itok=OwJfEGqP",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée Picasso",
+      "slug": "musee-picasso",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Picasso%20Paris%20Marais%20mansion",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee-national-picasso-paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Petit Palais",
+      "slug": "petit-palais",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Petit%20Palais%20interior%20garden%20colonnade",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Palais Royal & Gardens",
+      "slug": "palais-royal-gardens",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Palais%20Royal%20Buren%20columns%20courtyard",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/jardin-du-Palais-Royal.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée Marmottan Monet",
+      "slug": "musee-marmottan-monet",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Marmottan%20Monet%20Impression%20Sunrise",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Mus%C3%A9e_Marmottan_Monet.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée Jacquemart-André",
+      "slug": "musee-jacquemart-andre",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Jacquemart-Andre%20mansion%20interior",
+      "candidateImageUrl": "https://media.timeout.com/images/105976914/750/422/image.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée du Quai Branly – Jacques Chirac",
+      "slug": "musee-du-quai-branly-jacques-chirac",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20du%20Quai%20Branly%20living%20wall%20facade",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/13621_Mus%C3%A9e-du-quai-Branly-et-tour-Eiffel--630x405--%C2%A9-David-Lefranc.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Tour Montparnasse",
+      "slug": "tour-montparnasse",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Tour%20Montparnasse%20observation%20deck%20sunset",
+      "candidateImageUrl": "https://cdn.sortiraparis.com/images/80/1467/568895-visuel-paris-terrasse-de-la-tour-montparnasse-top-of-the-city.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Place Vendôme",
+      "slug": "place-vendome",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20Vendome%20column%20square%20evening",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/586_Colonne-Vendome-630x405-C-OTCP-David-Lefranc-I-103-03_landscape_3-2_xs.jpg?ver=1700685216",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Pont Alexandre III",
+      "slug": "pont-alexandre-iii",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pont%20Alexandre%20III%20golden%20statues%20sunset",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/43359_pont-alexandre-iii-copyright-paris-tourist-office-photographe-sarah-sergent_landscape_3-2_xs.jpg?ver=1730750192",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Musée Carnavalet",
+      "slug": "musee-carnavalet",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Carnavalet%20Marais%20mansion",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee_Carnavalet_-_Histoire_de_Paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "La Madeleine",
+      "slug": "la-madeleine",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Madeleine%20church%20columns%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/eglise-de-la-madeleine.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Opéra Bastille",
+      "slug": "opera-bastille",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Opera%20Bastille%20glass%20facade%20night",
+      "candidateImageUrl": "https://world-architects.com/images/Projects/69/84/09/c5daee7c7c2748c39728eadd58b5a59a/c5daee7c7c2748c39728eadd58b5a59a.6e7b65d0.jpg?1561463222",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Louis Vuitton — Champs-Élysées",
+      "slug": "louis-vuitton-champs-elysees",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Louis%20Vuitton%20flagship%20Champs-Elysees",
+      "candidateImageUrl": "https://eu.louisvuitton.com/images/is/image/lv/1/VE_DI3_L/louis-vuitton-stores-fr-louis-vuitton-maison-champs-élysées--STFI_ChampsElysees_1_DI3.jpg?wid=1200&hei=630",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Chanel — Rue Cambon",
+      "slug": "chanel-rue-cambon",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chanel%20Rue%20Cambon%20flagship%20boutique",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/497_Boutique-Chanel-vitrine-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700690915",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Van Cleef & Arpels — Place Vendôme",
+      "slug": "van-cleef-arpels-place-vendome",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Van%20Cleef%20Arpels%20Place%20Vendome",
+      "candidateImageUrl": "https://www.vancleefarpels.com/content/dam/storeasset/vca/c280/cb26/MoXw7rImSUuEX_pZoppNMQ.jpeg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Chaumet — Place Vendôme",
+      "slug": "chaumet-place-vendome",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chaumet%20Place%20Vendome%20jeweller",
+      "candidateImageUrl": "https://www.chaumet.com/cdn/shop/files/16_CHAUMET_20_02_25_12_Vendome_16_CHAUMET_20-02-25_12-Vendome-2.jpg?v=1784284389&width=2000",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Bulgari — Place Vendôme",
+      "slug": "bulgari-place-vendome",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Bulgari%20Place%20Vendome%20boutique",
+      "candidateImageUrl": "https://www.journalduluxe.fr/files/bulgari-boutique-vendome_f4df5e27805d87b6dafd3678354e54e9.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Saint Laurent — Rive Gauche",
+      "slug": "saint-laurent-rive-gauche",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Saint%20Laurent%20Rive%20Gauche%20boutique%20Paris",
+      "candidateImageUrl": "https://media.hero-magazine.com/wp-content/uploads/2022/09/26140429/SAINT-LAURENT-HERO-8.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Givenchy — Avenue Montaigne",
+      "slug": "givenchy-avenue-montaigne",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Givenchy%20Avenue%20Montaigne%20flagship",
+      "candidateImageUrl": "https://www.arredanegozi.it/wp-content/uploads/2014/03/Givenchy-Paris-flagshipstore-1.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Balenciaga — Avenue George V",
+      "slug": "balenciaga-avenue-george-v",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Balenciaga%20Avenue%20George%20V%20flagship",
+      "candidateImageUrl": "https://static-2026.dezeen.com/uploads/2022/09/balenciaga-couture-store-retail-interiors-paris-sq-hero_dezeen_2364_col_1.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Celine — Avenue Montaigne",
+      "slug": "celine-avenue-montaigne",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Celine%20Avenue%20Montaigne%20boutique",
+      "candidateImageUrl": "https://www.2luxury2.com/wp-content/uploads/Celine-store-at-avenue-Montaigne-Paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Chloé — Avenue Montaigne",
+      "slug": "chloe-avenue-montaigne",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Chloe%20Avenue%20Montaigne%20boutique",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/8872_Chlo%C3%A9--630x405--%C2%A9-DR_landscape_3-2_xs.jpg?ver=1700690921",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Le Bon Marché",
+      "slug": "le-bon-marche",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Bon%20Marche%20department%20store%20facade",
+      "candidateImageUrl": "https://parisjetaime.com/data/layout_image/742_Le-Bon-Marche-facade-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700691046",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Printemps Haussmann",
+      "slug": "printemps-haussmann",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Printemps%20Haussmann%20rooftop%20view",
+      "candidateImageUrl": "https://pro.visitparisregion.com/var/crt_idf/storage/images/_aliases/xlarge/9/2/3/2/1112329-1-fre-FR/FACADE%20PRINTEMPS%20HAUSSMANN_%20@photo_MANUELBOUGOT_0008.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Repetto",
+      "slug": "repetto",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Repetto%20ballet%20flats%20boutique%20Paris",
+      "candidateImageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Repetto%20Paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Christian Louboutin — Rue Saint-Honoré",
+      "slug": "christian-louboutin-rue-saint-honore",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Christian%20Louboutin%20flagship%20Paris",
+      "candidateImageUrl": "https://cms.christianlouboutin.com/media/wysiwyg/200716_BOUTIQUE_400_ST_HONORE_VITRINE.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Moynat",
+      "slug": "moynat",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Moynat%20trunk%20maker%20boutique%20Paris",
+      "candidateImageUrl": "https://www.parisselectbook.com/wp-content/uploads/2025/07/0150879542446-web-tete.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Lanvin",
+      "slug": "lanvin",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Lanvin%20Faubourg%20Saint-Honore%20flagship",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Mauboussin",
+      "slug": "mauboussin",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Mauboussin%20Place%20Vendome%20jeweller",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Fauchon",
+      "slug": "fauchon",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Fauchon%20Madeleine%20gourmet%20epicerie",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Ladurée — Boutique Royale",
+      "slug": "laduree-boutique-royale",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Laduree%20Rue%20Royale%20boutique%20macarons",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Loro Piana",
+      "slug": "loro-piana",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Loro%20Piana%20Avenue%20Montaigne%20boutique",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Maison Cartier — Trinity",
+      "slug": "maison-cartier-trinity",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Cartier%20Place%20Vendome%20private%20salon",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Jardin du Luxembourg",
+      "slug": "jardin-du-luxembourg",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20du%20Luxembourg%20pond%20chairs",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Jardin des Tuileries",
+      "slug": "jardin-des-tuileries",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20des%20Tuileries%20fountain%20Louvre",
+      "candidateImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jardin_des_Tuileries_in_Paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Parc Monceau",
+      "slug": "parc-monceau",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Monceau%20colonnade%20ruins",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Promenade Plantée (Coulée Verte)",
+      "slug": "promenade-plantee-coulee-verte",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Coulee%20Verte%20elevated%20park%20Paris",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Île Saint-Louis",
+      "slug": "ile-saint-louis",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Ile%20Saint-Louis%20Seine%20townhouses",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Quais de Seine",
+      "slug": "quais-de-seine",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Seine%20quais%20bouquinistes%20stalls",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Jardin des Plantes",
+      "slug": "jardin-des-plantes",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20des%20Plantes%20botanical%20garden",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Parc des Buttes-Chaumont",
+      "slug": "parc-des-buttes-chaumont",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Buttes-Chaumont%20park%20cliffs%20temple",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Place des Vosges",
+      "slug": "place-des-vosges",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20des%20Vosges%20garden%20arcades",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Rue de Rivoli Arcades",
+      "slug": "rue-de-rivoli-arcades",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20de%20Rivoli%20arcades%20colonnade",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Jardin du Palais Royal",
+      "slug": "jardin-du-palais-royal",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20Palais%20Royal%20arcade%20linden%20trees",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Square du Vert-Galant",
+      "slug": "square-du-vert-galant",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Square%20du%20Vert-Galant%20Seine%20tip",
+      "candidateImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Square_du_Vert_Galant.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Parc de Bagatelle",
+      "slug": "parc-de-bagatelle",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20Bagatelle%20rose%20garden%20chateau",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Montmartre Streets & Place du Tertre",
+      "slug": "montmartre-streets-place-du-tertre",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20du%20Tertre%20Montmartre%20artists",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Passage des Panoramas",
+      "slug": "passage-des-panoramas",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": true,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Passage%20des%20Panoramas%20covered%20arcade",
+      "candidateImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Passage_des_Panoramas%2C_Paris.jpg",
+      "status": "CANDIDATE_ADDED",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": "slug",
+          "matchCount": 1
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Pont des Arts",
+      "slug": "pont-des-arts",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pont%20des%20Arts%20Seine%20bridge%20sunset",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Trocadéro Gardens",
+      "slug": "trocadero-gardens",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Trocadero%20Gardens%20fountains%20Eiffel%20Tower%20view",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Parc de la Villette",
+      "slug": "parc-de-la-villette",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20la%20Villette%20red%20follies%20lawn",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Rue Cler Market Street",
+      "slug": "rue-cler-market-street",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20Cler%20market%20street%20Paris",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Jardins des Champs-Élysées",
+      "slug": "jardins-des-champs-elysees",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Jardins%20Champs-Elysees%20Grand%20Palais",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Père Lachaise Cemetery",
+      "slug": "pere-lachaise-cemetery",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Pere%20Lachaise%20cemetery%20autumn%20tombs",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    },
+    {
+      "name": "Parc Montsouris",
+      "slug": "parc-montsouris",
+      "originalDatasetContainsImageUrl": true,
+      "candidateUrlExists": false,
+      "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Montsouris%20lake%20waterfall",
+      "candidateImageUrl": null,
+      "status": "MISSING_CANDIDATE",
+      "matching": {
+        "originalDataset": {
+          "method": "slug",
+          "matchCount": 1
+        },
+        "candidateUrls": {
+          "method": null,
+          "matchCount": 0
+        }
+      },
+      "auditNotes": [],
+      "hasCurrentImage": true
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Jardin des Tuileries",
+    "slug": "jardin-des-tuileries",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jardin_des_Tuileries_in_Paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Square du Vert-Galant",
+    "slug": "square-du-vert-galant",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Square_du_Vert_Galant.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Passage des Panoramas",
+    "slug": "passage-des-panoramas",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Passage_des_Panoramas%2C_Paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Ritz Paris",
+    "slug": "ritz-paris",
+    "imageUrl": "https://cdn.audleytravel.com/1280/914/79/1328938-the-ritz-paris-paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Shangri-La Hotel Paris",
+    "slug": "shangri-la-hotel-paris",
+    "imageUrl": "https://media.timeout.com/images/106012483/750/422/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Bristol Paris",
+    "slug": "le-bristol-paris",
+    "imageUrl": "https://media.timeout.com/images/103786950/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/png",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Park Hyatt Paris-Vendôme",
+    "slug": "park-hyatt-paris-vendome",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/45500_Park-Hyatt-Paris-Vend%C3%B4me-Terrasse-Suite-Vend%C3%B4me-%C2%A9ParkHyattParisVend%C3%B4me%20-%20%2001.03.2029_landscape_3-2_xs.jpg?ver=1747647620",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Mandarin Oriental, Paris",
+    "slug": "mandarin-oriental-paris",
+    "imageUrl": "https://media.timeout.com/images/103735782/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/png",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Meurice",
+    "slug": "le-meurice",
+    "imageUrl": "https://media.timeout.com/images/106184102/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Royal Monceau, Raffles Paris",
+    "slug": "le-royal-monceau-raffles-paris",
+    "imageUrl": "https://media.timeout.com/images/103698370/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "La Réserve Paris Hotel and Spa",
+    "slug": "la-reserve-paris-hotel-and-spa",
+    "imageUrl": "https://media.timeout.com/images/103727825/750/422/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Pavillon des Lettres",
+    "slug": "le-pavillon-des-lettres",
+    "imageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1079348.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Relais Christine",
+    "slug": "relais-christine",
+    "imageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1311587.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Pavillon de la Reine",
+    "slug": "pavillon-de-la-reine",
+    "imageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1290658.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Jules Verne",
+    "slug": "le-jules-verne",
+    "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/01/11/3309429b8e614260a48923a766bdd6c0_5988_pro_5.ok.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "L'Ambroisie",
+    "slug": "lambroisie",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-l-ambroisie.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Pierre Gagnaire",
+    "slug": "pierre-gagnaire",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/16fe82b0048f4883b060e3e970e467ae.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Grand Véfour",
+    "slug": "le-grand-vefour",
+    "imageUrl": "https://i0.wp.com/legrandvefour.com/uploads/2026/05/digital-bd-tables-legrandvefour-260507-003.jpg?fit=1062%2C1600&ssl=1",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Hôtel Bel Ami",
+    "slug": "hotel-bel-ami",
+    "imageUrl": "https://media.timeout.com/images/103717309/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/png",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Hôtel Récamier",
+    "slug": "hotel-recamier",
+    "imageUrl": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1269270.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Château Voltaire",
+    "slug": "ch-teau-voltaire",
+    "imageUrl": "https://images.trvl-media.com/lodging/71000000/70020000/70012300/70012256/f714496a.jpg?impolicy=resizecrop&rw=297&ra=fit",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Alain Ducasse au Plaza Athénée",
+    "slug": "alain-ducasse-au-plaza-athenee",
+    "imageUrl": "https://media.timeout.com/images/103944433/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Guy Savoy",
+    "slug": "guy-savoy",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/cfc363e717b94b5cac295e3c562e5d6a.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Bristol — Épicure",
+    "slug": "le-bristol-epicure",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/45084_Le%20Bristol%20Paris%20-%20Salle%20Epicure%2020%20-%20%C2%A9Maki%20Manoukian_euLGi-min_landscape_3-2_xs.jpeg?ver=1744030521",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Arpège",
+    "slug": "arpege",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/8a8021cf334c4f91a5518b841d97e52e.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Les Deux Magots",
+    "slug": "les-deux-magots",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/30940_Les-Deux-Magots-Entr%C3%A9e--630x405--%C2%A9-S%C3%A9bastien-Dubois-Didcock_landscape_3-2_xs.jpg?ver=1700683002",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "La Closerie des Lilas",
+    "slug": "la-closerie-des-lilas",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Restaurant-la-closerie-des-lilas.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Ladurée — Champs-Élysées",
+    "slug": "laduree-champs-elysees",
+    "imageUrl": "https://cdn.sortiraparis.com/images/80/105178/1015342-laduree-champs-elysees-transforme-decouvrez-son-nouveau-visages-et-ses-differents-espaces.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Train Bleu",
+    "slug": "le-train-bleu",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-gastronomique-train-bleu.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Maxim's Paris",
+    "slug": "maxims-paris",
+    "imageUrl": "https://cdn.sortiraparis.com/images/80/108837/1136621-la-parenthese-belle-epoque-maxim-s-ouvre-un-bar-a-champagne-ephemere-dans-ses-salons-art-nouveau.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "La Tour d'Argent",
+    "slug": "la-tour-dargent",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/24151_La%20Tour%20d%27Argent%20-%20Salle%20du%20haut%20fresque%20-%20%40MatthieuSalvaing_landscape_3-2_xs.jpg?ver=1706787146",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Meurice Alain Ducasse",
+    "slug": "le-meurice-alain-ducasse",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/restaurant-le-meurice-alain-ducasse.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Septime",
+    "slug": "septime",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/91fa3530369e4e9ba284384acb08e9a8.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "L'Astrance",
+    "slug": "lastrance",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/8da9c49a1e1a4446a9a522c61ea0c74d.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Chateaubriand",
+    "slug": "le-chateaubriand",
+    "imageUrl": "https://www.lesrestos.com/img/fiche/1666889671/restaurant-le-chateaubriand-paris-11eme-1.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Pierre Hermé — Bonaparte",
+    "slug": "pierre-herme-bonaparte",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/8429_Pierre-Herm%C3%A9-boutique--630x405--%C2%A9-Pierre-Herm%C3%A9_landscape_3-2_xs.jpg?ver=1700691425",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Café Marly",
+    "slug": "cafe-marly",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/719_Cafe-Marly-630x405-C-OTCP-Stephane-Cardinale_landscape_3-2_xs.jpg?ver=1700682224",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Kei",
+    "slug": "kei",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/df0cfa946e75427ba07d7ee9a6da6626.jpeg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "David Toutain",
+    "slug": "david-toutain",
+    "imageUrl": "https://prod-pics.guide.michelin.com/api/public/content/797da62871284bc181c8f825b92f6b24.jpg?format=webp&w=500&h=500",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Girafe",
+    "slug": "girafe",
+    "imageUrl": "https://www.journalduluxe.fr/files/resize/outside/810-810-girafe-paris-restaurant-facebook-225x300_402297fb64f4e28f5034e1a8fcb2e882.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Procope",
+    "slug": "le-procope",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Le_Procope.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée Rodin",
+    "slug": "musee-rodin",
+    "imageUrl": "https://www.musee-rodin.fr/sites/default/files/styles/diaporama_mav_0_5/public/2021-04/2020_06_23_jardin_jm006.jpg?itok=OwJfEGqP",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée Picasso",
+    "slug": "musee-picasso",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee-national-picasso-paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Palais Royal & Gardens",
+    "slug": "palais-royal-gardens",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/jardin-du-Palais-Royal.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée Marmottan Monet",
+    "slug": "musee-marmottan-monet",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Mus%C3%A9e_Marmottan_Monet.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée Jacquemart-André",
+    "slug": "musee-jacquemart-andre",
+    "imageUrl": "https://media.timeout.com/images/105976914/750/422/image.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée du Quai Branly – Jacques Chirac",
+    "slug": "musee-du-quai-branly-jacques-chirac",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/13621_Mus%C3%A9e-du-quai-Branly-et-tour-Eiffel--630x405--%C2%A9-David-Lefranc.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Tour Montparnasse",
+    "slug": "tour-montparnasse",
+    "imageUrl": "https://cdn.sortiraparis.com/images/80/1467/568895-visuel-paris-terrasse-de-la-tour-montparnasse-top-of-the-city.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Place Vendôme",
+    "slug": "place-vendome",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/586_Colonne-Vendome-630x405-C-OTCP-David-Lefranc-I-103-03_landscape_3-2_xs.jpg?ver=1700685216",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Pont Alexandre III",
+    "slug": "pont-alexandre-iii",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/43359_pont-alexandre-iii-copyright-paris-tourist-office-photographe-sarah-sergent_landscape_3-2_xs.jpg?ver=1730750192",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Musée Carnavalet",
+    "slug": "musee-carnavalet",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/musee_Carnavalet_-_Histoire_de_Paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "La Madeleine",
+    "slug": "la-madeleine",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/eglise-de-la-madeleine.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Opéra Bastille",
+    "slug": "opera-bastille",
+    "imageUrl": "https://world-architects.com/images/Projects/69/84/09/c5daee7c7c2748c39728eadd58b5a59a/c5daee7c7c2748c39728eadd58b5a59a.6e7b65d0.jpg?1561463222",
+    "status": "HTTP_ERROR",
+    "httpStatus": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Louis Vuitton — Champs-Élysées",
+    "slug": "louis-vuitton-champs-elysees",
+    "imageUrl": "https://eu.louisvuitton.com/images/is/image/lv/1/VE_DI3_L/louis-vuitton-stores-fr-louis-vuitton-maison-champs-élysées--STFI_ChampsElysees_1_DI3.jpg?wid=1200&hei=630",
+    "status": "CONNECTION_ERROR",
+    "httpStatus": null,
+    "contentType": null,
+    "note": "'ascii' codec can't encode character '\\xe9' in position 87: ordinal not in range(128)"
+  },
+  {
+    "name": "Chanel — Rue Cambon",
+    "slug": "chanel-rue-cambon",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/497_Boutique-Chanel-vitrine-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700690915",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/webp",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Van Cleef & Arpels — Place Vendôme",
+    "slug": "van-cleef-arpels-place-vendome",
+    "imageUrl": "https://www.vancleefarpels.com/content/dam/storeasset/vca/c280/cb26/MoXw7rImSUuEX_pZoppNMQ.jpeg",
+    "status": "HTTP_ERROR",
+    "httpStatus": 403,
+    "contentType": "text/html",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Chaumet — Place Vendôme",
+    "slug": "chaumet-place-vendome",
+    "imageUrl": "https://www.chaumet.com/cdn/shop/files/16_CHAUMET_20_02_25_12_Vendome_16_CHAUMET_20-02-25_12-Vendome-2.jpg?v=1784284389&width=2000",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Bulgari — Place Vendôme",
+    "slug": "bulgari-place-vendome",
+    "imageUrl": "https://www.journalduluxe.fr/files/bulgari-boutique-vendome_f4df5e27805d87b6dafd3678354e54e9.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Saint Laurent — Rive Gauche",
+    "slug": "saint-laurent-rive-gauche",
+    "imageUrl": "https://media.hero-magazine.com/wp-content/uploads/2022/09/26140429/SAINT-LAURENT-HERO-8.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Givenchy — Avenue Montaigne",
+    "slug": "givenchy-avenue-montaigne",
+    "imageUrl": "https://www.arredanegozi.it/wp-content/uploads/2014/03/Givenchy-Paris-flagshipstore-1.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Balenciaga — Avenue George V",
+    "slug": "balenciaga-avenue-george-v",
+    "imageUrl": "https://static-2026.dezeen.com/uploads/2022/09/balenciaga-couture-store-retail-interiors-paris-sq-hero_dezeen_2364_col_1.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Celine — Avenue Montaigne",
+    "slug": "celine-avenue-montaigne",
+    "imageUrl": "https://www.2luxury2.com/wp-content/uploads/Celine-store-at-avenue-Montaigne-Paris.jpg",
+    "status": "CONNECTION_ERROR",
+    "httpStatus": null,
+    "contentType": null,
+    "note": "The read operation timed out"
+  },
+  {
+    "name": "Chloé — Avenue Montaigne",
+    "slug": "chloe-avenue-montaigne",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/8872_Chlo%C3%A9--630x405--%C2%A9-DR_landscape_3-2_xs.jpg?ver=1700690921",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Le Bon Marché",
+    "slug": "le-bon-marche",
+    "imageUrl": "https://parisjetaime.com/data/layout_image/742_Le-Bon-Marche-facade-630x405-C-OTCP-Stephanie-Rivoal_landscape_3-2_xs.jpg?ver=1700691046",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Printemps Haussmann",
+    "slug": "printemps-haussmann",
+    "imageUrl": "https://pro.visitparisregion.com/var/crt_idf/storage/images/_aliases/xlarge/9/2/3/2/1112329-1-fre-FR/FACADE%20PRINTEMPS%20HAUSSMANN_%20@photo_MANUELBOUGOT_0008.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Repetto",
+    "slug": "repetto",
+    "imageUrl": "https://res.cloudinary.com/du5jifpgg/image/upload/t_opengraph_image/Surcharge-APIDAE/Repetto%20Paris.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  },
+  {
+    "name": "Christian Louboutin — Rue Saint-Honoré",
+    "slug": "christian-louboutin-rue-saint-honore",
+    "imageUrl": "https://cms.christianlouboutin.com/media/wysiwyg/200716_BOUTIQUE_400_ST_HONORE_VITRINE.jpg",
+    "status": "CONNECTION_ERROR",
+    "httpStatus": null,
+    "contentType": null,
+    "note": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "Moynat",
+    "slug": "moynat",
+    "imageUrl": "https://www.parisselectbook.com/wp-content/uploads/2025/07/0150879542446-web-tete.jpg",
+    "status": "HTTP_IMAGE_OK",
+    "httpStatus": 206,
+    "contentType": "image/jpeg",
+    "note": "Server returned an image content type"
+  }
+]

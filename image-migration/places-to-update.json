@@ -1,0 +1,751 @@
+[
+  {
+    "name": "Ritz Paris",
+    "slug": "ritz-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Ritz%20Paris%20facade%20Vendome",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Shangri-La Hotel Paris",
+    "slug": "shangri-la-hotel-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Shangri-La%20Paris%20Trocadero",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Bristol Paris",
+    "slug": "le-bristol-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Bristol%20Paris%20courtyard",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Park Hyatt Paris-Vendôme",
+    "slug": "park-hyatt-paris-vendome",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Park%20Hyatt%20Vendome%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Mandarin Oriental, Paris",
+    "slug": "mandarin-oriental-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Mandarin%20Oriental%20Paris%20garden",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Meurice",
+    "slug": "le-meurice",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Meurice%20Paris%20facade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Royal Monceau, Raffles Paris",
+    "slug": "le-royal-monceau-raffles-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Royal%20Monceau%20Raffles%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "The Peninsula Paris",
+    "slug": "the-peninsula-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Peninsula%20Paris%20rooftop%20Eiffel",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "La Réserve Paris Hotel and Spa",
+    "slug": "la-reserve-paris-hotel-and-spa",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Reserve%20Paris%20hotel%20mansion",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Pavillon des Lettres",
+    "slug": "le-pavillon-des-lettres",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pavillon%20des%20Lettres%20Paris%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Hôtel Bel Ami",
+    "slug": "hotel-bel-ami",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Bel%20Ami%20Saint-Germain",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Relais Christine",
+    "slug": "relais-christine",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Relais%20Christine%20Paris%20courtyard",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Hôtel Récamier",
+    "slug": "hotel-recamier",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Hotel%20Recamier%20Saint-Sulpice",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Pavillon de la Reine",
+    "slug": "pavillon-de-la-reine",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pavillon%20de%20la%20Reine%20Place%20des%20Vosges",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Château Voltaire",
+    "slug": "ch-teau-voltaire",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Chateau%20Voltaire%20hotel%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Jules Verne",
+    "slug": "le-jules-verne",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Jules%20Verne%20Eiffel%20Tower%20dining",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Alain Ducasse au Plaza Athénée",
+    "slug": "alain-ducasse-au-plaza-athenee",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Alain%20Ducasse%20au%20Plaza%20Athénée%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Guy Savoy",
+    "slug": "guy-savoy",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Guy%20Savoy%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Bristol — Épicure",
+    "slug": "le-bristol-epicure",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Epicure%20Le%20Bristol%20dining%20room",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "L'Ambroisie",
+    "slug": "lambroisie",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?L'Ambroisie%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Arpège",
+    "slug": "arpege",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Arpège%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Cinq",
+    "slug": "le-cinq",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Cinq%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Pierre Gagnaire",
+    "slug": "pierre-gagnaire",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pierre%20Gagnaire%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Grand Véfour",
+    "slug": "le-grand-vefour",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Grand%20Véfour%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Les Deux Magots",
+    "slug": "les-deux-magots",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Les%20Deux%20Magots%20terrace%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "La Closerie des Lilas",
+    "slug": "la-closerie-des-lilas",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Closerie%20des%20Lilas%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Ladurée — Champs-Élysées",
+    "slug": "laduree-champs-elysees",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Laduree%20macarons%20Champs-Elysees",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Train Bleu",
+    "slug": "le-train-bleu",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Train%20Bleu%20Gare%20de%20Lyon%20interior",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Maxim's Paris",
+    "slug": "maxims-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Maxim's%20Paris%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "La Tour d'Argent",
+    "slug": "la-tour-dargent",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Tour%20d'Argent%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Meurice Alain Ducasse",
+    "slug": "le-meurice-alain-ducasse",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Meurice%20Alain%20Ducasse%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Septime",
+    "slug": "septime",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Septime%20restaurant%20Paris%20minimalist",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "L'Astrance",
+    "slug": "lastrance",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?L'Astrance%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Chateaubriand",
+    "slug": "le-chateaubriand",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Chateaubriand%20restaurant%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Frenchie",
+    "slug": "frenchie",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Frenchie%20restaurant%20Rue%20du%20Nil",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Pierre Hermé — Bonaparte",
+    "slug": "pierre-herme-bonaparte",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pierre%20Herme%20patisserie%20Bonaparte",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Café Marly",
+    "slug": "cafe-marly",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Cafe%20Marly%20Louvre%20Pyramid%20terrace",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Kei",
+    "slug": "kei",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Kei%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "David Toutain",
+    "slug": "david-toutain",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?David%20Toutain%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Girafe",
+    "slug": "girafe",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Girafe%20restaurant%20Trocadero%20Eiffel%20view",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Procope",
+    "slug": "le-procope",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Procope%20oldest%20cafe%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Eiffel Tower",
+    "slug": "eiffel-tower",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Eiffel%20Tower%20sunset",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée du Louvre",
+    "slug": "musee-du-louvre",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Louvre%20Museum%20Pyramid%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée d'Orsay",
+    "slug": "musee-dorsay",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20d'Orsay%20clock%20interior",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Notre-Dame de Paris",
+    "slug": "notre-dame-de-paris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Notre-Dame%20Cathedral%20Paris%20restored",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Sacré-Cœur Basilica",
+    "slug": "sacre-c-ur-basilica",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Sacre-Coeur%20Montmartre%20panorama",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Panthéon",
+    "slug": "pantheon",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pantheon%20Paris%20dome%20interior",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée de l'Orangerie",
+    "slug": "musee-de-lorangerie",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20de%20l'Orangerie%20Monet%20Nympheas",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Palais Garnier",
+    "slug": "palais-garnier",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Palais%20Garnier%20grand%20staircase%20Chagall%20ceiling",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Sainte-Chapelle",
+    "slug": "sainte-chapelle",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Sainte-Chapelle%20stained%20glass%20interior",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Château de Versailles",
+    "slug": "ch-teau-de-versailles",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Chateau%20de%20Versailles%20Hall%20of%20Mirrors",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée Rodin",
+    "slug": "musee-rodin",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Rodin%20garden%20Thinker%20sculpture",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée Picasso",
+    "slug": "musee-picasso",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Picasso%20Paris%20Marais%20mansion",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Petit Palais",
+    "slug": "petit-palais",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Petit%20Palais%20interior%20garden%20colonnade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Palais Royal & Gardens",
+    "slug": "palais-royal-gardens",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Palais%20Royal%20Buren%20columns%20courtyard",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée Marmottan Monet",
+    "slug": "musee-marmottan-monet",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Marmottan%20Monet%20Impression%20Sunrise",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée Jacquemart-André",
+    "slug": "musee-jacquemart-andre",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Jacquemart-Andre%20mansion%20interior",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée du Quai Branly – Jacques Chirac",
+    "slug": "musee-du-quai-branly-jacques-chirac",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20du%20Quai%20Branly%20living%20wall%20facade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Tour Montparnasse",
+    "slug": "tour-montparnasse",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Tour%20Montparnasse%20observation%20deck%20sunset",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Place Vendôme",
+    "slug": "place-vendome",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20Vendome%20column%20square%20evening",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Pont Alexandre III",
+    "slug": "pont-alexandre-iii",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pont%20Alexandre%20III%20golden%20statues%20sunset",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Musée Carnavalet",
+    "slug": "musee-carnavalet",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Musee%20Carnavalet%20Marais%20mansion",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "La Madeleine",
+    "slug": "la-madeleine",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?La%20Madeleine%20church%20columns%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Opéra Bastille",
+    "slug": "opera-bastille",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Opera%20Bastille%20glass%20facade%20night",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Louis Vuitton — Champs-Élysées",
+    "slug": "louis-vuitton-champs-elysees",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Louis%20Vuitton%20flagship%20Champs-Elysees",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Chanel — Rue Cambon",
+    "slug": "chanel-rue-cambon",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Chanel%20Rue%20Cambon%20flagship%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Van Cleef & Arpels — Place Vendôme",
+    "slug": "van-cleef-arpels-place-vendome",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Van%20Cleef%20Arpels%20Place%20Vendome",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Chaumet — Place Vendôme",
+    "slug": "chaumet-place-vendome",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Chaumet%20Place%20Vendome%20jeweller",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Bulgari — Place Vendôme",
+    "slug": "bulgari-place-vendome",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Bulgari%20Place%20Vendome%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Saint Laurent — Rive Gauche",
+    "slug": "saint-laurent-rive-gauche",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Saint%20Laurent%20Rive%20Gauche%20boutique%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Givenchy — Avenue Montaigne",
+    "slug": "givenchy-avenue-montaigne",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Givenchy%20Avenue%20Montaigne%20flagship",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Balenciaga — Avenue George V",
+    "slug": "balenciaga-avenue-george-v",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Balenciaga%20Avenue%20George%20V%20flagship",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Celine — Avenue Montaigne",
+    "slug": "celine-avenue-montaigne",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Celine%20Avenue%20Montaigne%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Chloé — Avenue Montaigne",
+    "slug": "chloe-avenue-montaigne",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Chloe%20Avenue%20Montaigne%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Le Bon Marché",
+    "slug": "le-bon-marche",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Le%20Bon%20Marche%20department%20store%20facade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Printemps Haussmann",
+    "slug": "printemps-haussmann",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Printemps%20Haussmann%20rooftop%20view",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Repetto",
+    "slug": "repetto",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Repetto%20ballet%20flats%20boutique%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Christian Louboutin — Rue Saint-Honoré",
+    "slug": "christian-louboutin-rue-saint-honore",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Christian%20Louboutin%20flagship%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Moynat",
+    "slug": "moynat",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Moynat%20trunk%20maker%20boutique%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Lanvin",
+    "slug": "lanvin",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Lanvin%20Faubourg%20Saint-Honore%20flagship",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Mauboussin",
+    "slug": "mauboussin",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Mauboussin%20Place%20Vendome%20jeweller",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Fauchon",
+    "slug": "fauchon",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Fauchon%20Madeleine%20gourmet%20epicerie",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Ladurée — Boutique Royale",
+    "slug": "laduree-boutique-royale",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Laduree%20Rue%20Royale%20boutique%20macarons",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Loro Piana",
+    "slug": "loro-piana",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Loro%20Piana%20Avenue%20Montaigne%20boutique",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Maison Cartier — Trinity",
+    "slug": "maison-cartier-trinity",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Cartier%20Place%20Vendome%20private%20salon",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Jardin du Luxembourg",
+    "slug": "jardin-du-luxembourg",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20du%20Luxembourg%20pond%20chairs",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Jardin des Tuileries",
+    "slug": "jardin-des-tuileries",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20des%20Tuileries%20fountain%20Louvre",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Parc Monceau",
+    "slug": "parc-monceau",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Monceau%20colonnade%20ruins",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Promenade Plantée (Coulée Verte)",
+    "slug": "promenade-plantee-coulee-verte",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Coulee%20Verte%20elevated%20park%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Île Saint-Louis",
+    "slug": "ile-saint-louis",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Ile%20Saint-Louis%20Seine%20townhouses",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Quais de Seine",
+    "slug": "quais-de-seine",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Seine%20quais%20bouquinistes%20stalls",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Jardin des Plantes",
+    "slug": "jardin-des-plantes",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20des%20Plantes%20botanical%20garden",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Parc des Buttes-Chaumont",
+    "slug": "parc-des-buttes-chaumont",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Buttes-Chaumont%20park%20cliffs%20temple",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Place des Vosges",
+    "slug": "place-des-vosges",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20des%20Vosges%20garden%20arcades",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Rue de Rivoli Arcades",
+    "slug": "rue-de-rivoli-arcades",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20de%20Rivoli%20arcades%20colonnade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Jardin du Palais Royal",
+    "slug": "jardin-du-palais-royal",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Jardin%20Palais%20Royal%20arcade%20linden%20trees",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Square du Vert-Galant",
+    "slug": "square-du-vert-galant",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Square%20du%20Vert-Galant%20Seine%20tip",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Parc de Bagatelle",
+    "slug": "parc-de-bagatelle",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20Bagatelle%20rose%20garden%20chateau",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Montmartre Streets & Place du Tertre",
+    "slug": "montmartre-streets-place-du-tertre",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Place%20du%20Tertre%20Montmartre%20artists",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Passage des Panoramas",
+    "slug": "passage-des-panoramas",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Passage%20des%20Panoramas%20covered%20arcade",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Pont des Arts",
+    "slug": "pont-des-arts",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pont%20des%20Arts%20Seine%20bridge%20sunset",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Trocadéro Gardens",
+    "slug": "trocadero-gardens",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Trocadero%20Gardens%20fountains%20Eiffel%20Tower%20view",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Parc de la Villette",
+    "slug": "parc-de-la-villette",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20de%20la%20Villette%20red%20follies%20lawn",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Rue Cler Market Street",
+    "slug": "rue-cler-market-street",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Rue%20Cler%20market%20street%20Paris",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Jardins des Champs-Élysées",
+    "slug": "jardins-des-champs-elysees",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Jardins%20Champs-Elysees%20Grand%20Palais",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Père Lachaise Cemetery",
+    "slug": "pere-lachaise-cemetery",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Pere%20Lachaise%20cemetery%20autumn%20tombs",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "name": "Parc Montsouris",
+    "slug": "parc-montsouris",
+    "currentImageUrl": "https://source.unsplash.com/800x600/?Parc%20Montsouris%20lake%20waterfall",
+    "newImageUrl": null,
+    "status": "PENDING_REVIEW"
+  }
+]
