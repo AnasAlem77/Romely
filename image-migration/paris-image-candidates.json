@@ -1,0 +1,314 @@
+[
+  {
+    "place_name": "Eiffel Tower",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Eiffel_tower_at_Paris.jpg/960px-Eiffel_tower_at_Paris.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_at_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "place_name": "Musée du Louvre",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Cour_Napoléon_and_Louvre_Pyramid_on_a_sunny_day,_Paris.jpg/1280px-Cour_Napoléon_and_Louvre_Pyramid_on_a_sunny_day,_Paris.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Cour_Napoléon_and_Louvre_Pyramid_on_a_sunny_day,_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 1280,
+    "height": 706
+  },
+  {
+    "place_name": "Musée d'Orsay",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Paris%2C_Musee_d%27Orsay.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Paris,_Musee_d'Orsay.jpg",
+    "license": "GNU Free Documentation License 1.2 or later",
+    "width": 1046,
+    "height": 784
+  },
+  {
+    "place_name": "Notre-Dame de Paris",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Notre-Dame_de_Paris%2C_facade.jpg/960px-Notre-Dame_de_Paris%2C_facade.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_facade.jpg",
+    "license": "CC0 1.0",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "place_name": "Sacré-Cœur Basilica",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Basilique_du_Sacr%C3%A9-C%C5%93ur_Paris.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Basilique_du_Sacré-Cœur_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 4288,
+    "height": 2848
+  },
+  {
+    "place_name": "Panthéon",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/PANTHEON%2C_Paris%2C_France.jpg/960px-PANTHEON%2C_Paris%2C_France.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:PANTHEON,_Paris,_France.jpg",
+    "license": "CC BY-SA 3.0",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "place_name": "Musée de l'Orangerie",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mus%C3%A9e_de_l%27Orangerie.jpg/960px-Mus%C3%A9e_de_l%27Orangerie.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Musée_de_l'Orangerie.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "place_name": "Palais Garnier",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Palais_Garnier%2C_Paris.jpg/960px-Palais_Garnier%2C_Paris.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Palais_Garnier,_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "place_name": "Sainte-Chapelle",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Interior_of_Saint-Chapelle_in_Paris.jpg/960px-Interior_of_Saint-Chapelle_in_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Interior_of_Saint-Chapelle_in_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 960,
+    "height": 1283
+  },
+  {
+    "place_name": "Château de Versailles",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Gardens_at_the_Palace_of_Versailles.jpg/960px-Gardens_at_the_Palace_of_Versailles.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Gardens_at_the_Palace_of_Versailles.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 960,
+    "height": 429
+  },
+  {
+    "place_name": "The Peninsula Paris",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg/1280px-The_Peninsula_Paris%2C_23_June_2014.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Paris,_23_June_2014.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 6843,
+    "height": 3688
+  },
+  {
+    "place_name": "Le Cinq",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Nesta_%C3%BAltima_viagem_a_Paris%2C_voltei_ao_Cinq.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Nesta_%C3%BAltima_viagem_a_Paris,_voltei_ao_Cinq.jpg",
+    "license": "CC BY 2.0",
+    "width": 750,
+    "height": 750
+  },
+  {
+    "place_name": "Frenchie",
+    "image_url": "https://www.doitinparis.com/files/2018/bars-restos/04/frenchie/thumbs-1180x525/en/frenchie.webp",
+    "file_page_url": "https://www.doitinparis.com/en/frenchie-wine-bar-gregory-marchand-paris-23153",
+    "license": null,
+    "width": 1180,
+    "height": 525
+  },
+  {
+    "place_name": "Petit Palais",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Exterior_of_the_Petit_Palais%2C_May_15%2C_2010.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Petit_Palais,_May_15,_2010.jpg",
+    "license": "CC BY 2.0",
+    "width": 3888,
+    "height": 2592
+  },
+  {
+    "place_name": "Lanvin",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/22_rue_du_Faubourg-Saint-Honor%C3%A9_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:22_rue_du_Faubourg-Saint-Honor%C3%A9_Paris.jpg",
+    "license": "CC BY-SA 4.0 (author: CVB)",
+    "width": 3244,
+    "height": 3882
+  },
+  {
+    "place_name": "Mauboussin",
+    "image_url": "https://boutiques.mauboussin.fr/uploads/other/xstore_default-6672ee6010ca28.17563383.jpg.pagespeed.ic.5qaylJ8Wlq.webp",
+    "file_page_url": "https://boutiques.mauboussin.fr/boutiquesmauboussin/fr/store/france/ile-de-france/paris/paris/paris-champs-elysees/m004",
+    "license": null,
+    "width": null,
+    "height": null
+  },
+  {
+    "place_name": "Fauchon",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_-_scalleja_-_Fauchon_%28Place_de_la_Madeleine_-_Paris%29_3.jpg/960px-Flickr_-_scalleja_-_Fauchon_%28Place_de_la_Madeleine_-_Paris%29_3.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_scalleja_-_Fauchon_%28Place_de_la_Madeleine_-_Paris%29_3.jpg",
+    "license": "CC BY-SA 2.0",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "place_name": "Ladurée — Boutique Royale",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Boutique_Ladur%C3%A9e_au_16_rue_Royale_%C3%A0_Paris.JPG/1280px-Boutique_Ladur%C3%A9e_au_16_rue_Royale_%C3%A0_Paris.JPG",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Boutique_Ladur%C3%A9e_au_16_rue_Royale_%C3%A0_Paris.JPG",
+    "license": "CC BY-SA 3.0",
+    "width": 4000,
+    "height": 3000
+  },
+  {
+    "place_name": "Loro Piana",
+    "image_url": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=960/QwRY54Li1HMwD7oNfpL7fm5wrEPT1rslgZ4yc9u6Yi",
+    "file_page_url": "https://ar.pinterest.com/pin/480900066444543047/",
+    "license": null,
+    "width": 960,
+    "height": null
+  },
+  {
+    "place_name": "Maison Cartier — Trinity",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cartier_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Cartier_Paris.jpg",
+    "license": "CC BY-SA 3.0",
+    "width": 998,
+    "height": 998
+  },
+  {
+    "place_name": "Jardin du Luxembourg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Jardin_du_Luxembourg%2C_Paris1.jpg/960px-Jardin_du_Luxembourg%2C_Paris1.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Jardin_du_Luxembourg,_Paris1.jpg",
+    "license": "CC BY-SA 2.0",
+    "width": 5846,
+    "height": 3897
+  },
+  {
+    "place_name": "Parc Monceau",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Parc_Monceau_Paris_1.jpg/1280px-Parc_Monceau_Paris_1.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Parc_Monceau_Paris_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 5184,
+    "height": 3456
+  },
+  {
+    "place_name": "Promenade Plantée (Coulée Verte)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Promenade_plant%C3%A9e%2C_Paris_August_2009_%2821%29.jpg/960px-Promenade_plant%C3%A9e%2C_Paris_August_2009_%2821%29.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Promenade_plant%C3%A9e,_Paris_August_2009_(21).jpg",
+    "license": "CC BY 2.0",
+    "width": 2560,
+    "height": 1410
+  },
+  {
+    "place_name": "Île Saint-Louis",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Panorama_of_the_Seine_from_the_%C3%8Ele_Saint-Louis.jpg/1280px-Panorama_of_the_Seine_from_the_%C3%8Ele_Saint-Louis.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Seine_from_the_%C3%8Ele_Saint-Louis.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 16382,
+    "height": 3104
+  },
+  {
+    "place_name": "Quais de Seine",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Paris%2C_quais_de_Seine.jpg/1280px-Paris%2C_quais_de_Seine.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Paris,_quais_de_Seine.jpg",
+    "license": "CC BY-SA 3.0",
+    "width": 3821,
+    "height": 2821
+  },
+  {
+    "place_name": "Jardin des Plantes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jardin_des_plantes_de_Paris.jpg/960px-Jardin_des_plantes_de_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Jardin_des_plantes_de_Paris.jpg",
+    "license": "CC0 1.0",
+    "width": 4288,
+    "height": 2848
+  },
+  {
+    "place_name": "Parc des Buttes-Chaumont",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pentes_du_Parc_des_Buttes-Chaumont.jpg/960px-Pentes_du_Parc_des_Buttes-Chaumont.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Pentes_du_Parc_des_Buttes-Chaumont.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 4272,
+    "height": 2848
+  },
+  {
+    "place_name": "Place des Vosges",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Place_des_Vosges%2C_Paris.jpg/960px-Place_des_Vosges%2C_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Place_des_Vosges,_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 3704,
+    "height": 2171
+  },
+  {
+    "place_name": "Rue de Rivoli Arcades",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Arcades_de_la_Rue_de_Rivoli_%2830395453470%29.jpg/960px-Arcades_de_la_Rue_de_Rivoli_%2830395453470%29.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Arcades_de_la_Rue_de_Rivoli_%2830395453470%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "width": 5794,
+    "height": 3863
+  },
+  {
+    "place_name": "Jardin du Palais Royal",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Jardin_du_Palais-Royal%2C_Paris.jpg/960px-Jardin_du_Palais-Royal%2C_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Jardin_du_Palais-Royal,_Paris.jpg",
+    "license": "CC0 1.0",
+    "width": 4000,
+    "height": 3000
+  },
+  {
+    "place_name": "Parc de Bagatelle",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Main_entrance%2C_Parc_de_Bagatelle%2C_Paris_17_July_2016.jpg/960px-Main_entrance%2C_Parc_de_Bagatelle%2C_Paris_17_July_2016.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Main_entrance,_Parc_de_Bagatelle,_Paris_17_July_2016.jpg",
+    "license": "CC BY 2.0",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "place_name": "Montmartre Streets & Place du Tertre",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/PlacedeTertre.JPG/960px-PlacedeTertre.JPG",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:PlacedeTertre.JPG",
+    "license": "CC BY-SA 3.0",
+    "width": 3664,
+    "height": 2748
+  },
+  {
+    "place_name": "Pont des Arts",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pont_des_Arts%2C_Paris.jpg/960px-Pont_des_Arts%2C_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_Paris.jpg",
+    "license": "CC BY-SA 3.0",
+    "width": 11661,
+    "height": 3581
+  },
+  {
+    "place_name": "Trocadéro Gardens",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg/960px-Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Jardins_du_Trocadéro_%26_Tour_Eiffel_%2826804140054%29.jpg",
+    "license": "CC BY 2.0",
+    "width": 5184,
+    "height": 3456
+  },
+  {
+    "place_name": "Parc de la Villette",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Parc_de_la_Villette%2C_Paris_%2881728%29.jpg/960px-Parc_de_la_Villette%2C_Paris_%2881728%29.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Parc_de_la_Villette,_Paris_(81728).jpg",
+    "license": "CC0 1.0",
+    "width": 4080,
+    "height": 3072
+  },
+  {
+    "place_name": "Rue Cler Market Street",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Rue_Cler_Paris.jpg/960px-Rue_Cler_Paris.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Rue_Cler_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "place_name": "Jardins des Champs-Élysées",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/All%C3%A9e_Champs-Elys%C3%A9es.jpg/1280px-All%C3%A9e_Champs-Elys%C3%A9es.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_Champs-Elys%C3%A9es.jpg",
+    "license": "CC BY-SA 4.0",
+    "width": 3883,
+    "height": 2525
+  },
+  {
+    "place_name": "Père Lachaise Cemetery",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/P%C3%A8re_Lachaise_Cemetery_%40_Paris_%2830623063724%29.jpg/960px-P%C3%A8re_Lachaise_Cemetery_%40_Paris_%2830623063724%29.jpg",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Père_Lachaise_Cemetery_@_Paris_(30623063724).jpg",
+    "license": "CC BY 2.0",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "place_name": "Parc Montsouris",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Parc_Montsouris_-_Paris.JPG/960px-Parc_Montsouris_-_Paris.JPG",
+    "file_page_url": "https://commons.wikimedia.org/wiki/File:Parc_Montsouris_-_Paris.JPG",
+    "license": "Public domain",
+    "width": 2560,
+    "height": 1920
+  }
+]
